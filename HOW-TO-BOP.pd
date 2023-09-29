@@ -1,4 +1,4 @@
-#N canvas 3 37 1470 891 12;
+#N canvas 39 154 917 504 12;
 #X declare -path ./bop1;
 #X obj 46 541 declare -path ./bop1;
 #X obj 45 699 bop.reverb;
