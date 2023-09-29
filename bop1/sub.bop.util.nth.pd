@@ -1,0 +1,13 @@
+#N canvas 573 212 450 300 12;
+#X obj 144 144 list split;
+#X msg 174 201 \$2;
+#X obj 100 79 list prepend pad;
+#X obj 80 24 inlet;
+#X obj 249 12 inlet;
+#X obj 158 270 outlet;
+#X text 247 92 like zl nth but indexed from 0, f 19;
+#X connect 0 1 1 0;
+#X connect 1 0 5 0;
+#X connect 2 0 0 0;
+#X connect 3 0 2 0;
+#X connect 4 0 0 1;

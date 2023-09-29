@@ -1,0 +1,30 @@
+#N canvas 0 0 1522 772 10;
+#X obj 140 130 inlet~;
+#X obj 300 130 inlet;
+#X obj 140 460 outlet~;
+#X obj 340 460 outlet~;
+#X text 140 70 argument specifies where the signal input will get panned
+to when control inlet = 1, f 33;
+#X obj 340 390 *~;
+#X obj 360 280 clip 0 1;
+#X obj 360 350 abs;
+#X obj 140 400 *~;
+#X obj 160 280 clip 0 1;
+#X obj 160 350 abs;
+#X text 450 140 when control inlet = 0 \, both channels = 0.5;
+#X text 450 165 when control inlet = 1 \, right channel = 0.5 + (\$1*0.5)
+\, left channel = 0.5 - (\$1*0.5), f 90;
+#X obj 360 240 expr 0.5 - $f1 * \$1;
+#X obj 160 240 expr 0.5 + $f1 * \$1;
+#X connect 0 0 8 0;
+#X connect 0 0 5 0;
+#X connect 1 0 14 0;
+#X connect 1 0 13 0;
+#X connect 5 0 3 0;
+#X connect 6 0 7 0;
+#X connect 7 0 5 1;
+#X connect 8 0 2 0;
+#X connect 9 0 10 0;
+#X connect 10 0 8 1;
+#X connect 13 0 6 0;
+#X connect 14 0 9 0;
