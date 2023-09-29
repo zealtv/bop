@@ -6,11 +6,11 @@
 #X obj 47 601 bop.rhodes;
 #A saved 1;
 #X obj 305 84 bop.noteslider;
-#A saved shuffle 0;
+#A saved shuffle 1;
 #A saved velocity 0.685714;
-#A saved chord 0;
+#A saved chord 7;
 #A saved duration 0.571429;
-#A saved root 0;
+#A saved root 40;
 #A saved octaves 3;
 #A saved noteslider 0;
 #X obj 491 84 bop.fm~;
@@ -47,9 +47,9 @@
 #X text 730 524 in progress----------;
 #X text 726 538 you should probably ignore this...;
 #X text 43 515 use declare to access old bop modules;
-#X obj 57 80 cnv 19 126 76 empty empty bop2 20 20 0 36 #c6feff #9c00ff 0;
+#X obj 57 80 cnv 19 126 76 empty empty bop2 20 20 0 36 #c6feff #c7c6ff 0;
 #X text 52 172 CHECK OUT THE HELP PATCHES -->;
-#X obj 300 354 bop.delay~;
+#X obj 306 329 bop.delay~;
 #A saved cutoff 0.542857;
 #A saved feedback 0.585714;
 #A saved time 0.342857;

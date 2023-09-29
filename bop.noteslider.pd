@@ -1,7 +1,7 @@
 #N canvas 50 185 790 678 12;
 #X declare -path ./bop.p;
 #X obj 110 130 bop.p.param \$0 noteslider;
-#X obj 110 220 bop.p.number \$0 octaves;
+#X obj 110 260 bop.p.number \$0 octaves;
 #N canvas 0 37 1470 891 notelist 0;
 #X obj 237 1090 outlet;
 #X obj 146 1024 inlet;
@@ -216,18 +216,18 @@
 #X obj 477 224 outlet~;
 #X obj 490 299 r \$0-midi-in;
 #X obj 490 411 s \$0-midi-out;
-#X obj 110 200 bop.p.number \$0 root;
+#X obj 110 240 bop.p.number \$0 root;
 #X obj 556 168 bop.p.inout \$0;
 #X text 594 351 Magic is here;
 #X text 575 194 < MIDI and messages dump out of right, f 13;
 #X text 427 158 Signal out of left >, f 9;
 #X text 566 144 < midi and messages;
 #X obj 428 72 declare -path ./bop.p;
-#X obj 110 290 bop.p.param \$0 duration;
+#X obj 110 310 bop.p.param \$0 duration;
 #X obj 110 160 bop.p.number \$0 chord;
-#X obj 110 181 bop.p.enum \$0 chord;
-#X obj 110 270 bop.p.param \$0 velocity;
-#X obj 183 240 bop.p.toggle \$0 shuffle;
+#X obj 110 180 bop.p.enum \$0 chord;
+#X obj 110 290 bop.p.param \$0 velocity;
+#X obj 183 210 bop.p.toggle \$0 shuffle;
 #X connect 2 0 11 0;
 #X connect 3 0 4 1;
 #X connect 3 1 4 0;
@@ -236,4 +236,4 @@
 #X connect 6 1 13 0;
 #X connect 10 0 2 0;
 #X connect 13 0 8 0;
-#X coords 0 -1 1 1 166 220 1 100 100;
+#X coords 0 -1 1 1 166 240 1 100 100;
