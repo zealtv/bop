@@ -1,4 +1,4 @@
-#N canvas 83 187 712 540 12;
+#N canvas 686 153 712 540 12;
 #X text 372 51 \$1: parent \$0;
 #X text 371 70 \$2: label;
 #X obj 12 124 symbol \$2;
@@ -12,7 +12,7 @@
 #X obj 130 176 symbol \$2;
 #X obj 130 59 r \$1-savestate;
 #X obj 130 116 t b b;
-#X obj 10 10 tgl 20 1 \$1-get-\$2 \$1-set-\$2 keytrack 23 10 0 10 #c7c6ff #000000 #000000 1 1;
+#X obj 10 10 tgl 20 1 \$1-get-\$2 \$1-set-\$2 empty 23 10 0 10 #c7c6ff #000000 #000000 1 1;
 #X msg 12 159 label \$1;
 #X obj 12 50 loadbang;
 #X obj 12 84 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
@@ -46,4 +46,4 @@
 #X connect 24 0 25 0;
 #X connect 26 0 28 0;
 #X connect 28 0 24 0;
-#X coords 0 -1 1 1 72 20 2 10 10;
+#X coords 0 -1 1 1 73 20 2 10 10;
