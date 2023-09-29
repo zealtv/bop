@@ -8,9 +8,9 @@
 #X obj 291 59 bop.noteslider;
 #A saved shuffle 1;
 #A saved velocity 0.685714;
-#A saved chord 2;
+#A saved chord 13;
 #A saved duration 0.571429;
-#A saved root 40;
+#A saved root 36;
 #A saved octaves 3;
 #A saved noteslider 0;
 #X obj 491 79 bop.fm~;
@@ -26,7 +26,7 @@
 #A saved r 0;
 #A saved lfo-depth 0.264286;
 #A saved lfo-speed 0.178571;
-#A saved gain 0.764286;
+#A saved gain 0.921429;
 #X obj 694 75 bop.scope~;
 #A saved enable 1;
 #X obj 307 587 bop.sampler;
@@ -50,9 +50,9 @@
 #X obj 57 80 cnv 19 126 76 empty empty bop2 20 20 0 36 #c6feff #c7c6ff 0;
 #X text 52 172 CHECK OUT THE HELP PATCHES -->;
 #X obj 289 336 bop.delay~;
-#A saved cutoff 0.542857;
+#A saved cutoff 0.642857;
 #A saved feedback 0.585714;
-#A saved time 0.342857;
+#A saved time 0.457143;
 #X connect 7 0 18 0;
 #X connect 9 0 12 0;
 #X connect 10 0 11 0;

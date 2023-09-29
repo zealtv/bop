@@ -23,8 +23,6 @@
 #X obj 102 222 outlet;
 #X connect 0 0 1 0;
 #X restore 459 416 pd do-things;
-#X obj 110 130 bop.p.param \$0 time;
-#X obj 110 150 bop.p.param \$0 feedback;
 #N canvas 120 375 550 373 delay 0;
 #X obj 150 338 outlet~;
 #X obj 152 37 inlet~;
@@ -59,13 +57,15 @@
 #X connect 15 0 11 1;
 #X restore 464 209 pd delay;
 #X obj 110 180 bop.p.param \$0 cutoff;
+#X obj 110 130 bop.p.param \$0 time 0.333;
+#X obj 110 150 bop.p.param \$0 feedback 0.666;
 #X connect 0 0 1 1;
 #X connect 0 1 1 0;
 #X connect 1 0 0 0;
-#X connect 5 0 21 0;
+#X connect 5 0 19 0;
 #X connect 5 1 13 0;
 #X connect 13 0 6 0;
 #X connect 14 0 18 0;
 #X connect 18 0 15 0;
-#X connect 21 0 8 0;
+#X connect 19 0 8 0;
 #X coords 0 -1 1 1 166 110 1 100 100;

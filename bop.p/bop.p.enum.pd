@@ -8,7 +8,7 @@
 #X obj 584 323 symbol;
 #X obj 436 320 list;
 #X msg 436 362 label \$1;
-#X obj 101 101 cnv 15 144 18 empty \$1-set-\$2-enum-current major7 3 9 0 14 #e3c6ff #606060 0;
+#X obj 101 101 cnv 15 144 18 empty \$1-set-\$2-enum-current waiting... 3 10 0 12 #e3c6ff #ffffff 0;
 #X text 94 218 \$1: parent \$0;
 #X text 93 345 send: \$0-from-[label];
 #X text 93 367 recv: \$0-to-[label];
