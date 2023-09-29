@@ -1,4 +1,4 @@
-#N canvas 39 154 917 504 12;
+#N canvas 485 142 917 504 12;
 #X declare -path ./bop1;
 #X obj 46 541 declare -path ./bop1;
 #X obj 45 699 bop.reverb;
@@ -50,8 +50,9 @@
 #X obj 57 80 cnv 19 126 76 empty empty bop2 20 20 0 36 #c6feff #9c00ff 0;
 #X text 52 172 CHECK OUT THE HELP PATCHES -->;
 #X obj 300 354 bop.delay~;
-#A saved feedback 0;
-#A saved time 0;
+#A saved cutoff 0.542857;
+#A saved feedback 0.585714;
+#A saved time 0.342857;
 #X connect 7 0 18 0;
 #X connect 9 0 12 0;
 #X connect 10 0 11 0;

@@ -1,8 +1,9 @@
-#N canvas 357 216 642 636 12;
+#N canvas 390 118 642 676 12;
 #X declare -path ./bop1;
 #X obj 149 466 bop.delay~;
-#A saved feedback 0.85;
-#A saved time 0.107143;
+#A saved cutoff 0.607143;
+#A saved feedback 1;
+#A saved time 0.478571;
 #X obj 141 108 bop.noteslider;
 #A saved shuffle 0;
 #A saved velocity 0.492857;
@@ -16,7 +17,7 @@
 #X obj 150 368 bop.rhodes;
 #A saved 0;
 #X obj 286 339 route list;
-#X obj 145 564 output~;
+#X obj 150 599 output~;
 #X obj 146 14 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X msg 80 48 level 1;
 #X connect 0 0 6 0;
