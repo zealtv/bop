@@ -15,7 +15,7 @@
 #X obj 20 30 bop.p.number \$0 frequency;
 #X obj 476 620 bop.p.autosave \$0;
 #X text 317 568 Other messages get picked up in the bop.p.param \, bop.p.toggle \, and bop.p.number objects, f 20;
-#X obj 94 50 bop.p.toggle \$0 keytrack;
+#X obj 93 50 bop.p.toggle \$0 keytrack;
 #N canvas 0 37 1470 891 fm 0;
 #X obj 416 326 *~;
 #X obj 275 112 +~;

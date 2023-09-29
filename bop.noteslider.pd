@@ -227,7 +227,7 @@
 #X obj 110 160 bop.p.number \$0 chord;
 #X obj 110 181 bop.p.enum \$0 chord;
 #X obj 110 270 bop.p.param \$0 velocity;
-#X obj 110 240 bop.p.toggle \$0 shuffle;
+#X obj 183 240 bop.p.toggle \$0 shuffle;
 #X connect 2 0 11 0;
 #X connect 3 0 4 1;
 #X connect 3 1 4 0;
