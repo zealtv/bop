@@ -15,7 +15,7 @@
 #A saved 0;
 #X obj 194 415 route list;
 #X obj 39 48 metro 4800;
-#X text 271 411 strip messages \, leave midi notes;
+#X text 271 412 strip messages \, leave midi notes;
 #X msg 37 127 noteslider 0 2000 \, root 45 \, octaves 4;
 #X msg 61 161 noteslider 1 3600 \, root 50 \, octaves 3;
 #X connect 0 1 7 0;

@@ -1,4 +1,4 @@
-#N canvas 45 526 1072 471 12;
+#N canvas 45 457 1072 471 12;
 #X declare -path ./bop.p;
 #X obj 110 130 bop.p.param \$0 noteslider;
 #X obj 110 220 bop.p.number \$0 octaves;
@@ -180,7 +180,7 @@
 #X text 575 194 < MIDI and messages dump out of right, f 13;
 #X text 427 158 Signal out of left >, f 9;
 #X text 566 144 < midi and messages;
-#X obj 428 71 declare -path ./bop.p;
+#X obj 428 72 declare -path ./bop.p;
 #X obj 110 250 bop.p.param \$0 duration;
 #X connect 4 0 13 0;
 #X connect 5 0 6 1;
