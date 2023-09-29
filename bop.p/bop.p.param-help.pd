@@ -54,6 +54,7 @@
 #X obj 102 222 outlet;
 #X connect 0 0 1 0;
 #X restore 736 403 pd do-things;
+#X text 710 712 GOP width: 166;
 #X connect 6 0 7 0;
 #X connect 8 0 3 0;
 #X connect 11 0 12 1;
