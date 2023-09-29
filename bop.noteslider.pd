@@ -1,4 +1,4 @@
-#N canvas 564 113 768 648 10;
+#N canvas 63 100 858 691 12;
 #X declare -path ./bop.p;
 #X obj 110 130 bop.p.param \$0 noteslider;
 #X obj 110 220 bop.p.number \$0 octaves;
@@ -29,7 +29,7 @@
 #N canvas 687 194 783 728 scalemaker 0;
 #X obj 241 147 inlet;
 #X obj 227 817 outlet;
-#X msg 280 437 0 2 3 5 7 8 10;
+#X msg 280 437 0 2 4 7 9;
 #X obj 311 322 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000 #000000;
 #X msg 538 665 set;
 #X floatatom 372 459 5 0 0 0 - - - 0;

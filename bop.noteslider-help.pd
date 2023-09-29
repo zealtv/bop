@@ -13,14 +13,14 @@
 #X obj 47 408 bop.rhodes;
 #A saved 1;
 #X obj 194 375 route list;
-#X msg 40 140 noteslider 0 0 \, noteslider 1 3000 \, root 50 \, octaves 3;
+#X msg 61 151 noteslider 0 0 \, noteslider 1 3000 \, root 50 \, octaves 3;
 #X obj 39 48 metro 4800;
-#X msg 59 179 noteslider 0 3000 \, root 45 \, octaves 5;
+#X msg 37 127 noteslider 0 3000 \, root 45 \, octaves 5;
 #X text 271 371 strip messages \, leave midi notes;
 #X connect 0 1 7 0;
 #X connect 3 0 4 0;
-#X connect 4 0 8 0;
-#X connect 4 1 10 0;
+#X connect 4 0 10 0;
+#X connect 4 1 8 0;
 #X connect 5 0 9 0;
 #X connect 6 0 1 0;
 #X connect 7 0 6 2;

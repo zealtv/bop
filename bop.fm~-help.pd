@@ -3,7 +3,7 @@
 #X text 360 220 < FM signal;
 #X text 93 578 Signal out >;
 #X text 359 580 < Dump MIDI and messages;
-#N canvas 264 106 606 790 fm-example 0;
+#N canvas 33 83 606 790 fm-example 0;
 #X obj 27 714 output~;
 #X obj 22 454 bop.scope~;
 #A saved enable 1;
@@ -17,7 +17,7 @@
 #A saved detune 0;
 #A saved divisor 1;
 #A saved dividend 1;
-#A saved fm 0.7;
+#A saved fm 0.514286;
 #A saved d 0.521429;
 #A saved a 0;
 #A saved s 0.878571;
@@ -31,7 +31,7 @@
 #A saved detune 15;
 #A saved divisor 3;
 #A saved dividend 1;
-#A saved fm 0.65;
+#A saved fm 0.542857;
 #A saved d 0.171429;
 #A saved a 0.878571;
 #A saved s 1;
@@ -45,7 +45,7 @@
 #A saved detune -13;
 #A saved divisor 1;
 #A saved dividend 5;
-#A saved fm 0.514286;
+#A saved fm 0;
 #A saved d 0.335714;
 #A saved a 0;
 #A saved s 0.885714;
