@@ -3,9 +3,9 @@
 #X obj 39 208 bop.noteslider;
 #A saved duration 0.685714;
 #A saved root 45;
-#A saved scale 1;
+#A saved scale 0;
 #A saved octaves 4;
-#A saved noteslider 0.44;
+#A saved noteslider 0;
 #X obj 57 556 output~;
 #X obj 186 525 declare -path ./bop1;
 #X obj 39 75 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
