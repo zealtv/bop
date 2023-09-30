@@ -1,6 +1,6 @@
-#N canvas 251 330 707 500 12;
+#N canvas 228 219 707 500 12;
 #X obj 271 139 bop.scope~;
-#A saved enable 1;
+#A saved enable 0;
 #X obj 272 371 output~;
 #X obj 271 74 osc~ 500;
 #X obj 271 98 *~ 0.6;
