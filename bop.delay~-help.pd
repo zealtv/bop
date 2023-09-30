@@ -1,12 +1,12 @@
 #N canvas 254 86 795 775 12;
 #X declare -path ./bop1;
 #X obj 122 618 bop.delay~;
-#A saved q 0.478571;
-#A saved reverb-size 0.935714;
-#A saved reverb 0.864286;
-#A saved feedback 0.757143;
-#A saved time 0.507143;
-#A saved cutoff 0.707143;
+#A saved q 0.642857;
+#A saved reverb-size 0.771429;
+#A saved reverb 0.635714;
+#A saved feedback 0.821429;
+#A saved time 0.492857;
+#A saved cutoff 0.364286;
 #X obj 104 235 bop.noteslider;
 #A saved shuffle 0;
 #A saved duration 0.214286;
@@ -14,7 +14,7 @@
 #A saved octaves 4;
 #A saved root 40;
 #A saved chord 9;
-#A saved noteslider 1;
+#A saved noteslider 0;
 #X obj 351 548 declare -path ./bop1;
 #X obj 120 529 bop.rhodes;
 #A saved 0;
@@ -28,6 +28,7 @@
 #X obj 103 121 bng 19 250 50 0 empty empty empty 17 7 0 10 #dfdfdf #000000 #000000;
 #X msg 104 186 noteslider \$1;
 #X obj 103 94 metro 8 120 permin;
+#X msg 245 151 time 1 7000;
 #X connect 0 0 5 0;
 #X connect 0 0 5 1;
 #X connect 0 1 5 0;
@@ -43,3 +44,4 @@
 #X connect 11 0 6 0;
 #X connect 12 0 1 0;
 #X connect 13 0 11 0;
+#X connect 14 0 1 0;
