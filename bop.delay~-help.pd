@@ -1,12 +1,12 @@
 #N canvas 254 86 795 775 12;
 #X declare -path ./bop1;
 #X obj 122 618 bop.delay~;
+#A saved reverb-level 0.935714;
 #A saved cutoff 1000;
-#A saved q 0.585714;
-#A saved reverb-size 0.8;
-#A saved reverb 0.928571;
-#A saved feedback 0.864286;
-#A saved time 0.492857;
+#A saved q 0.635714;
+#A saved reverb-size 0.85;
+#A saved feedback 0.928571;
+#A saved time 0.428571;
 #X obj 104 235 bop.noteslider;
 #A saved shuffle 0;
 #A saved duration 0.214286;
@@ -14,7 +14,7 @@
 #A saved octaves 4;
 #A saved root 40;
 #A saved chord 9;
-#A saved noteslider 1;
+#A saved noteslider 0;
 #X obj 351 548 declare -path ./bop1;
 #X obj 120 529 bop.rhodes;
 #A saved 0;

@@ -1,7 +1,7 @@
 #N canvas 50 185 790 678 12;
 #X declare -path ./bop.p;
 #X obj 110 130 bop.p.param \$0 noteslider;
-#N canvas 0 37 1470 891 notelist 0;
+#N canvas 0 37 1470 891 notelist 1;
 #X obj 358 1094 outlet;
 #X obj 267 1028 inlet;
 #X obj 1124 293 text define \$0-chords;
@@ -141,6 +141,7 @@
 #X restore 446 553 pd shuffle;
 #X obj 513 497 r \$0-get-shuffle;
 #X text 888 111 Read chords from texfile \; prepare notes for indexed access \; set enum label for ui \; init enum with current index \;;
+#X obj 277 418 int;
 #X connect 1 0 0 0;
 #X connect 3 0 2 0;
 #X connect 4 0 22 0;
@@ -197,7 +198,7 @@
 #X connect 52 0 57 0;
 #X connect 53 0 52 0;
 #X connect 54 0 52 0;
-#X connect 55 0 31 0;
+#X connect 55 0 67 0;
 #X connect 56 0 53 0;
 #X connect 59 0 61 0;
 #X connect 61 0 60 0;
@@ -205,6 +206,7 @@
 #X connect 63 0 36 1;
 #X connect 64 0 29 1;
 #X connect 65 0 64 1;
+#X connect 67 0 31 0;
 #X restore 399 334 pd notelist;
 #X obj 468 565 savestate, f 17;
 #X obj 467 538 bop.p.autosave \$0;
