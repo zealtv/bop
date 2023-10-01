@@ -1,10 +1,10 @@
-#N canvas 978 120 352 309 12;
+#N canvas 897 120 452 309 12;
 #X obj 82 75 inlet;
-#X obj 208 230 outlet;
+#X obj 204 230 outlet;
 #X obj 87 120 route list, f 17;
-#X obj 243 150 s \$1-params;
+#X obj 223 152 s \$1-params;
 #X obj 87 154 s \$1-midi-in;
-#X obj 88 182 r \$1-midi-out;
+#X obj 87 192 r \$1-midi-out;
 #X text 33 9 recieves messages from parent patcher \, provides forwarding and saving for param \, toggle \, number;
 #X connect 0 0 2 0;
 #X connect 2 0 4 0;
