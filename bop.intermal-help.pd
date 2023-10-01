@@ -1,7 +1,7 @@
 #N canvas 368 180 970 615 12;
 #X obj 51 138 bop.intermal;
-#A saved root 42;
-#A saved intermal 0.434;
+#A saved root 50;
+#A saved intermal 5.434;
 #A saved duration 0.721429;
 #A saved velocity 0.75;
 #X obj 51 300 bop.pluck~;
