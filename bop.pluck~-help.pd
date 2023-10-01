@@ -1,6 +1,6 @@
 #N canvas 611 91 663 687 12;
 #X obj 168 492 bop.pluck~;
-#A saved instrument 2;
+#A saved instrument 3;
 #X obj 168 594 output~;
 #X obj 168 229 bop.noteslider;
 #A saved shuffle 0;

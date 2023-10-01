@@ -1,12 +1,12 @@
 #N canvas 783 136 647 751 12;
 #X obj 39 228 bop.noteslider;
-#A saved shuffle 1;
+#A saved shuffle 0;
 #A saved duration 0.685714;
-#A saved velocity 0.752;
-#A saved octaves 2;
-#A saved root 50;
+#A saved velocity 0.2;
+#A saved octaves 3;
+#A saved root 45;
 #A saved chord 7;
-#A saved noteslider 0.766667;
+#A saved noteslider 0.1;
 #X obj 38 648 output~;
 #X obj 39 75 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X obj 37 102 sel 0 1;

@@ -1,4 +1,4 @@
-#N canvas 63 100 1180 765 12;
+#N canvas 63 100 901 686 12;
 #X declare -path ./bop.p;
 #X obj 568 589 savestate, f 17;
 #X obj 567 562 bop.p.autosave \$0;
@@ -14,7 +14,6 @@
 #X text 433 429 ---------- STATE SAVING ---------------, f 43;
 #X obj 658 212 bop.p.inout \$0;
 #X obj 447 98 declare -path ./bop.p;
-#X text 402 55 ---------- In parent patch -------------;
 #N canvas 173 120 1262 796 delay 0;
 #X obj 415 932 outlet~;
 #X obj 290 64 inlet~;
@@ -95,10 +94,10 @@
 #X connect 0 0 1 1;
 #X connect 0 1 1 0;
 #X connect 1 0 0 0;
-#X connect 5 0 15 0;
+#X connect 5 0 14 0;
 #X connect 5 1 12 0;
 #X connect 12 0 6 0;
-#X connect 15 0 8 0;
-#X connect 15 1 23 0;
-#X connect 22 0 15 1;
+#X connect 14 0 8 0;
+#X connect 14 1 22 0;
+#X connect 21 0 14 1;
 #X coords 0 -1 1 1 166 180 1 100 100;
