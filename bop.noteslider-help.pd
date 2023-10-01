@@ -19,6 +19,7 @@
 #X msg 61 171 noteslider 0 \, noteslider 1 3600 \, root 50 \, octaves 2 \, shuffle 1 \, velocity 1 4000, f 64;
 #X obj 37 499 bop.pluck~;
 #A saved instrument 3;
+#X text 212 460 < MIDI and messages out;
 #X connect 0 1 11 0;
 #X connect 2 0 3 0;
 #X connect 3 0 9 0;
