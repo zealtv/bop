@@ -1,4 +1,4 @@
-#N canvas 175 117 1212 577 12;
+#N canvas 52 117 1295 577 12;
 #X declare -path ./bop1;
 #X obj 46 651 declare -path ./bop1;
 #X obj 520 158 bop.fm~;
@@ -51,7 +51,7 @@
 #X msg 32 522 \; pd open ./bop.p/about-bop.p.pd \$1;
 #X obj 32 433 bng 19 250 50 0 empty empty <\ about\ the\ bop.p\ library 25 10 0 12 #fcfcfc #000000 #000000;
 #X obj 717 263 bop.step;
-#A saved step 1;
+#A saved step 5;
 #A saved on-8 1;
 #A saved value-8 0;
 #A saved on-7 1;
@@ -68,6 +68,8 @@
 #A saved value-2 0;
 #A saved on-1 1;
 #A saved value-1 0;
+#X text 288 795 - sampler \;;
+#X text 288 773 todo \; - rhythm generator - capable of repeating numbers \;;
 #X connect 13 0 15 0;
 #X connect 14 0 13 0;
 #X connect 16 0 14 0;
