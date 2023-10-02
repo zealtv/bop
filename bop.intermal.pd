@@ -19,7 +19,7 @@
 #X obj 110 190 bop.p.param \$0 velocity 0.75;
 #X obj 110 210 bop.p.param \$0 duration 0.25;
 #X obj 110 130 bop.p.number \$0 intermal 0.434;
-#N canvas 366 343 678 552 intermal 0;
+#N canvas 366 343 678 552 intermal 1;
 #X obj 44 97 outlet~;
 #X obj 44 34 inlet~;
 #X obj 174 35 inlet;
