@@ -12,7 +12,7 @@
 #X obj 289 83 r \$1-savestate;
 #X obj 289 125 t b b;
 #X obj 125 421 r \$1-params;
-#X obj 10 10 nbx 5 20 -1e+37 1e+37 0 0 \$1-get-\$2 \$1-set-\$2 empty 60 10 0 10 #c6feff #000000 #000000 0 256;
+#X obj 10 10 nbx 7 20 -1e+37 1e+37 0 0 \$1-get-\$2 \$1-set-\$2 empty 77 10 0 10 #c6feff #000000 #000000 0 256;
 #X obj 28 85 loadbang;
 #X msg 28 185 label \$1;
 #X obj 28 150 symbol \$2;

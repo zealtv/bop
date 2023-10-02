@@ -40,7 +40,6 @@
 #A saved root 46;
 #A saved chord 0;
 #A saved noteslider 0;
-#X text 908 1811 comment;
 #X obj 304 335 bop.intermal;
 #A saved root 42;
 #A saved intermal 0.434;
@@ -76,6 +75,6 @@
 #A saved enable-1 1;
 #A saved beats-1 1;
 #A saved value-1 0;
-#X connect 14 0 16 0;
-#X connect 15 0 14 0;
-#X connect 17 0 15 0;
+#X connect 13 0 15 0;
+#X connect 14 0 13 0;
+#X connect 16 0 14 0;
