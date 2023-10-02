@@ -1,0 +1,6 @@
+#N canvas 788 265 568 365 12;
+#X obj 173 100 bop.p.number \$1 value-\$2 0;
+#X obj 319 100 bop.p.number \$1 beats-\$2 1;
+#X obj 465 100 bop.p.button \$1 step-\$2;
+#X obj 100 100 bop.p.toggle \$1 enable-\$2 1;
+#X coords 0 -1 1 1 438 20 2 100 100;
