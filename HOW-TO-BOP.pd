@@ -1,4 +1,4 @@
-#N canvas 52 219 1102 577 12;
+#N canvas 177 226 1102 577 12;
 #X declare -path ./bop1;
 #X obj 46 651 declare -path ./bop1;
 #X obj 520 158 bop.fm~;
@@ -39,10 +39,7 @@
 #A saved duration 0.25;
 #A saved velocity 0.75;
 #X text 37 151 - state saving \; - parameter messaging \; - built-in easing \;;
-#X obj 32 492 pdcontrol;
-#X msg 32 464 dir;
-#X msg 32 522 \; pd open ./bop.p/about-bop.p.pd \$1;
-#X obj 32 433 bng 19 250 50 0 empty empty <\ about\ the\ bop.p\ library 25 10 0 12 #fcfcfc #000000 #000000;
+#X obj 26 503 bng 19 250 50 0 empty empty <\ about\ the\ bop.p\ library 25 10 0 12 #fcfcfc #000000 #000000;
 #X obj 707 293 bop.step;
 #A saved step 5;
 #A saved on-8 1;
@@ -72,6 +69,13 @@
 #A saved feedback 0.666;
 #X text 288 773 todo \; - rhythm generator - capable of repeating numbers \; - sampler \;;
 #X text 869 965 hi there! you are great :);
-#X connect 12 0 14 0;
-#X connect 13 0 12 0;
-#X connect 15 0 13 0;
+#N canvas 179 216 450 300 open-info 0;
+#X obj 42 41 inlet;
+#X obj 42 122 pdcontrol;
+#X msg 42 94 dir;
+#X msg 42 152 \; pd open ./bop.p/about-bop.p.pd \$1;
+#X connect 0 0 2 0;
+#X connect 1 0 3 0;
+#X connect 2 0 1 0;
+#X restore 26 536 pd open-info;
+#X connect 12 0 17 0;

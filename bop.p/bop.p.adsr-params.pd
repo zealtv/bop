@@ -1,0 +1,6 @@
+#N canvas 601 287 450 300 12;
+#X obj 100 100 bop.p.param \$1 a 0.15;
+#X obj 100 120 bop.p.param \$1 d 0.5;
+#X obj 100 140 bop.p.param \$1 s 0.666;
+#X obj 100 160 bop.p.param \$1 r 0.333;
+#X coords 0 -1 1 1 146 80 2 100 100;
