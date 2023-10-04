@@ -1,4 +1,4 @@
-#N canvas 52 117 1295 577 12;
+#N canvas 52 219 1102 577 12;
 #X declare -path ./bop1;
 #X obj 46 651 declare -path ./bop1;
 #X obj 520 158 bop.fm~;
@@ -61,8 +61,6 @@
 #A saved value-2 0;
 #A saved on-1 1;
 #A saved value-1 0;
-#X text 288 795 - sampler \;;
-#X text 288 773 todo \; - rhythm generator - capable of repeating numbers \;;
 #X obj 710 39 bop.echo~;
 #A saved delay-time 0.333;
 #A saved delay-level 0.75;
@@ -72,6 +70,8 @@
 #A saved q 0.5;
 #A saved reverb-size 0;
 #A saved feedback 0.666;
+#X text 288 773 todo \; - rhythm generator - capable of repeating numbers \; - sampler \;;
+#X text 869 965 hi there! you are great :);
 #X connect 12 0 14 0;
 #X connect 13 0 12 0;
 #X connect 15 0 13 0;
