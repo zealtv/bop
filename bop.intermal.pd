@@ -16,10 +16,10 @@
 #X obj 333 45 declare -path ./bop.p;
 #X obj 405 169 r \$0-midi-in;
 #X obj 404 247 s \$0-midi-out;
-#X obj 110 190 bop.p.param \$0 velocity 0.75;
-#X obj 110 210 bop.p.param \$0 duration 0.25;
+#X obj 110 180 bop.p.param \$0 velocity 0.75;
+#X obj 110 200 bop.p.param \$0 duration 0.25;
 #X obj 110 130 bop.p.number \$0 intermal 0.434;
-#N canvas 366 343 678 552 intermal 1;
+#N canvas 366 343 678 552 intermal 0;
 #X obj 44 97 outlet~;
 #X obj 44 34 inlet~;
 #X obj 174 35 inlet;
@@ -57,7 +57,7 @@
 #X connect 17 0 7 0;
 #X connect 17 1 16 0;
 #X restore 330 206 pd intermal;
-#X obj 110 160 bop.p.number \$0 root 42;
+#X obj 110 150 bop.p.number \$0 root 42;
 #X connect 0 0 1 1;
 #X connect 0 1 1 0;
 #X connect 1 0 0 0;
@@ -67,4 +67,4 @@
 #X connect 14 0 19 1;
 #X connect 19 0 8 0;
 #X connect 19 1 15 0;
-#X coords 0 -1 1 1 166 140 1 100 100;
+#X coords 0 -1 1 1 166 130 1 100 100;
