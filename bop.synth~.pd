@@ -30,7 +30,7 @@
 #X obj 143 311 bop.p.synth~ \$0;
 #X obj 153 340 bop.p.synth~ \$0;
 #X obj 212 103 r \$0-get-mono;
-#X obj 120 173 bop.p.monopoly 4;
+#X obj 120 173 bop.p.monopoly \$0 4;
 #X connect 1 0 4 0;
 #X connect 2 0 3 0;
 #X connect 2 0 11 0;
@@ -46,10 +46,10 @@
 #X connect 10 0 11 1;
 #X connect 11 0 5 0;
 #X restore 503 256 pd synth;
-#X obj 110 150 bop.p.osc-params \$0 osc-1;
-#X obj 266 150 bop.p.osc-params \$0 osc-2;
-#X obj 110 130 bop.p.number \$0 osc-1-tune 0;
-#X obj 266 130 bop.p.number \$0 osc-2-tune 0;
+#X obj 110 130 bop.p.osc-params \$0 osc-1;
+#X obj 266 130 bop.p.osc-params \$0 osc-2;
+#X obj 110 210 bop.p.number \$0 osc-1-tune 0;
+#X obj 266 210 bop.p.number \$0 osc-2-tune 0;
 #X obj 183 350 bop.p.toggle \$0 mono 0;
 #X connect 0 0 1 1;
 #X connect 0 1 1 0;
