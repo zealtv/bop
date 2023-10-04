@@ -1,0 +1,7 @@
+#N canvas 1013 528 450 300 12;
+#X text 286 94 \$1 parent \$0 \; \$2 label;
+#X obj 100 100 bop.p.number \$1 \$2-wave;
+#X obj 100 140 bop.p.param \$1 \$2-pulsewidth 0.5;
+#X obj 100 160 bop.p.param \$1 \$2-gain;
+#X obj 100 120 bop.p.enum \$1 \$2-wave;
+#X coords 0 -1 1 1 146 80 2 100 100;
