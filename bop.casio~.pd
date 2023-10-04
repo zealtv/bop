@@ -13,7 +13,7 @@
 #X obj 436 219 r \$0-midi-in;
 #X obj 435 297 s \$0-midi-out;
 #X text 433 500 (Standard GOP width: 166);
-#N canvas 506 195 835 661 casio 0;
+#N canvas 242 205 835 661 casio 0;
 #X obj 33 480 outlet~;
 #X obj 32 82 inlet~;
 #X obj 293 82 inlet;
@@ -37,6 +37,8 @@
 #X obj 130 174 poly 4 1;
 #X obj 51 410 r~ \$0-get-gain;
 #X obj 33 451 *~;
+#X obj 59 136 r \$0-stop;
+#X msg 59 160 stop;
 #X connect 1 0 12 0;
 #X connect 2 0 3 0;
 #X connect 2 0 19 0;
@@ -64,6 +66,8 @@
 #X connect 20 2 14 2;
 #X connect 21 0 22 1;
 #X connect 22 0 0 0;
+#X connect 23 0 24 0;
+#X connect 24 0 20 0;
 #X restore 383 256 pd casio;
 #X obj 110 260 bop.p.adsr-params \$0;
 #X obj 110 130 bop.p.number \$0 wave-1 0;
