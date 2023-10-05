@@ -1,7 +1,7 @@
 #N canvas 585 172 598 537 12;
 #X obj 216 142 bop.casio~;
-#A saved gain 1;
-#A saved cutoff 1;
+#A saved gain 0.642857;
+#A saved cutoff 0.171429;
 #A saved wave-2 0;
 #A saved wave-1 0;
 #A saved r 0;

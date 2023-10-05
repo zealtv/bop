@@ -8,7 +8,7 @@
 #X obj 584 433 symbol;
 #X obj 436 430 list;
 #X msg 436 472 label \$1;
-#X obj 101 101 cnv 15 144 18 empty \$1-set-\$2-enum-current waiting... 3 10 0 12 #e3c6ff #ffffff 0;
+#X obj 101 101 cnv 15 144 18 empty \$1-set-\$2-enum-current triangle 3 10 0 12 #e3c6ff #ffffff 0;
 #X text 94 218 \$1: parent \$0;
 #X text 93 345 send: \$0-from-[label];
 #X text 93 367 recv: \$0-to-[label];
@@ -22,9 +22,9 @@
 #X obj 462 143 r \$1-set-\$2-enum;
 #X obj 426 310 list, f 36;
 #X obj 462 168 t b b a, f 30;
-#X floatatom 304 229 5 0 0 0 - - - 0;
+#X floatatom 299 239 5 0 0 0 - - - 0;
 #X msg 297 178 set \$1;
-#X obj 361 201 delay 10;
+#X obj 371 211 delay 10;
 #X obj 295 135 r \$1-get-\$2;
 #X obj 299 268 s \$1-set-\$2;
 #X connect 0 0 4 0;
