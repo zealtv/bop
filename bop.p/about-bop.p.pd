@@ -57,7 +57,7 @@
 #X text 27 371 ------------------------------ PARAMETERS -----------------------------------------------------------------------, f 114;
 #X obj 110 253 bop.p.button \$0 thisBut;
 #X text 272 261 [bop.p.button \$0 thisBut] (no default \, savestate \, or easing);
-#X text 72 297 (right-click & open UI elements);
+#X text 92 87 (right-click & open UI elements);
 #X obj 533 457 loadbang;
 #X msg 511 430 thisParam 1 100;
 #X msg 533 484 thisParam 0 3000;
@@ -71,6 +71,8 @@
 #X text 980 612 output all params from right outlet;
 #X text 982 658 flush hanging midi notes;
 #X text 935 589 TODO....;
+#X obj 110 283 bop.p.list \$0 thisList;
+#X text 273 298 [bop.p.list \$0 thisList] (no default or easing);
 #X connect 4 0 5 0;
 #X connect 6 0 3 0;
 #X connect 7 0 8 1;

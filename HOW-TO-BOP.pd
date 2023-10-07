@@ -106,4 +106,8 @@
 #A saved s 0.666;
 #A saved d 0.5;
 #A saved a 0.15;
+#X obj 895 504 bop.index;
+#A saved values;
+#A saved from-one 1;
+#A saved index 1;
 #X connect 12 0 17 0;
