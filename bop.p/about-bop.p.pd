@@ -69,10 +69,10 @@
 #X msg 938 613 dump;
 #X msg 938 659 stop;
 #X text 980 612 output all params from right outlet;
-#X text 982 658 flush hanging midi notes;
 #X text 935 589 TODO....;
 #X obj 110 283 bop.p.list \$0 thisList;
 #X text 273 298 [bop.p.list \$0 thisList] (no default or easing);
+#X text 982 658 flush hanging midi notes \, stop automation;
 #X connect 4 0 5 0;
 #X connect 6 0 3 0;
 #X connect 7 0 8 1;

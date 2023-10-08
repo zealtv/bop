@@ -19,9 +19,9 @@
 #X text 112 507 sets param value;
 #X text 429 7 ----SAVESTATE----;
 #X obj 435 135 list;
-#X obj 324 351 cnv 10 144 18 empty empty empty 20 12 0 12 #c6feff #404040 0;
+#X obj 191 131 cnv 10 144 38 empty empty empty 20 12 0 12 #c6feff #404040 0;
 #X obj 435 167 list prepend;
-#X listbox 12 29 20 0 0 2 \$2 \$1-set-\$2 \$1-get-\$2 0;
+#X listbox 12 30 20 0 0 2 \$2 \$1-set-\$2 \$1-get-\$2 0;
 #X msg 21 402 set;
 #X obj 21 342 route bang list, f 25;
 #X text 98 402 clear list with [values( message;

@@ -1,4 +1,0 @@
-#N canvas 260 280 861 476 12;
-#X obj 100 100 bop.p.number \$1 value-\$2 0;
-#X obj 246 100 bop.p.toggle \$1 on-\$2 1;
-#X coords 0 -1 1 1 219 20 2 100 100;
