@@ -25,7 +25,7 @@
 #X obj 494 503 bop.pluck~;
 #A saved instrument 0;
 #X text 11 116 Friendly modules for PD Vanilla;
-#X obj 291 322 bop.noteslider;
+#X obj 291 332 bop.noteslider;
 #A saved shuffle 0;
 #A saved duration 0.444;
 #A saved velocity 0.888;
