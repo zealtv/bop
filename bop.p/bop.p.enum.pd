@@ -8,7 +8,7 @@
 #X obj 584 433 symbol;
 #X obj 436 430 list;
 #X msg 436 472 label \$1;
-#X obj 101 101 cnv 15 144 18 empty \$1-set-\$2-enum-current triangle 3 10 0 12 #e3c6ff #ffffff 0;
+#X obj 101 101 cnv 15 144 18 empty \$1-set-\$2-enum-current glok 3 10 0 12 #e3c6ff #ffffff 0;
 #X text 94 218 \$1: parent \$0;
 #X text 93 345 send: \$0-from-[label];
 #X text 93 367 recv: \$0-to-[label];
@@ -22,11 +22,10 @@
 #X obj 462 143 r \$1-set-\$2-enum;
 #X obj 426 310 list, f 36;
 #X obj 462 168 t b b a, f 30;
-#X floatatom 299 239 5 0 0 0 - - - 0;
-#X msg 297 178 set \$1;
-#X obj 371 211 delay 10;
-#X obj 295 135 r \$1-get-\$2;
-#X obj 299 268 s \$1-set-\$2;
+#X floatatom 298 242 5 0 0 0 - - - 0;
+#X msg 298 198 set \$1;
+#X obj 298 135 r \$1-get-\$2;
+#X obj 298 271 s \$1-set-\$2;
 #X connect 0 0 4 0;
 #X connect 1 0 6 0;
 #X connect 1 0 7 0;
@@ -45,8 +44,7 @@
 #X connect 22 0 23 0;
 #X connect 22 1 21 0;
 #X connect 22 2 21 1;
-#X connect 23 0 27 0;
+#X connect 23 0 26 0;
 #X connect 24 0 23 0;
-#X connect 25 0 23 0;
-#X connect 26 0 24 0;
+#X connect 25 0 24 0;
 #X coords 0 -1 1 1 146 20 2 100 100;

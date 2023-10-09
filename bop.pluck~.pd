@@ -18,7 +18,7 @@
 #X text 371 673 GOP width: 166;
 #X obj 110 130 bop.p.number \$0 instrument 0;
 #X obj 110 150 bop.p.enum \$0 instrument;
-#N canvas 24 52 1081 813 pluck 0;
+#N canvas 303 108 1081 813 pluck 0;
 #X obj 163 747 outlet~;
 #X obj 163 124 inlet~;
 #X obj 558 118 inlet;
