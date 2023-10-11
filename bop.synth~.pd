@@ -13,11 +13,11 @@
 #X obj 556 219 r \$0-midi-in;
 #X obj 555 297 s \$0-midi-out;
 #X obj 266 250 bop.p.adsr-params \$0;
-#X obj 110 330 bop.p.param \$0 slide 0;
-#X obj 110 300 bop.p.param \$0 q 0.5;
-#X obj 110 280 bop.p.number \$0 cutoff 2600;
+#X obj 110 350 bop.p.param \$0 slide 0;
+#X obj 110 295 bop.p.param \$0 q 0.5;
+#X obj 110 275 bop.p.number \$0 cutoff 2600;
 #X obj 266 350 bop.p.param \$0 gain 1;
-#X obj 110 250 bop.p.param \$0 noise 0;
+#X obj 110 240 bop.p.param \$0 noise 0;
 #N canvas 161 124 410 527 synth 0;
 #X obj 32 445 outlet~;
 #X obj 32 32 inlet~;
@@ -50,7 +50,7 @@
 #X obj 266 130 bop.p.osc-params \$0 osc-2;
 #X obj 110 210 bop.p.number \$0 osc-1-tune 0;
 #X obj 266 210 bop.p.number \$0 osc-2-tune 0;
-#X obj 183 350 bop.p.toggle \$0 mono 0;
+#X obj 183 330 bop.p.toggle \$0 mono 0;
 #X connect 0 0 1 1;
 #X connect 0 1 1 0;
 #X connect 1 0 0 0;
@@ -60,4 +60,4 @@
 #X connect 10 0 18 1;
 #X connect 18 0 5 0;
 #X connect 18 1 11 0;
-#X coords 0 -1 1 1 322 290 1 100 100;
+#X coords 0 -1 1 1 322 280 1 100 100;

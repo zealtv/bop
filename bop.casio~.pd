@@ -74,8 +74,8 @@
 #X obj 110 150 bop.p.enum \$0 wave-1;
 #X obj 110 180 bop.p.number \$0 wave-2 0;
 #X obj 110 200 bop.p.enum \$0 wave-2;
-#X obj 110 230 bop.p.param \$0 cutoff 0.7;
 #X obj 110 350 bop.p.param \$0 gain 1;
+#X obj 110 230 bop.p.param \$0 filter 0.5;
 #X connect 0 0 1 1;
 #X connect 0 1 1 0;
 #X connect 1 0 0 0;
