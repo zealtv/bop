@@ -13,6 +13,7 @@
 #X obj 101 73 f;
 #X obj 101 363 f;
 #X text 199 391 arguments: \; slide-up coefficient (0.0 - 1.0) \; slide-down coefficient (0.0 - 1.0) \; value of 1 passes input uneffected \;;
+#X obj 627 54 inlet auto;
 #X connect 0 0 11 0;
 #X connect 1 0 3 0;
 #X connect 2 0 4 0;

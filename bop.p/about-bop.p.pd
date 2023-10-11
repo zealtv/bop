@@ -1,4 +1,4 @@
-#N canvas 429 85 935 801 12;
+#N canvas 52 85 1324 801 12;
 #X declare -path ./bop.p;
 #X text 549 151 \$1: parent \$0;
 #X text 548 170 \$2: label;
@@ -64,15 +64,14 @@
 #X text 929 21 ---------- bop module template -------------;
 #X text 273 132 [bop.p.param \$0 thisParam 0.0];
 #X text 926 565 -----------GLOBAL MESSAGES------------------;
-#X msg 938 659 stop;
-#X text 1010 612 output all params from right outlet;
+#X msg 938 619 stop;
+#X text 1010 662 output all params from right outlet;
 #X text 935 589 TODO....;
 #X obj 110 283 bop.p.list \$0 thisList;
 #X text 273 298 [bop.p.list \$0 thisList] (no default or easing);
-#X text 982 658 flush hanging midi notes \, stop automation;
+#X text 982 618 flush hanging midi notes \, stop automation;
 #X text 272 225 [bop.p.enum \$0 thisNumber] (binds to number to provide menu list), f 65;
 #X msg 68 593 range 0 3;
-#X msg 938 613 get all;
 #N canvas 629 155 451 584 print-bop.p-objects 0;
 #X obj 203 280 file glob;
 #X obj 201 123 pdcontrol;
@@ -100,6 +99,7 @@
 #X connect 11 0 2 0;
 #X restore 636 85 pd print-bop.p-objects;
 #X obj 636 46 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
+#X msg 938 663 dump;
 #X connect 4 0 5 0;
 #X connect 6 0 3 0;
 #X connect 7 0 8 1;
@@ -121,5 +121,5 @@
 #X connect 45 0 17 0;
 #X connect 46 0 17 0;
 #X connect 59 0 35 0;
-#X connect 62 0 61 0;
+#X connect 61 0 60 0;
 #X coords 0 801 1 800 166 150 0;
