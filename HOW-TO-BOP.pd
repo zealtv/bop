@@ -23,7 +23,7 @@
 #A saved  0 0 0 0 0 1 1;
 #X text 43 755 use declare to access old bop modules;
 #X obj 39 31 cnv 19 126 76 empty empty bop2 20 20 0 36 #c6feff #c7c6ff 0;
-#X obj 330 363 bop.pluck~;
+#X obj 337 352 bop.pluck~;
 #A saved instrument 0;
 #X text 36 138 Friendly modules for PD Vanilla;
 #X obj 525 350 bop.noteslider;
@@ -158,7 +158,7 @@
 #X restore 24 648 pd :|>+(:b;
 #X text 1213 654 bob@zeal.co 2024;
 #X text 33 159 - state saving \; - addresable parameter messaging with... \; - built-in automation \; - built-in easing \;;
-#X obj 330 468 bop.seq;
+#X obj 337 457 bop.seq;
 #A saved loop 1;
 #A saved run 0;
 #X connect 10 0 20 0;
