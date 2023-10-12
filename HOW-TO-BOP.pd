@@ -1,4 +1,4 @@
-#N canvas 61 121 1356 706 12;
+#N canvas 104 142 1362 717 12;
 #X declare -path ./bop1;
 #X obj 46 781 declare -path ./bop1;
 #X obj 728 41 bop.fm~;
@@ -79,8 +79,8 @@
 #A saved s 0.666;
 #A saved d 0.5;
 #A saved a 0.15;
-#X text 37 370 CHECK OUT THE HELP PATCHES -->;
-#X text 34 386 (right-click \, help);
+#X text 123 479 CHECK OUT THE HELP PATCHES -->;
+#X text 122 499 (right-click \, help);
 #X obj 57 587 bng 19 250 50 0 empty empty print\ available\ bop\ modules 25 10 0 12 #fcfcfc #000000 #000000;
 #X obj 91 616 bng 19 250 50 0 empty empty print\ available\ bop.p\ abstractions 25 10 0 12 #fcfcfc #000000 #000000;
 #N canvas 513 193 826 634 :|>+(:b 0;
@@ -158,9 +158,9 @@
 #X restore 24 648 pd :|>+(:b;
 #X text 1213 654 bob@zeal.co 2024;
 #X text 33 159 - state saving \; - addresable parameter messaging with... \; - built-in automation \; - built-in easing \;;
-#X obj 337 457 bop.seq;
+#X obj 338 458 bop.seq;
+#A saved sequence-list;
 #A saved loop 1;
-#A saved run 0;
 #X connect 10 0 20 0;
 #X connect 18 0 20 1;
 #X connect 19 0 20 2;
