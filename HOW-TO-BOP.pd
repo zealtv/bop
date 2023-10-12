@@ -15,7 +15,7 @@
 #A saved frequency 333;
 #A saved detune 0;
 #A saved fm 0;
-#X obj 1138 53 bop.scope~;
+#X obj 1132 177 bop.scope~;
 #A saved print 0;
 #A saved signal 0;
 #A saved enable 1;
