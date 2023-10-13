@@ -1,4 +1,4 @@
-#N canvas 71 86 1362 717 12;
+#N canvas 74 104 1362 717 12;
 #X declare -path ./bop1;
 #X obj 33 847 declare -path ./bop1;
 #X obj 728 41 bop.fm~;
@@ -15,7 +15,7 @@
 #A saved frequency 333;
 #A saved detune 0;
 #A saved fm 0;
-#X obj 1132 177 bop.scope~;
+#X obj 1127 54 bop.scope~;
 #A saved print 0;
 #A saved signal 0;
 #A saved enable 1;
@@ -68,7 +68,7 @@
 #A saved osc-2-pulsewidth 0.5;
 #A saved osc-2-wave 0;
 #A saved osc-1-gain 0;
-#A saved osc-1-pulsewidth 0.578571;
+#A saved osc-1-pulsewidth 0.5;
 #A saved osc-1-wave 0;
 #A saved noise 0;
 #A saved gain 1;
@@ -161,6 +161,9 @@
 #X obj 338 458 bop.seq;
 #A saved sequence-list;
 #A saved loop 0;
+#X obj 1129 298 bop.out~;
+#A saved mute 0;
+#A saved volume 0;
 #X connect 10 0 20 0;
 #X connect 18 0 20 1;
 #X connect 19 0 20 2;
