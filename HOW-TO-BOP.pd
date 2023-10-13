@@ -32,7 +32,7 @@
 #A saved velocity 0.888;
 #A saved octaves 3;
 #A saved root 46;
-#A saved chord 0;
+#A saved chord 8;
 #A saved noteslider 0;
 #X obj 723 436 bop.intermal;
 #A saved root 42;
