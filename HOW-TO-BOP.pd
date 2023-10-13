@@ -15,7 +15,7 @@
 #A saved frequency 333;
 #A saved detune 0;
 #A saved fm 0;
-#X obj 1127 54 bop.scope~;
+#X obj 1138 82 bop.scope~;
 #A saved print 0;
 #A saved signal 0;
 #A saved enable 1;
@@ -49,7 +49,6 @@
 #A saved cutoff 3000;
 #A saved q 0.5;
 #A saved feedback 0.666;
-#X text 275 969 todo \; - rhythm generator - capable of repeating numbers \; - sampler \;;
 #X text 1109 1155 hi there! you are great :);
 #X obj 941 38 bop.casio~;
 #A saved filter 0.5;
@@ -161,9 +160,9 @@
 #X obj 338 458 bop.seq;
 #A saved sequence-list;
 #A saved loop 0;
-#X obj 1129 298 bop.out~;
+#X obj 1139 341 bop.out~;
 #A saved mute 0;
 #A saved volume 0;
-#X connect 10 0 20 0;
-#X connect 18 0 20 1;
-#X connect 19 0 20 2;
+#X connect 10 0 19 0;
+#X connect 17 0 19 1;
+#X connect 18 0 19 2;
