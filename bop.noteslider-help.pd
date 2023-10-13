@@ -1,5 +1,5 @@
-#N canvas 969 152 230 644 12;
-#X obj 37 80 bop.noteslider;
+#N canvas 969 152 357 644 12;
+#X obj 37 120 bop.noteslider;
 #A saved shuffle 0;
 #A saved duration 1;
 #A saved velocity 0.643543;
@@ -8,7 +8,7 @@
 #A saved chord 5;
 #A saved noteslider 0;
 #X obj 37 18 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
-#X obj 37 347 bop.pluck~;
+#X obj 37 427 bop.pluck~;
 #A saved instrument 3;
 #N canvas 115 323 424 412 generate 0;
 #X obj 139 340 outlet;
@@ -33,7 +33,7 @@
 #X connect 7 0 8 0;
 #X connect 8 0 0 0;
 #X restore 37 50 pd generate;
-#X obj 38 441 bop.out~;
+#X obj 37 507 bop.out~;
 #A saved mute 0;
 #A saved volume 1;
 #X connect 0 0 2 0;

@@ -1,4 +1,4 @@
-#N canvas 74 104 1362 717 12;
+#N canvas 74 155 1362 717 12;
 #X declare -path ./bop1;
 #X obj 33 847 declare -path ./bop1;
 #X obj 728 41 bop.fm~;
