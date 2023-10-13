@@ -17,7 +17,7 @@
 #X obj 12 142 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
 #X obj 84 643 bop.intermal;
 #A saved root 52;
-#A saved intermal 0.4343;
+#A saved intermal -3.3434;
 #A saved duration 0.135714;
 #A saved velocity 0.942857;
 #X obj 278 268 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;

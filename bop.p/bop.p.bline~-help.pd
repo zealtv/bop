@@ -1,4 +1,4 @@
-#N canvas 59 98 1415 778 12;
+#N canvas 55 98 1415 778 12;
 #X msg 600 358 0 1 1000;
 #X msg 601 187 setsignal \$1;
 #X obj 603 160 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;

@@ -1,13 +1,13 @@
 #N canvas 598 111 326 381 12;
 #X obj 38 166 bop.pluck~;
-#A saved instrument 3;
+#A saved instrument 0;
 #X obj 38 268 output~;
 #X obj 38 89 tgl 19 0 empty empty start 23 10 0 12 #fcfcfc #000000 #000000 0 1;
-#N canvas 146 418 357 279 generate 1;
+#N canvas 146 418 357 279 generate 0;
 #X obj 31 17 inlet;
 #X obj 18 228 outlet;
 #X obj 18 120 bop.seq;
-#A saved sequence-list level 1 \; === \; instrument 0 \; 45 127 \; - 2500 \; instrument 1 \; 57 127 \; - 2500 \; instrument 2 \; 45 127 \; - 2500 \; instrument 3 \; 57 127 \; - 2500 \;;
+#A saved sequence-list level 1 \; === \; --- \; instrument 0 \; 45 127 \; - 2500 \; --- \; instrument 1 \; 57 127 \; - 2500 \; --- \; instrument 2 \; 45 127 \; - 2500 \; --- \; instrument 3 \; 57 127 \; - 2500 \;;
 #A saved loop 1;
 #X obj 15 48 sel 1 0;
 #X msg 50 85 stop;

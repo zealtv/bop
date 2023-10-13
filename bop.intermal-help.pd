@@ -14,13 +14,13 @@
 #X msg 43 54 intermal 2.343;
 #X msg 63 78 intermal 4.343;
 #X msg 77 103 intermal 5.434;
-#X text 274 142 Intermals are a fast and easy chord notation based on floating point numbers.;
-#X text 272 267 See more here: https://zeal.co/notebook/intermals/;
+#X text 274 32 Intermals are a fast and easy chord notation based on floating point numbers.;
+#X text 272 157 See more here: https://zeal.co/notebook/intermals/;
 #X text 194 28 I maj7;
 #X text 182 76 III min7;
 #X text 188 51 II min7;
 #X text 189 100 IV maj7;
-#X text 273 195 - The number to the left of the decimal defines the root \; - Digits following the decimal point reperesent additional voices up n semitones from the previous voice \;, f 60;
+#X text 273 85 - The number to the left of the decimal defines the root \; - Digits following the decimal point reperesent additional voices up n semitones from the previous voice \;, f 60;
 #X connect 0 1 1 0;
 #X connect 1 0 2 0;
 #X connect 1 1 5 0;

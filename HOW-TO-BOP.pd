@@ -1,6 +1,6 @@
-#N canvas 104 142 1362 717 12;
+#N canvas 71 86 1362 717 12;
 #X declare -path ./bop1;
-#X obj 46 781 declare -path ./bop1;
+#X obj 33 847 declare -path ./bop1;
 #X obj 728 41 bop.fm~;
 #A saved r 0.333;
 #A saved s 0.666;
@@ -19,9 +19,9 @@
 #A saved print 0;
 #A saved signal 0;
 #A saved enable 1;
-#X obj 49 820 bop.sampler;
+#X obj 36 886 bop.sampler;
 #A saved  0 0 0 0 0 1 1;
-#X text 43 755 use declare to access old bop modules;
+#X text 30 821 use declare to access old bop modules;
 #X obj 39 31 cnv 19 126 76 empty empty bop2 20 20 0 36 #c6feff #c7c6ff 0;
 #X obj 337 352 bop.pluck~;
 #A saved instrument 0;
@@ -39,7 +39,7 @@
 #A saved intermal 0.434;
 #A saved duration 0.25;
 #A saved velocity 0.75;
-#X obj 24 559 bng 19 250 50 0 empty empty about\ the\ bop.p\ library 25 10 0 12 #fcfcfc #000000 #000000;
+#X obj 28 589 bng 19 250 50 0 empty empty about\ the\ bop.p\ library 25 10 0 12 #fcfcfc #000000 #000000;
 #X obj 933 347 bop.echo~;
 #A saved reverb-size 0.42;
 #A saved delay-time 0.333;
@@ -49,7 +49,7 @@
 #A saved cutoff 3000;
 #A saved q 0.5;
 #A saved feedback 0.666;
-#X text 288 903 todo \; - rhythm generator - capable of repeating numbers \; - sampler \;;
+#X text 275 969 todo \; - rhythm generator - capable of repeating numbers \; - sampler \;;
 #X text 1109 1155 hi there! you are great :);
 #X obj 941 38 bop.casio~;
 #A saved filter 0.5;
@@ -81,8 +81,8 @@
 #A saved a 0.15;
 #X text 123 479 CHECK OUT THE HELP PATCHES -->;
 #X text 122 499 (right-click \, help);
-#X obj 57 587 bng 19 250 50 0 empty empty print\ available\ bop\ modules 25 10 0 12 #fcfcfc #000000 #000000;
-#X obj 91 616 bng 19 250 50 0 empty empty print\ available\ bop.p\ abstractions 25 10 0 12 #fcfcfc #000000 #000000;
+#X obj 61 617 bng 19 250 50 0 empty empty print\ available\ bop\ modules 25 10 0 12 #fcfcfc #000000 #000000;
+#X obj 95 646 bng 19 250 50 0 empty empty print\ available\ bop.p\ abstractions 25 10 0 12 #fcfcfc #000000 #000000;
 #N canvas 513 193 826 634 :|>+(:b 0;
 #X obj 64 43 inlet;
 #X obj 64 124 pdcontrol;
@@ -155,12 +155,12 @@
 #X connect 31 0 35 0;
 #X connect 32 0 20 0;
 #X connect 34 0 21 0;
-#X restore 24 648 pd :|>+(:b;
-#X text 1213 654 bob@zeal.co 2024;
+#X restore 28 678 pd :|>+(:b;
+#X text 1208 678 bob@zeal.co 2024;
 #X text 33 159 - state saving \; - addresable parameter messaging with... \; - built-in automation \; - built-in easing \;;
 #X obj 338 458 bop.seq;
 #A saved sequence-list;
-#A saved loop 1;
+#A saved loop 0;
 #X connect 10 0 20 0;
 #X connect 18 0 20 1;
 #X connect 19 0 20 2;
