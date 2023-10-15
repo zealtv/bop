@@ -1,4 +1,4 @@
-#N canvas 92 129 725 644 12;
+#N canvas 320 215 725 644 12;
 #X declare -path ./bop.p;
 #X obj 478 578 savestate, f 17;
 #X obj 477 551 bop.p.autosave \$0;
@@ -19,7 +19,7 @@
 #X obj 110 180 bop.p.param \$0 velocity 0.75;
 #X obj 110 200 bop.p.param \$0 duration 0.25;
 #X obj 110 130 bop.p.number \$0 intermal 0.434;
-#N canvas 366 343 678 552 intermal 0;
+#N canvas 111 211 678 552 intermal 0;
 #X obj 44 97 outlet~;
 #X obj 44 34 inlet~;
 #X obj 174 35 inlet;

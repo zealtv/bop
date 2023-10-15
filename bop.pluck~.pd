@@ -1,4 +1,4 @@
-#N canvas 75 185 794 743 12;
+#N canvas 521 102 794 743 12;
 #X declare -path ./bop.p;
 #X obj 526 627 savestate, f 17;
 #X obj 525 600 bop.p.autosave \$0;

@@ -33,7 +33,7 @@
 #X connect 7 0 8 0;
 #X connect 8 0 0 0;
 #X restore 37 50 pd generate;
-#X obj 37 507 bop.out~;
+#X obj 37 527 bop.out~;
 #A saved mute 0;
 #A saved volume 1;
 #X connect 0 0 2 0;

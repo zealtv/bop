@@ -1,5 +1,5 @@
 #N canvas 585 172 508 537 12;
-#X obj 216 112 bop.casio~;
+#X obj 199 110 bop.casio~;
 #A saved filter 1;
 #A saved gain 0.728571;
 #A saved wave-2 7;
@@ -8,8 +8,8 @@
 #A saved s 0.178571;
 #A saved d 0.628571;
 #A saved a 0;
-#X obj 216 21 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
-#X obj 375 505 print;
+#X obj 199 19 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
+#X obj 358 503 print;
 #N canvas 368 77 509 775 generate 0;
 #X obj 257 23 inlet;
 #X obj 350 746 outlet;
@@ -57,11 +57,11 @@
 #X connect 15 0 13 0;
 #X connect 17 0 3 0;
 #X connect 19 0 3 0;
-#X restore 216 64 pd generate;
-#X text 36 393 signal out and through >;
-#X text 30 89 signal/midi/messages in >;
-#X text 383 382 < MIDI and messages out/through, f 12;
-#X obj 216 424 bop.out~;
+#X restore 199 62 pd generate;
+#X text 19 391 signal out and through >;
+#X text 13 87 signal/midi/messages in >;
+#X text 366 380 < MIDI and messages out/through, f 12;
+#X obj 199 422 bop.out~;
 #A saved mute 0;
 #A saved volume 0;
 #X connect 0 0 7 0;

@@ -17,6 +17,7 @@
 #X obj 41 34 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X obj 200 215 print;
 #X text 210 118 < optional right channel, f 13;
+#X text 118 200 ^ Right channel output, f 8;
 #X connect 0 2 3 0;
 #X connect 1 0 0 0;
 #X connect 1 1 0 0;

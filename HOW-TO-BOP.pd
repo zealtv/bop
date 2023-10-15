@@ -156,13 +156,13 @@
 #X connect 34 0 21 0;
 #X restore 28 678 pd :|>+(:b;
 #X text 1208 678 bob@zeal.co 2024;
-#X text 33 159 - state saving \; - addresable parameter messaging with... \; - built-in automation \; - built-in easing \;;
 #X obj 338 458 bop.seq;
 #A saved sequence-list;
 #A saved loop 0;
 #X obj 1139 341 bop.out~;
 #A saved mute 0;
 #A saved volume 0;
+#X text 33 159 - state saving \; - addresable parameter messaging \; - built-in automation \; - built-in easing \;;
 #X connect 10 0 19 0;
 #X connect 17 0 19 1;
 #X connect 18 0 19 2;
