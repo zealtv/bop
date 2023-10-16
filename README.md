@@ -1,3 +1,3 @@
 # bop2 🐦
 
-![bop screenshot(screenshot.bop.png)]
+![bop screenshot](screenshot.bop.png)
