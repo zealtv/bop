@@ -19,7 +19,7 @@
 #X text 112 358 params can be set or get by name as float or signal;
 #X obj 470 456 *~;
 #X obj 483 429 noise~;
-#X obj 470 549 dac~;
+#X obj 470 581 dac~;
 #X obj 1183 328 bop.p.inout \$0;
 #X obj 915 129 declare -path ./bop.p;
 #X obj 1051 298 r \$0-midi-in;
@@ -62,7 +62,7 @@
 #X msg 942 818 param stop;
 #X msg 943 1056 param curve \$1 \$2;
 #X text 530 735 < internally \, parameters uses the bop.p.bline~ and bop.p.blineseq abstractions for automation. See the bop.p.bline~ help file for details., f 27;
-#X obj 470 495 *~ 0.1;
+#X obj 470 527 *~ 0.1;
 #X obj 629 544 hsl 162 19 0 1 0 0 empty empty empty -2 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X text 200 662 parameters accept a variety of messages!, f 23;
 #X msg 1258 938 tempo 120 16;
@@ -107,6 +107,7 @@
 #X obj 210 511 loadbang;
 #X msg 29 397 0;
 #X obj 29 370 loadbang;
+#X obj 470 490 lop~ 340;
 #X connect 3 0 55 0;
 #X connect 4 0 5 0;
 #X connect 6 0 3 0;
@@ -116,7 +117,7 @@
 #X connect 9 0 17 0;
 #X connect 10 0 31 0;
 #X connect 10 1 20 0;
-#X connect 17 0 54 0;
+#X connect 17 0 95 0;
 #X connect 18 0 17 1;
 #X connect 20 0 11 0;
 #X connect 22 0 31 1;
@@ -138,4 +139,5 @@
 #X connect 92 0 90 0;
 #X connect 93 0 5 0;
 #X connect 94 0 93 0;
+#X connect 95 0 54 0;
 #X coords 0 812 1 811 166 150 0;
