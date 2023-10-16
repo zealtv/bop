@@ -14,14 +14,14 @@
 #X msg 331 982 \$3;
 #X obj 53 -119 inlet;
 #X obj 420 1711 outlet~;
-#X obj 533 1711 outlet;
-#X obj 533 1668 r \$0-float-out;
+#X obj 533 1730 outlet;
+#X obj 533 1687 r \$0-float-out;
 #X obj 794 1402 sig~;
 #X msg 794 1361 \$1;
 #X msg 837 1361 \$2;
 #X obj 837 1402 sig~;
 #X obj 420 1488 expr~ ($v3 - $v2) * $v1/1 + $v2, f 60;
-#X obj 533 1635 s \$0-float-out;
+#X obj 533 1654 s \$0-float-out;
 #X obj 794 1329 t l l;
 #X obj 331 1232 expr 1/$f1 * 1000;
 #X obj 586 1085 abs;
@@ -108,13 +108,14 @@
 #X msg 182 683 \$2 \$3 \$1;
 #X text 255 682 start end duration;
 #X msg 92 699 \$2;
+#X obj 533 1624 change;
 #X connect 0 0 26 0;
 #X connect 1 0 0 1;
 #X connect 2 0 24 0;
 #X connect 2 1 1 0;
 #X connect 2 2 30 0;
 #X connect 2 3 25 0;
-#X connect 3 0 22 0;
+#X connect 3 0 92 0;
 #X connect 4 0 71 0;
 #X connect 5 0 6 0;
 #X connect 6 0 4 0;
@@ -194,3 +195,4 @@
 #X connect 87 1 89 0;
 #X connect 89 0 27 0;
 #X connect 91 0 43 0;
+#X connect 92 0 22 0;

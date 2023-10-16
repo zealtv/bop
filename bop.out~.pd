@@ -1,4 +1,4 @@
-#N canvas 144 207 1274 609 12;
+#N canvas 68 125 1274 609 12;
 #X declare -path ./bop.p;
 #X obj 630 69 savestate, f 17;
 #X obj 629 42 bop.p.autosave \$0;
@@ -13,7 +13,7 @@
 #X obj 659 371 s \$0-midi-out;
 #X obj 110 140 bop.p.param \$0 volume 0;
 #X obj 183 120 bop.p.toggle \$0 mute 0;
-#N canvas 686 278 506 595 bop.out 0;
+#N canvas 680 387 626 438 bop.out 0;
 #X obj 48 514 outlet~;
 #X obj 87 45 inlet~;
 #X obj 342 60 inlet;
