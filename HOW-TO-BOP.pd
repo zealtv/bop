@@ -160,7 +160,7 @@
 #X connect 32 0 20 0;
 #X connect 34 0 21 0;
 #X restore 41 702 pd bob@zeal.co 2024;
-#X text 49 63 --- todo... \; --- global state-saving [x] \; --- addressable parameters [x] \; --- built-in automation[x] \; --- esoteric chord notation [x] \; --- flexible text sequencing[x] \; --- X-platorm [x] \; --- highly networkable [x] \; --- very embedable [x] \; --- \; === --- begin loop [ ] \; - 1b --- one bar rest [ ] \; - b2 --- two beat rest [ ] \; - b4 --- one beat rest [ ] \; --- \; instrument 3 \; gain 0 1 3000 --- time in ms \; root 43 \; velocity 0.6 \; intermal 0.75 \; - 1000 --- ms reset \; velocity 1.1 \; intermal 0.43 \; - 3000 \; === --- end loop [ ] \; osc 255.255.255 /ping 1 \; osc 127.0.0.1 /flame-thrower 1 \; volume 1.5 \; fan 0 \; midi 25 127 \; midi 32 127 \; midi 555 127 \; run explode-drive.sh [ ] \;;
+#X text 49 63 --- todo... \; --- global state-saving [x] \; --- addressable parameters [x] \; --- built-in automation[x] \; --- esoteric chord notation [x] \; --- flexible text sequencing[x] \; --- X-platorm [x] \; --- highly networkable [x] \; --- very embedable [x] \; --- \; === --- begin loop [ ] \; - 1b --- one bar rest [ ] \; - b2 --- two beat rest [ ] \; - b4 --- one beat rest [ ] \; --- \; instrument 3 \; gain 0 1 3000 --- time in ms \; root 43 \; velocity 0.6 \; intermal 0.75 \; - 1000 --- ms rest \; velocity 1.1 \; intermal 0.43 \; - 3000 \; === --- end loop [ ] \; osc 255.255.255 /ping 1 \; osc 127.0.0.1 /flame-thrower 1 \; volume 1.5 \; fan 0 \; midi 25 127 \; midi 32 127 \; midi 555 127 \; run explode-drive.sh [ ] \;;
 #X connect 9 0 20 2;
 #X connect 16 0 20 0;
 #X connect 17 0 20 1;
