@@ -4,10 +4,10 @@
 #A saved gain 0.728571;
 #A saved wave-2 7;
 #A saved wave-1 6;
-#A saved r 0;
-#A saved s 0.178571;
-#A saved d 0.628571;
-#A saved a 0;
+#A saved release 0.2;
+#A saved sustain 0.0928571;
+#A saved decay 0.307143;
+#A saved attack 0;
 #X obj 199 19 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X obj 358 503 print;
 #N canvas 368 77 509 775 generate 0;
@@ -16,7 +16,7 @@
 #X obj 12 142 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
 #X obj 191 586 bop.intermal;
 #A saved root 52;
-#A saved intermal 0.4343;
+#A saved intermal -3.3434;
 #A saved duration 0.135714;
 #A saved velocity 0.942857;
 #X obj 278 300 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
@@ -63,7 +63,7 @@
 #X text 366 380 < MIDI and messages out/through, f 12;
 #X obj 199 422 bop.out~;
 #A saved mute 0;
-#A saved volume 0.635714;
+#A saved volume 0;
 #X connect 0 0 7 0;
 #X connect 0 1 7 0;
 #X connect 1 0 3 0;
