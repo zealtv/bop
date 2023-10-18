@@ -18,4 +18,4 @@ It is currently in pre-release and has the following features:
 🐦 geek-chic unix-porn styling  
 
 ## Credits
-bop makes use of some these [superb abstractions](https://github.com/MikeMorenoDSP/pd-mkmr) by [Mike Moreno](https://mikemorenodsp.github.io/).
+bop makes use of some [these](https://github.com/MikeMorenoDSP/pd-mkmr) superb abstractions by [Mike Moreno](https://mikemorenodsp.github.io/).
