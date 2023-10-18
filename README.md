@@ -9,10 +9,10 @@ bop is a suite of music-making abstractions for the media programming environmen
 
 It is currently in pre-release and has the following features:
 
-🐦 vanilla compatibility
+🐦 vanilla compatibility  
 🐦 state-saving  
 🐦 global parameter messaging with built-in automation  
 🐦 powerful, esoteric musical notation  
-🐦 fun and easy music scripting language 
-🐦 live coding capabilities
-🐦 geek-chic unix-porn styling 
+🐦 fun and easy music scripting language  
+🐦 live coding capabilities  
+🐦 geek-chic unix-porn styling  
