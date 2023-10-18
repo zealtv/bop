@@ -1,0 +1,27 @@
+instrument 3;
+chord 7;
+volume 1 50;
+delay-time loop 0.8 300 0.81 10000;
+===;
+--- swell up;
+delay-level 0.1 0.01 0.1 2000 0.5 3000;
+noteslider 0;
+noteslider 0.2 3000 0.8 9000;
+root 46;
+octaves 8;
+octaves 4 5000;
+shuffle 1;
+velocity 0.05;
+velocity 0.5 2800 0.1 5000;
+- 9500;
+--- fall;
+noteslider 0.75;
+noteslider 0.1 4000;
+root 53;
+octaves 3;
+shuffle 0;
+velocity 0.9 0.2 4000;
+feedback 0.2 400;
+delay-level 0.8 200 0.5 6000 0 6000;
+- 6000;
+
