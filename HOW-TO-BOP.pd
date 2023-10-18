@@ -77,11 +77,11 @@
 #A saved s 0.666;
 #A saved d 0.5;
 #A saved a 0.15;
-#X text 122 560 CHECK OUT THE HELP PATCHES -->;
-#X text 181 576 (right-click \, help);
+#X text 131 561 CHECK OUT THE HELP PATCHES -->;
+#X text 190 577 (right-click \, help);
 #X obj 41 623 bng 19 250 50 0 empty empty print\ bop\ modules 25 10 0 12 #fcfcfc #000000 #000000;
 #X obj 72 647 bng 19 250 50 0 empty empty print\ bop.p\ abstractions 25 10 0 12 #fcfcfc #000000 #000000;
-#X obj 336 482 bop.seq;
+#X obj 345 483 bop.seq;
 #A saved sequence-list;
 #A saved loop 0;
 #X obj 1139 341 bop.out~;
@@ -160,7 +160,7 @@
 #X connect 32 0 20 0;
 #X connect 34 0 21 0;
 #X restore 41 702 pd bob@zeal.co 2024;
-#X text 49 63 --- todo... \; --- global state-saving [x] \; --- addressable parameters [x] \; --- built-in automation[x] \; --- esoteric chord notation [x] \; --- flexible text sequencing[x] \; --- X-platorm [x] \; --- highly networkable [x] \; --- very embedable [x] \; --- \; === --- begin loop [ ] \; - 1b --- one bar rest [ ] \; - b2 --- two beat rest [ ] \; - b4 --- one beat rest [ ] \; --- \; instrument 3 \; gain 0 1 3000 --- time in ms \; root 43 \; velocity 0.6 \; intermal 0.75 \; - 1000 --- ms rest \; velocity 1.1 \; intermal 0.43 \; - 3000 \; === --- end loop [ ] \; osc 255.255.255 /ping 1 \; osc 127.0.0.1 /flame-thrower 1 \; volume 1.5 \; fan 0 \; midi 25 127 \; midi 32 127 \; midi 555 127 \; run explode-drive.sh [ ] \;;
+#X text 49 61 --- todo... \; --- global state-saving [x] \; --- addressable parameters [x] \; --- built-in automation[x] \; --- esoteric chord notation [x] \; --- flexible text sequencing[x] \; --- X-platorm [x] \; --- highly networkable [x] \; --- very embedable [x] \; --- \; === --- begin loop [ ] \; - 1b --- one bar rest [ ] \; - b2 --- 1/2 bar rest [ ] \; - b4 --- 1/4 bar rest [ ] \; - 1000 --- 1000ms rest [x] \; --- \; instrument 3 \; gain 0 1 3000 \; root 43 \; velocity 0.6 \; intermal 0.75 \; - 1000 \; velocity 1.1 \; intermal 0.43 \; - 3000 \; === --- end loop [ ] \; osc 255.255.255 /ping 1 \; osc 127.0.0.1 /flame-thrower 1 \; volume 1.5 \; fan 0 \; midi 25 127 \; midi 32 127 \; midi 555 127 \; run explode-drives.sh [ ] \;;
 #X connect 9 0 20 2;
 #X connect 16 0 20 0;
 #X connect 17 0 20 1;
