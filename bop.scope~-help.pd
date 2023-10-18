@@ -1,7 +1,7 @@
 #N canvas 553 208 632 530 12;
 #X obj 210 147 bop.scope~;
 #A saved print 0;
-#A saved signal -0.0481777;
+#A saved signal 0.023699;
 #A saved enable 1;
 #X obj 214 26 tgl 19 0 empty empty enable 23 10 0 12 #fcfcfc #000000 #000000 0 1;
 #X text 378 358 < midi and messages out/though;
@@ -38,7 +38,7 @@
 #X text 66 358 signal out/through >;
 #X obj 212 401 bop.out~;
 #A saved mute 0;
-#A saved volume 0.0350746;
+#A saved volume 0.0211027;
 #X connect 0 0 8 0;
 #X connect 0 1 8 0;
 #X connect 1 0 6 0;
