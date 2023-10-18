@@ -16,3 +16,6 @@ It is currently in pre-release and has the following features:
 🐦 fun and easy music scripting language  
 🐦 live coding capabilities  
 🐦 geek-chic unix-porn styling  
+
+## Credits
+bop makes use of some of Mike Morenso's [superb abstractions](https://github.com/MikeMorenoDSP/pd-mkmr).
