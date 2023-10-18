@@ -1,4 +1,4 @@
-# bop 🐦
+# bop 🐤
 
 ### Friendly modules for Pure Data Vanilla
 
@@ -9,9 +9,9 @@ bop is a suite of music-making abstractions for the media programming environmen
 
 It is currently in pre-release and has the following features:
 
-- 🦤 vanilla compatible
-- 🦤 state-saving
-- 🦤 global parameter messaging and in-built automation
-- 🦤 powerful, esoteric musical notation
-- 🦤 fun and flexible music scripting language
-- 🦤 unix-porn styling
+- 🐦 vanilla compatible
+- 🐦 state-saving
+- 🐦 global parameter messaging and in-built automation
+- 🐦 powerful, esoteric musical notation
+- 🐦 fun and flexible music scripting language
+- 🐦 unix-porn styling
