@@ -1,5 +1,8 @@
-#N canvas 701 88 447 605 12;
-#X obj 132 148 bop.sampler~;
+#N canvas 454 89 679 725 12;
+#X obj 53 167 bop.sampler~;
+#A saved root 42;
+#A saved fade-out 0.1;
+#A saved fade-in 0.1;
 #A saved tune 0;
 #A saved loop-length 1;
 #A saved loop-start 0;
@@ -8,11 +11,14 @@
 #A saved sample 0;
 #A saved mode 1;
 #A saved gain 1;
-#X obj 132 87 notein;
-#X obj 132 111 pack;
-#X obj 132 457 bop.out~;
+#X obj 54 111 notein;
+#X obj 54 135 pack;
+#X obj 53 552 bop.out~;
 #A saved mute 0;
 #A saved volume 1;
+#X text 233 192 < Load a folders of wav files from the bop/samples directory. Changing folders loads samples into RAM and may cause pauses. Be careful automating this parameter.;
+#X text 227 250 < [mode 0]: MIDI notes change pitch of chosen sample. \; [mode 1]: MIDI notes select sample from chosen folder.;
+#X text 53 45 bop.sampler~ is inspired by the mighty casio sk-1 \; It provides midi-to-pitch and drum-rack style sample playback., f 65;
 #X connect 0 0 3 0;
 #X connect 0 1 3 0;
 #X connect 1 0 2 0;
