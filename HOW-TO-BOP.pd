@@ -1,4 +1,4 @@
-#N canvas 90 80 1362 743 12;
+#N canvas 71 152 1362 743 12;
 #X declare -path ./bop1;
 #X obj 33 847 declare -path ./bop1;
 #X obj 738 41 bop.fm~;
@@ -74,7 +74,7 @@
 #X obj 355 483 bop.seq;
 #A saved sequence-list;
 #A saved loop 0;
-#X obj 1149 341 bop.out~;
+#X obj 1149 458 bop.out~;
 #A saved mute 0;
 #A saved volume 0;
 #X text 39 62 --- todo... \; --- global state-saving [x] \; --- addressable parameters [x] \; --- built-in automation[x] \; --- esoteric chord notation [x] \; --- flexible text sequencing[x] \; --- X-platorm [x] \; --- highly networkable [x] \; --- very embedable [x] \; --- \; === --- begin loop [ ] \; - 1b --- one bar rest [ ] \; - b2 --- 1/2 bar rest [ ] \; - b4 --- 1/4 bar rest [ ] \; - 1000 --- 1000ms rest [x] \; --- \; instrument 3 \; gain 0 1 3000 \; root 43 \; velocity 0.6 \; intermal 0.75 \; - 1000 \; velocity 1.1 \; intermal 0.43 \; - 3000 \; === --- end loop [ ] \; osc 255.255.255 /ping 1 \; osc 127.0.0.1 /flame-thrower 1 \; volume 1.5 \; fan 0 \; midi 25 127 \; midi 32 127 \; midi 555 127 \; run explode-drives.sh [ ] \;;
@@ -161,6 +161,10 @@
 #X connect 32 0 20 0;
 #X connect 34 0 21 0;
 #X restore 15 710 pd >+(:b;
+#X obj 1148 337 bop.control~;
+#A saved cv-3 0;
+#A saved cv-2 0;
+#A saved cv-1 0;
 #X connect 7 0 21 2;
 #X connect 14 0 21 0;
 #X connect 15 0 21 1;
