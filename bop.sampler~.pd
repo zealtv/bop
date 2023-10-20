@@ -32,7 +32,7 @@
 #X obj 151 154 clone bop.p.sampler-voice 16 \$0, f 33;
 #X obj 1006 251 s \$0-to-clone;
 #X msg 1080 210 vis 2 \$1;
-#X obj 1080 183 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
+#X obj 1083 183 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X obj 1006 179 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X msg 1006 210 vis 1 \$1;
 #X obj 1249 484 loadbang;
