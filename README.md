@@ -13,9 +13,9 @@ It is currently in pre-release and has the following features:
 🐦 state-saving  
 🐦 global parameter messaging with built-in automation  
 🐦 powerful, esoteric musical notation  
-🐦 fun and easy music scripting language  
+🐦 fun and easy scripting language  
 🐦 live coding capabilities  
-🐦 geek-chic unix-porn styling  
+🐦 unix-porn styling  
 
 ## Credits
 bop makes use of some of [these](https://github.com/MikeMorenoDSP/pd-mkmr) superb abstractions by [Mike Moreno](https://mikemorenodsp.github.io/).
