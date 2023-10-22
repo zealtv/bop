@@ -1,4 +1,4 @@
-#N canvas 678 98 475 585 12;
+#N canvas 678 98 693 681 12;
 #X obj 44 168 bop.sampler~;
 #A saved release 0.2;
 #A saved attack 0;
@@ -11,8 +11,8 @@
 #A saved sample 0;
 #A saved mode 1;
 #A saved gain 1;
-#X obj 54 111 notein;
-#X obj 54 135 pack;
+#X obj 44 110 notein;
+#X obj 44 134 pack;
 #X obj 53 552 bop.out~;
 #A saved mute 0;
 #A saved volume 1;
