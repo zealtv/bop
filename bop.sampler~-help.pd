@@ -1,7 +1,7 @@
-#N canvas 0 343 475 585 12;
+#N canvas -486 461 475 585 12;
 #X obj 44 168 bop.sampler~;
-#A saved root 40;
-#A saved fade-out 0;
+#A saved root 48;
+#A saved fade-out 1;
 #A saved fade-in 0;
 #A saved tune 0;
 #A saved loop-length 1;
@@ -9,7 +9,7 @@
 #A saved loop 0;
 #A saved folder 0;
 #A saved sample 9;
-#A saved mode 1;
+#A saved mode 0;
 #A saved gain 1;
 #X obj 54 111 notein;
 #X obj 54 135 pack;
