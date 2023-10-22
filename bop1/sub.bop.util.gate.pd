@@ -1,18 +1,0 @@
-#N canvas 870 533 450 300 10;
-#X obj 180 180 list trim;
-#X obj 180 220 route 0 1;
-#X obj 180 150 list prepend 0;
-#X obj 180 80 inlet;
-#X obj 240 80 inlet;
-#X obj 180 260 outlet;
-#X obj 230 260 outlet;
-#X text 170 20 super simple gate;
-#X text 280 80 data to gate;
-#X text 30 70 0 to the left outlet \; 1 to the right outlet \; default:
-0;
-#X connect 0 0 1 0;
-#X connect 1 0 5 0;
-#X connect 1 1 6 0;
-#X connect 2 0 0 0;
-#X connect 3 0 2 1;
-#X connect 4 0 2 0;
