@@ -1,5 +1,6 @@
 #N canvas 71 152 1362 743 12;
 #X obj 1148 32 bop.fm~;
+#A saved envelope 1;
 #A saved release 0.2;
 #A saved sustain 0.8;
 #A saved decay 0.3;
@@ -9,7 +10,6 @@
 #A saved lfo-speed 0.25;
 #A saved divisor 1;
 #A saved dividend 1;
-#A saved keytrack 1;
 #A saved frequency 333;
 #A saved detune 0;
 #A saved fm 0;

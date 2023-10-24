@@ -18,7 +18,7 @@
 #A saved sustain 0.25;
 #A saved decay 0.414286;
 #A saved attack 0.0214286;
-#N canvas 628 238 603 603 generate 1;
+#N canvas 628 238 603 603 generate 0;
 #X obj 88 9 inlet;
 #X obj 46 264 bop.seq;
 #A saved sequence-list --- \; semisteps 0.4343 \; - 400 \; semisteps 0.4343 \; - 400 \; semisteps 0.4343 \; - 400 \; semisteps 0.4343 \; - 400 \; semisteps 0.4343 \; - 400 \; semisteps 0.4343 \; - 400 \; semisteps 0.4343 \; - 400 \; semisteps 0.4343 \; - 400 \; --- \; semisteps 0.4343 \; - 400 \; semisteps 0.4343 \; - 400 \; semisteps 0.4343 \; - 400 \; semisteps 0.4343 \; - 400 \; semisteps 0.4343 \; - 400 \; semisteps 0.4343 \; - 400 \; semisteps 0.4343 \; - 400 \; semisteps 0.4343 \; - 400 \; --- \; semisteps -3.3434 \; - 400 \; semisteps -3.3434 \; - 400 \; semisteps -3.3434 \; - 400 \; semisteps -3.3434 \; - 400 \; semisteps -3.3434 \; - 400 \; semisteps -3.3434 \; - 400 \; semisteps -3.3434 \; - 400 \; semisteps -3.3434 \; - 400 \; --- \; semisteps -3.3434 \; - 400 \; semisteps -3.3434 \; - 400 \; semisteps -3.3434 \; - 400 \; semisteps -3.3434 \; - 400 \; semisteps -3.3434 \; - 400 \; semisteps -3.3434 \; - 400 \; semisteps -3.3434 \; - 400 \; semisteps -3.3434 \; - 400 \;;
@@ -37,7 +37,6 @@
 #X obj 51 389 bop.semisteps;
 #A saved semisteps 0;
 #A saved root 42;
-#A saved intermal 0.434;
 #A saved duration 0.25;
 #A saved velocity 0.75;
 #X connect 0 0 6 0;
