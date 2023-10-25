@@ -13,6 +13,7 @@
 #X obj 472 276 bop.instrument~;
 #A saved instrument 3;
 #X obj 62 273 bop.semisteps;
+#A saved hold 0;
 #A saved semisteps 0.434;
 #A saved root 55;
 #A saved duration 0.25;
