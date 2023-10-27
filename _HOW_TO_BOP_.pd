@@ -1,5 +1,5 @@
 #N canvas 0 37 1354 891 12;
-#X obj 951 378 bop.fm~;
+#X obj 966 379 bop.fm~;
 #A saved envelope 1;
 #A saved release 0.2;
 #A saved sustain 0.8;
@@ -29,7 +29,7 @@
 #A saved q 0.5;
 #A saved feedback 0.666;
 #X text 1109 1165 hi there! you are great :);
-#X obj 1117 78 bop.casio~;
+#X obj 1132 79 bop.casio~;
 #A saved filter 0.5;
 #A saved gain 1;
 #A saved wave-2 0;
@@ -38,7 +38,7 @@
 #A saved sustain 0.8;
 #A saved decay 0.3;
 #A saved attack 0.1;
-#X obj 775 78 bop.synth~;
+#X obj 790 79 bop.synth~;
 #A saved mono 0;
 #A saved osc-2-tune 0;
 #A saved osc-1-tune 0;
@@ -68,7 +68,7 @@
 #A saved mute 0;
 #A saved volume 0;
 #X text 51 96 --- todo... \; --- global state-saving [x] \; --- addressable parameters [x] \; --- built-in automation[x] \; --- esoteric chord notation [x] \; --- flexible text sequencing[x] \; --- X-platorm [x] \; --- highly networkable [x] \; --- very embedable [x] \; --- \; === --- begin loop [ ] \; - 1b --- one bar rest [ ] \; - b2 --- 1/2 bar rest [ ] \; - b4 --- 1/4 bar rest [ ] \; - 1000 --- 1000ms rest [x] \; --- \; instrument 3 \; gain 0 1 3000 \; root 43 \; velocity 0.6 \; intermal 0.75 \; - 1000 \; velocity 1.1 \; intermal 0.43 \; - 3000 \; === --- end loop [ ] \; osc 255.255.255 /ping 1 \; osc 127.0.0.1 /flame-thrower 1 \; volume 1.5 \; fan 0 \; midi 25 127 \; midi 32 127 \; midi 555 127 \; run explode-drives.sh [ ] \;;
-#X obj 1137 378 bop.instrument~;
+#X obj 1152 379 bop.instrument~;
 #A saved instrument 0;
 #X obj 373 168 bop.strum;
 #A saved shuffle 0;
@@ -161,7 +161,7 @@
 #A saved root 42;
 #A saved duration 0.25;
 #A saved velocity 0.75;
-#X obj 765 378 bop.sampler~;
+#X obj 780 379 bop.sampler~;
 #A saved release 0.2;
 #A saved attack 0;
 #A saved root 42;
@@ -180,7 +180,7 @@
 #A saved velocity 0.7;
 #A saved root 42;
 #A saved frets 0;
-#X text 907 42 ---=== INSTRUMENTS ===---;
+#X text 952 36 ---=== INSTRUMENTS ===---;
 #X text 454 446 ---=== UTILITY / FX ===---;
 #X text 421 12 ---=== SEQUENCING / NOTATION ===---;
 #X connect 3 0 17 2;
