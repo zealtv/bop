@@ -34,7 +34,7 @@
 #A saved velocity 0.888;
 #A saved octaves 3;
 #A saved root 44;
-#A saved chord 5;
+#A saved chord 0;
 #A saved noteslider 0.169419;
 #X connect 0 0 1 0;
 #X connect 1 0 4 0;
