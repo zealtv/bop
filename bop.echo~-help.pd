@@ -3,12 +3,12 @@
 #X obj 148 178 bop.echo~;
 #A saved reverb-size 0.407143;
 #A saved delay-time 0.645039;
-#A saved delay-level 1;
-#A saved dry-level 1;
-#A saved reverb-level 0.207143;
+#A saved delay-level 0.942857;
+#A saved dry-level 0.95;
+#A saved reverb-level 0.164286;
 #A saved cutoff 1000;
-#A saved q 0.5;
-#A saved feedback 0.0663324;
+#A saved q 0.357143;
+#A saved feedback 0.364286;
 #N canvas 276 248 603 595 generate 0;
 #X obj 195 0 inlet;
 #X obj 42 402 outlet~;
@@ -42,7 +42,7 @@
 #X msg 171 122 delay-time 1 0.2 7000;
 #X obj 149 453 bop.out~;
 #A saved mute 0;
-#A saved volume 1;
+#A saved volume 0;
 #X msg 173 67 delay-time loop 0.2 500 0.4 500;
 #X msg 171 94 feedback loop 0.7 4000 0 3000;
 #X msg 175 10 instrument 0;

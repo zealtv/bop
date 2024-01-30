@@ -1,0 +1,14 @@
+#N canvas 101 131 767 484 12;
+#X declare -path ./bop.p;
+#X obj 601 208 declare -path ./bop.p;
+#X obj 158 348 bop.p.onlist;
+#X listbox 158 372 20 0 0 0 - - - 0;
+#X obj 233 51 bop.frets;
+#A saved tuning 0.55545;
+#A saved hold 0;
+#A saved duration 0.3;
+#A saved velocity 0.7;
+#A saved root 42;
+#A saved frets 0.502;
+#X connect 1 0 2 0;
+#X connect 3 1 1 0;
