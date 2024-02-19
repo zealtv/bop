@@ -1,4 +1,4 @@
-#N canvas 40 398 1220 435 12;
+#N canvas 250 341 1220 435 12;
 #N canvas 0 352 957 538 voice 0;
 #N canvas 334 322 499 244 saw 0;
 #X obj 12 163 +~;
@@ -965,7 +965,8 @@
 #X obj 534 233 bop.p.adsr~ \$1;
 #X obj 206 341 *~;
 #X obj 206 365 *~ 0.25;
-#X obj 261 128 r~ \$1-get-filter;
+#X obj 261 176 sig~;
+#X obj 261 128 r \$1-get-filter;
 #X connect 0 0 8 0;
 #X connect 1 0 0 0;
 #X connect 3 0 4 0;
@@ -977,3 +978,4 @@
 #X connect 8 0 9 0;
 #X connect 9 0 2 0;
 #X connect 10 0 0 1;
+#X connect 11 0 10 0;
