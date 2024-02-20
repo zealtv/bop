@@ -1,4 +1,4 @@
-#N canvas 151 90 1230 779 12;
+#N canvas 240 56 1230 779 12;
 #X declare -path ../bop.p;
 #X obj 49 -6 inlet~, f 12;
 #X obj 160 643 outlet;
@@ -34,16 +34,11 @@
 #X obj 139 126 r \$0-midi;
 #X obj 49 557 +~;
 #X obj 274 36 r \$0-stop;
-#X obj 349 36 r \$0-dump;
-#X obj 504 35 r \$0-params;
-#X obj 429 36 r \$0-midi;
-#X obj 196 484 bop.p.param \$0 gain;
-#X text 228 511 todo - implement for enum and toggle;
-#X obj 385 549 r \$0-dump;
-#X obj 386 622 list prepend dump;
-#X obj 386 589 route bang;
-#X obj 392 691 list trim;
-#X text 236 531 todo - fix dump;
+#X obj 444 35 r \$0-params;
+#X obj 369 36 r \$0-midi;
+#X obj 199 484 bop.p.param \$0 gain;
+#X text 231 511 todo - implement for enum and toggle;
+#X text 239 531 todo - fix dump;
 #X connect 0 0 31 0;
 #X connect 0 1 6 0;
 #X connect 8 0 1 0;
@@ -74,9 +69,5 @@
 #X connect 28 0 25 0;
 #X connect 30 0 24 0;
 #X connect 31 0 3 0;
-#X connect 36 0 26 1;
-#X connect 38 0 40 0;
-#X connect 39 0 41 0;
-#X connect 40 1 39 0;
-#X connect 41 0 1 0;
+#X connect 35 0 26 1;
 #X coords 0 779 1 778 166 280 0;

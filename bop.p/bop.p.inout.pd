@@ -1,6 +1,6 @@
-#N canvas 894 77 522 484 12;
+#N canvas 723 77 694 571 12;
 #X obj 87 75 inlet;
-#X obj 432 207 s \$1-params;
+#X obj 421 259 s \$1-params;
 #X text 33 9 recieves messages from parent patcher \, provides forwarding and saving for param \, toggle \, number;
 #X obj 168 235 s \$1-stop;
 #X obj 168 201 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
@@ -17,6 +17,8 @@
 #X obj 394 363 list prepend \$1;
 #X msg 394 394 symbol \$1-get-\$2;
 #X obj 87 193 s \$1-midi;
+#X obj 419 220 route bang;
+#X obj 419 187 r \$1-dump;
 #X connect 0 0 8 0;
 #X connect 4 0 3 0;
 #X connect 5 0 4 0;
@@ -35,3 +37,5 @@
 #X connect 14 0 9 0;
 #X connect 15 0 16 0;
 #X connect 16 0 9 1;
+#X connect 18 1 1 0;
+#X connect 19 0 18 0;
