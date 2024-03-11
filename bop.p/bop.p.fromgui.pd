@@ -1,5 +1,7 @@
 #N canvas 1054 206 329 162 12;
-#X obj 22 47 r \$1-from-gui;
-#X obj 22 87 outlet;
-#X text 139 46 \$1: parent \$0;
+#X obj 62 47 r \$1-from-gui;
+#X obj 62 87 outlet;
+#X text 179 46 \$1: parent \$0;
+#X obj 13 47 inlet;
 #X connect 0 0 1 0;
+#X connect 3 0 1 0;

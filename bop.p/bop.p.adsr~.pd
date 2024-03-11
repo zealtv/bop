@@ -1,4 +1,4 @@
-#N canvas 612 368 703 514 10;
+#N canvas 657 334 703 514 10;
 #X obj 71 39 inlet;
 #X obj 118 237 / 127;
 #X obj 118 258 sel 0;
@@ -11,15 +11,15 @@
 #X obj 118 412 pow~ 4;
 #X obj 137 68 bop.p.scale 0 1 1 1000;
 #X obj 287 63 bop.p.scale 0 1 1 3000;
-#X obj 547 70 bop.p.scale 0 1 1 3000;
+#X obj 547 60 bop.p.scale 0 1 1 3000;
 #X msg 137 92 attack \$1;
 #X msg 437 62 sustain \$1;
-#X msg 547 94 release \$1;
+#X msg 547 84 release \$1;
 #X msg 287 87 decay \$1;
-#X obj 137 38 r \$1-get-attack;
-#X obj 287 38 r \$1-get-decay;
-#X obj 437 38 r \$1-get-sustain;
-#X obj 547 38 r \$1-get-release;
+#X obj 137 38 inlet;
+#X obj 287 38 inlet;
+#X obj 437 38 inlet;
+#X obj 547 38 inlet;
 #X connect 0 0 8 0;
 #X connect 1 0 2 0;
 #X connect 2 0 4 0;
