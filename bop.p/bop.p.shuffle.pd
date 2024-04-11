@@ -1,4 +1,4 @@
-#N canvas 86 128 852 738 12;
+#N canvas 176 93 752 730 12;
 #X text 93 7 no repeat random;
 #X text 242 181 get random number;
 #X text 160 391 does it equal previous number?;
