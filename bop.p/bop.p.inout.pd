@@ -30,10 +30,11 @@
 #X obj 37 460 outlet;
 #X text 18 155 passthrough;
 #X text 627 408 dump;
+#X msg 80 365 stop;
 #X connect 0 0 7 0;
 #X connect 3 0 2 0;
 #X connect 4 0 3 0;
-#X connect 4 0 28 0;
+#X connect 4 0 31 0;
 #X connect 4 1 6 0;
 #X connect 4 2 11 0;
 #X connect 4 2 20 0;
@@ -58,3 +59,4 @@
 #X connect 23 0 24 0;
 #X connect 24 0 27 0;
 #X connect 25 0 6 0;
+#X connect 31 0 28 0;
