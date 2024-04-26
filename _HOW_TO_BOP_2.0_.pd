@@ -72,9 +72,9 @@
 #X msg 480 74 dump;
 #X text 916 922 < 4.) construct message;
 #X text 981 848 < 5.) messages pass thru;
-#X msg 71 137 dump;
-#X obj 204 203 print;
-#X obj 71 173 bop.module/sampler~;
+#X msg 71 127 dump;
+#X obj 204 193 print;
+#X obj 71 163 bop.module/sampler~;
 #X text 614 692 3.) receive params >;
 #X text 747 598 Module can be remote controlled by a gui version of the same module, f 23;
 #X obj 405 74 r to-gui;
