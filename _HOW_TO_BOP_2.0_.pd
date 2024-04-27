@@ -1,4 +1,4 @@
-#N canvas 348 62 886 842 12;
+#N canvas 623 70 886 842 12;
 #X declare -path ./bop;
 #X obj 624 108 declare -path ./bop;
 #X obj 601 611 bop.module/casio~;
@@ -25,7 +25,7 @@
 #X msg 741 149 wave-1 3 \, wave-2 3 \, filter 0.5 \, attack 0.3 \, decay 0.8 \, sustain 0.7 \, release 0.1 \, gain 0.9;
 #X text 624 78 hi there! you are great! :);
 #X obj 972 784 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
-#X msg 903 949 gain 0 \, release 0.2 \, sustain 0.7 \, decay 0.3 \, attack 0.1 \, enum wave-2 square \, wave-2 1 \, wave-1 1 \, filter 0.66 \, enum wave-1 square \, gain 0 \, release 0 \, sustain 0 \, decay 0 \, attack 0 \, enum wave-2 \, wave-2 0 \, wave-1 0 \, filter 0 \, enum wave-1 \, gain 0 \, release 0 \, sustain 0 \, decay 0 \, attack 0 \, enum wave-2 \, wave-2 0 \, wave-1 0 \, filter 0 \, enum wave-1 \, gain 0 \, release 0 \, sustain 0 \, decay 0 \, attack 0 \, enum wave-2 \, wave-2 0 \, wave-1 0 \, filter 0 \, enum wave-1 \, gain 0 \, release 0 \, sustain 0 \, decay 0 \, attack 0 \, enum wave-2 \, wave-2 0 \, wave-1 0 \, filter 0 \, enum wave-1 \, gain 0 \, release 0 \, sustain 0 \, decay 0 \, attack 0 \, enum wave-2 \, wave-2 0 \, wave-1 0 \, filter 0 \, enum wave-1 \, gain 0 \, release 0 \, sustain 0 \, decay 0 \, attack 0 \, enum wave-2 \, wave-2 0 \, wave-1 0 \, filter 0 \, enum wave-1 \, gain 0 \, release 0 \, sustain 0 \, decay 0 \, attack 0 \, enum wave-2 \, wave-2 0 \, wave-1 0 \, filter 0 \, enum wave-1 \, gain 0 \, release 0 \, sustain 0 \, decay 0 \, attack 0 \, enum wave-2 \, wave-2 0 \, wave-1 0 \, filter 0 \, enum wave-1 \, gain 0 \, release 0 \, sustain 0 \, decay 0 \, attack 0 \, enum wave-2 \, wave-2 0 \, wave-1 0 \, filter 0 \, enum wave-1 \, gain 0 \, release 0 \, sustain 0 \, decay 0 \, attack 0 \, enum wave-2 \, wave-2 0 \, wave-1 0 \, filter 0 \, enum wave-1 \, gain 0 \, release 0 \, sustain 0 \, decay 0 \, attack 0 \, enum wave-2 \, wave-2 0 \, wave-1 0 \, filter 0 \, enum wave-1 \, gain 0 \, release 0 \, sustain 0 \, decay 0 \, attack 0 \, enum wave-2 \, wave-2 0 \, wave-1 0 \, filter 0 \, enum wave-1 \, gain 0 \, release 0 \, sustain 0 \, decay 0 \, attack 0 \, enum wave-2 \, wave-2 0 \, wave-1 0 \, filter 0 \, enum wave-1 \, gain 0 \, release 0 \, sustain 0 \, decay 0 \, attack 0 \, enum wave-2 \, wave-2 0 \, wave-1 0 \, filter 0 \, enum wave-1 \, gain 0 \, release 0 \, sustain 0 \, decay 0 \, attack 0 \, enum wave-2 \, wave-2 0 \, wave-1 0 \, filter 0 \, enum wave-1 \, gain 0 \, release 0 \, sustain 0 \, decay 0 \, attack 0 \, enum wave-2 \, wave-2 0 \, wave-1 0 \, filter 0 \, enum wave-1 \,, f 38;
+#X msg 903 949 gain 0 \, release 0.2 \, sustain 0.7 \, decay 0.3 \, attack 0.1 \, enum wave-2 square \, wave-2 1 \, wave-1 1 \, filter 0.66 \, enum wave-1 square \, gain 0 \, release 0 \, sustain 0 \, decay 0 \, attack 0 \, enum wave-2 \, wave-2 0 \, wave-1 0 \, filter 0 \, enum wave-1 \, gain 0 \, release 0 \, sustain 0 \, decay 0 \, attack 0 \, enum wave-2 \, wave-2 0 \, wave-1 0 \, filter 0 \, enum wave-1 \, gain 0 \, release 0 \, sustain 0 \, decay 0 \, attack 0 \, enum wave-2 \, wave-2 0 \, wave-1 0 \, filter 0 \, enum wave-1 \, gain 0 \, release 0 \, sustain 0 \, decay 0 \, attack 0 \, enum wave-2 \, wave-2 0 \, wave-1 0 \, filter 0 \, enum wave-1 \, gain 0 \, release 0 \, sustain 0 \, decay 0 \, attack 0 \, enum wave-2 \, wave-2 0 \, wave-1 0 \, filter 0 \, enum wave-1 \, gain 0 \, release 0 \, sustain 0 \, decay 0 \, attack 0 \, enum wave-2 \, wave-2 0 \, wave-1 0 \, filter 0 \, enum wave-1 \, gain 0 \, release 0 \, sustain 0 \, decay 0 \, attack 0 \, enum wave-2 \, wave-2 0 \, wave-1 0 \, filter 0 \, enum wave-1 \, gain 0 \, release 0 \, sustain 0 \, decay 0 \, attack 0 \, enum wave-2 \, wave-2 0 \, wave-1 0 \, filter 0 \, enum wave-1 \, gain 0 \, release 0 \, sustain 0 \, decay 0 \, attack 0 \, enum wave-2 \, wave-2 0 \, wave-1 0 \, filter 0 \, enum wave-1 \, gain 0 \, release 0 \, sustain 0 \, decay 0 \, attack 0 \, enum wave-2 \, wave-2 0 \, wave-1 0 \, filter 0 \, enum wave-1 \, gain 0 \, release 0 \, sustain 0 \, decay 0 \, attack 0 \, enum wave-2 \, wave-2 0 \, wave-1 0 \, filter 0 \, enum wave-1 \, gain 0 \, release 0 \, sustain 0 \, decay 0 \, attack 0 \, enum wave-2 \, wave-2 0 \, wave-1 0 \, filter 0 \, enum wave-1 \, gain 0 \, release 0 \, sustain 0 \, decay 0 \, attack 0 \, enum wave-2 \, wave-2 0 \, wave-1 0 \, filter 0 \, enum wave-1 \, gain 0 \, release 0 \, sustain 0 \, decay 0 \, attack 0 \, enum wave-2 \, wave-2 0 \, wave-1 0 \, filter 0 \, enum wave-1 \, gain 0 \, release 0 \, sustain 0 \, decay 0 \, attack 0 \, enum wave-2 \, wave-2 0 \, wave-1 0 \, filter 0 \, enum wave-1 \, gain 0 \, release 0 \, sustain 0 \, decay 0 \, attack 0 \, enum wave-2 \, wave-2 0 \, wave-1 0 \, filter 0 \, enum wave-1 \, gain 0 \, release 0 \, sustain 0 \, decay 0 \, attack 0 \, enum wave-2 \, wave-2 0 \, wave-1 0 \, filter 0 \, enum wave-1 \, gain 0 \, release 0 \, sustain 0 \, decay 0 \, attack 0 \, enum wave-2 \, wave-2 0 \, wave-1 0 \, filter 0 \, enum wave-1 \, gain 0 \, release 0 \, sustain 0 \, decay 0 \, attack 0 \, enum wave-2 \, wave-2 0 \, wave-1 0 \, filter 0 \, enum wave-1 \, gain 0 \, release 0 \, sustain 0 \, decay 0 \, attack 0 \, enum wave-2 \, wave-2 0 \, wave-1 0 \, filter 0 \, enum wave-1 \, gain 0 \, release 0 \, sustain 0 \, decay 0 \, attack 0 \, enum wave-2 \, wave-2 0 \, wave-1 0 \, filter 0 \, enum wave-1 \, gain 0 \, release 0 \, sustain 0 \, decay 0 \, attack 0 \, enum wave-2 \, wave-2 0 \, wave-1 0 \, filter 0 \, enum wave-1 \, gain 0 \, release 0 \, sustain 0 \, decay 0 \, attack 0 \, enum wave-2 \, wave-2 0 \, wave-1 0 \, filter 0 \, enum wave-1 \, gain 0 \, release 0 \, sustain 0 \, decay 0 \, attack 0 \, enum wave-2 \, wave-2 0 \, wave-1 0 \, filter 0 \, enum wave-1 \,, f 38;
 #X msg 422 427 gain 0.9 \, release 0.1 \, sustain 0.507143 \, decay 0.535714 \, attack 0.3 \, enum wave-2 res-trapezoid \, wave-2 21 \, wave-1 2 \, filter 0.32857 \, enum wave-1 pulse \,, f 18;
 #N canvas 362 247 615 598 dump-and-construct 0;
 #X obj 152 367 list prepend add2;
@@ -72,9 +72,9 @@
 #X msg 480 74 dump;
 #X text 916 922 < 4.) construct message;
 #X text 981 848 < 5.) messages pass thru;
-#X msg 71 127 dump;
-#X obj 204 193 print;
-#X obj 71 163 bop.module/sampler~;
+#X msg 78 704 dump;
+#X obj 211 770 print;
+#X obj 78 740 bop.module/sampler~;
 #X text 614 692 3.) receive params >;
 #X text 747 598 Module can be remote controlled by a gui version of the same module, f 23;
 #X obj 405 74 r to-gui;
@@ -90,6 +90,13 @@
 #X obj 58 305 loadbang;
 #X text 127 294 loadbang and read loads after internal savestate mechanism, f 31;
 #X msg 58 335 read sequences/seq-help1.bopseq;
+#X obj 70 225 bop.module/streamsample~;
+#X msg 70 153 path ../sample-test;
+#X text 66 130 alternative path relative to /bop;
+#X msg 80 176 path samples;
+#X obj 239 259 print;
+#X msg 178 202 folder \$1;
+#X floatatom 220 174 5 0 0 0 - - - 0;
 #X connect 1 0 12 1;
 #X connect 1 1 19 0;
 #X connect 2 0 32 0;
@@ -122,3 +129,7 @@
 #X connect 39 0 38 0;
 #X connect 40 0 42 0;
 #X connect 42 0 33 0;
+#X connect 44 0 43 0;
+#X connect 46 0 43 0;
+#X connect 48 0 43 0;
+#X connect 49 0 48 0;
