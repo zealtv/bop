@@ -32,6 +32,8 @@
 #X obj 199 333 list trim;
 #X text 428 283 < everything else;
 #X text 244 288 loop messages;
+#X obj 197 364 r \$1-stop;
+#X text 268 364 stop from parent;
 #X connect 5 0 6 0;
 #X connect 6 0 26 0;
 #X connect 8 0 15 0;
@@ -53,4 +55,5 @@
 #X connect 28 3 25 0;
 #X connect 29 0 30 0;
 #X connect 30 0 12 0;
+#X connect 33 0 12 0;
 #X coords 0 759 1 758 146 20 0;
