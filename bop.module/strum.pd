@@ -1,4 +1,4 @@
-#N canvas 0 37 1470 891 12;
+#N canvas 0 37 735 891 12;
 #X declare -path ../bop.p;
 #X obj 359 64 bop.p.param \$0 noteslider;
 #X obj 39 91 inlet~, f 15;
@@ -177,9 +177,7 @@
 #X msg 566 112 chord 0;
 #X obj 566 136 s \$0-params;
 #X obj 359 94 bop.p.param \$0 chord;
-#X text 594 858 todo: doubling bottom note \, not playing top one?;
 #X obj 621 787 r \$0-numnotes;
-#X obj 598 923 print INDEX;
 #X connect 1 0 3 0;
 #X connect 1 1 4 0;
 #X connect 4 0 2 0;
@@ -235,7 +233,6 @@
 #X connect 61 0 62 0;
 #X connect 62 0 46 1;
 #X connect 63 0 39 1;
-#X connect 63 0 90 0;
 #X connect 64 0 63 1;
 #X connect 65 0 41 0;
 #X connect 67 0 17 0;
@@ -255,5 +252,5 @@
 #X connect 83 0 84 0;
 #X connect 84 0 85 0;
 #X connect 85 0 86 0;
-#X connect 89 0 63 2;
+#X connect 88 0 63 2;
 #X coords 0 891 1 890 166 240 0;

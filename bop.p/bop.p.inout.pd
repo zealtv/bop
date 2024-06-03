@@ -36,6 +36,8 @@
 #X obj 338 357 s \$1-params;
 #X obj 598 213 r \$1-params;
 #X text 53 9 recieves messages from parent patcher \, filters out midi messages \, coordinates dumping of parameters \, provides forwarding to [r \$0-get-paramname];
+#X text 560 491 THIS IS HANDLED BY BOP.P.PARAM;
+#X text 473 515 OTHER MESSAGES NEED TO BE ROUTED FROM [R \$0-PARAMS];
 #X connect 0 0 6 0;
 #X connect 2 0 28 0;
 #X connect 2 0 1 0;
@@ -53,7 +55,6 @@
 #X connect 9 1 8 0;
 #X connect 10 0 9 0;
 #X connect 11 0 12 0;
-#X connect 12 0 7 0;
 #X connect 13 0 14 0;
 #X connect 14 0 7 1;
 #X connect 16 1 22 0;

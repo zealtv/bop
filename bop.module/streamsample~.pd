@@ -1,4 +1,4 @@
-#N canvas 356 172 1084 690 12;
+#N canvas 59 225 1084 690 12;
 #X declare -path ../bop.p;
 #X obj 63 1225 outlet~;
 #X obj 62 92 inlet~, f 70;
@@ -61,7 +61,7 @@
 #X obj 540 738 f;
 #X obj 607 676 int;
 #X text 511 403 ---------- SAMPLE LOADING ------------;
-#N canvas 263 69 919 823 load-folders 1;
+#N canvas 263 69 919 823 load-folders 0;
 #X obj 52 78 inlet;
 #X obj 272 507 file glob;
 #X obj 274 420 pdcontrol;
@@ -185,8 +185,10 @@
 #X obj 541 802 %;
 #X obj 559 771 r \$0-num-folders;
 #X obj 743 440 r \$0-get-path;
-#X obj 908 200 r \$0-get-path;
 #X obj 743 468 t b a;
+#X obj 908 260 s \$0-get-path;
+#X obj 908 208 r \$0-params;
+#X obj 908 232 route path;
 #X connect 1 0 0 0;
 #X connect 1 1 20 0;
 #X connect 3 0 14 0;
@@ -243,6 +245,8 @@
 #X connect 59 0 40 0;
 #X connect 61 0 7 1;
 #X connect 62 0 61 1;
-#X connect 63 0 65 0;
-#X connect 65 0 17 0;
-#X connect 65 1 14 1;
+#X connect 63 0 64 0;
+#X connect 64 0 17 0;
+#X connect 64 1 14 1;
+#X connect 66 0 67 0;
+#X connect 67 0 65 0;
