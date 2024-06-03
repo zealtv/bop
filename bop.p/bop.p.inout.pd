@@ -1,4 +1,4 @@
-#N canvas 188 140 1073 655 12;
+#N canvas 84 85 1073 655 12;
 #X obj 107 117 inlet;
 #X obj 188 357 s \$1-stop;
 #X obj 188 243 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
@@ -27,9 +27,9 @@
 #X obj 37 612 outlet;
 #X text 18 197 passthrough;
 #X text 922 610 dump;
-#X msg 200 277 stop;
+#X msg 198 277 stop;
 #X obj 117 212 s \$0-out;
-#X obj 200 301 s \$0-out;
+#X obj 198 301 s \$0-out;
 #X obj 366 301 s \$0-out;
 #X obj 943 333 s \$0-out;
 #X obj 37 586 r \$0-out;
@@ -37,8 +37,8 @@
 #X obj 598 213 r \$1-params;
 #X text 53 9 recieves messages from parent patcher \, filters out midi messages \, coordinates dumping of parameters \, provides forwarding to [r \$0-get-paramname];
 #X connect 0 0 6 0;
-#X connect 2 0 1 0;
 #X connect 2 0 28 0;
+#X connect 2 0 1 0;
 #X connect 3 0 2 0;
 #X connect 3 1 5 0;
 #X connect 3 2 31 0;
