@@ -109,7 +109,6 @@
 #X obj 502 1523 dac~;
 #X obj 653 1527 print;
 #X text 1287 81 has bugs -----------------------------;
-#X text 1188 503 chord doesn't init;
 #X text 170 341 error on stop;
 #X obj 144 1471 bop.p/bop.p.onlist;
 #X listbox 144 1495 20 0 0 0 - - - 0;
@@ -146,7 +145,7 @@
 #X connect 41 0 44 0;
 #X connect 42 0 44 0;
 #X connect 44 1 103 0;
-#X connect 44 1 109 0;
+#X connect 44 1 108 0;
 #X connect 45 0 44 0;
 #X connect 46 0 44 0;
 #X connect 48 0 44 0;
@@ -174,7 +173,6 @@
 #X connect 78 1 79 0;
 #X connect 79 0 80 0;
 #X connect 79 0 80 1;
-#X connect 79 1 81 0;
 #X connect 82 0 78 0;
 #X connect 83 0 82 0;
 #X connect 84 0 78 0;
@@ -196,4 +194,4 @@
 #X connect 103 0 104 0;
 #X connect 103 0 104 1;
 #X connect 103 1 105 0;
-#X connect 109 0 110 0;
+#X connect 108 0 109 0;
