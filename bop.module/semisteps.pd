@@ -1,4 +1,4 @@
-#N canvas 0 37 1470 891 12;
+#N canvas 0 37 735 891 12;
 #X declare -path ../bop.p;
 #X obj 43 105 inlet~, f 34;
 #X obj 278 875 outlet;
