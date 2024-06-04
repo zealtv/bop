@@ -10,12 +10,9 @@ bop is a suite of music-making abstractions for the media programming environmen
 It is currently in pre-release and has the following features:
 
 🐦 vanilla compatibility  
-🐦 state-saving  
 🐦 global parameter messaging with built-in automation  
-🐦 powerful, esoteric musical notation  
-🐦 fun and easy scripting language  
-🐦 live coding capabilities  
-🐦 unix-porn styling  
+🐦 [esoteric musical notation](https://zeal.co/notebook/intermals/)
+🐦 scripting and sequencing
 
 ## Credits
 bop makes use of some of [these](https://github.com/MikeMorenoDSP/pd-mkmr) superb abstractions by [Mike Moreno](https://mikemorenodsp.github.io/).

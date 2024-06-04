@@ -1,4 +1,5 @@
 #N canvas 489 189 504 492 12;
+#X declare -path ../../bop.p;
 #N canvas 274 258 957 604 voice 0;
 #N canvas 334 322 499 244 saw 0;
 #X obj 12 163 +~;
@@ -974,6 +975,7 @@
 #X obj 327 273 snapshot~;
 #X floatatom 327 297 5 0 0 0 - - - 0;
 #X obj 431 253 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
+#X obj 104 29 declare -path ../../bop.p;
 #X connect 0 0 6 0;
 #X connect 0 0 16 0;
 #X connect 1 0 0 0;

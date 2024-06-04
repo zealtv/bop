@@ -1,4 +1,4 @@
-#N canvas 568 37 912 891 12;
+#N canvas 558 37 912 891 12;
 #X declare -path ./bop;
 #X obj 44 33 declare -path ./bop;
 #X text 2000 2307 hi there! you are great! :);

@@ -1,4 +1,5 @@
 #N canvas 3 106 967 768 12;
+#X declare -path ../../bop.p;
 #X obj 234 80 inlet~;
 #X text 300 80 FM;
 #X text 176 26 \$1 parent \$0 \; \$2 label;
@@ -459,6 +460,7 @@
 #X text 644 195 Band-limited oscillators from Mike Moreno;
 #X text 661 399 < Phase;
 #X obj 353 281 r~ \$1-get-\$2-pulsewidth;
+#X obj 316 26 declare -path ../../bop.p;
 #X connect 0 0 5 1;
 #X connect 3 0 9 0;
 #X connect 4 0 3 1;
