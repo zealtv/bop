@@ -39,9 +39,11 @@
 #X obj 47 289 sel 1;
 #X obj 47 313 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
 #X text 124 213 instantiate default if arg exists;
+#X obj 46 683 s~ \$1-get-\$2;
 #X connect 5 0 34 0;
 #X connect 6 0 25 0;
 #X connect 8 0 15 0;
+#X connect 8 0 40 0;
 #X connect 8 1 16 0;
 #X connect 8 1 18 1;
 #X connect 8 1 24 0;
