@@ -11,7 +11,7 @@ It is currently in pre-release and has the following features:
 
 🐦 vanilla compatibility  
 🐦 global parameter messaging with built-in automation  
-🐦 [esoteric musical notation](https://zeal.co/notebook/intermals/)
+🐦 [esoteric musical notation](https://zeal.co/notebook/intermals/)  
 🐦 scripting and sequencing
 
 ## Credits
