@@ -1,4 +1,4 @@
-#N canvas 0 37 1470 891 12;
+#N canvas 0 37 735 891 12;
 #X declare -path ../bop.p;
 #X obj 71 111 inlet~, f 10;
 #X obj 138 252 outlet;
@@ -42,6 +42,8 @@
 #X obj 907 271 list;
 #X obj 932 189 t l l;
 #X obj 908 328 list prepend instrumentname;
+#X obj 611 240 s \$0-get-instrumet;
+#X obj 622 208 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
 #X connect 0 0 3 0;
 #X connect 0 1 18 0;
 #X connect 5 0 9 0;
@@ -87,4 +89,5 @@
 #X connect 40 0 39 1;
 #X connect 40 1 36 0;
 #X connect 41 0 32 0;
+#X connect 43 0 42 0;
 #X coords 0 891 1 890 166 80 0;
