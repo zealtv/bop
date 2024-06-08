@@ -1,7 +1,7 @@
-#N canvas 59 225 1084 690 12;
+#N canvas 0 37 1470 891 12;
 #X declare -path ./bop.p;
 #X obj 63 1225 outlet~;
-#X obj 62 92 inlet~, f 70;
+#X obj 62 92 inlet~, f 11;
 #X obj 549 231 outlet;
 #X obj 659 558 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
 #X text 1552 1114 comment;
@@ -202,8 +202,8 @@
 #X restore 605 185 pd additional-output;
 #X obj 60 39 declare -path ./bop.p;
 #X obj 549 138 bop.p.inout \$0 bop.stream~;
+#X obj 549 104 inlet;
 #X connect 1 0 0 0;
-#X connect 1 1 65 0;
 #X connect 3 0 14 0;
 #X connect 5 0 11 0;
 #X connect 6 0 18 0;
@@ -261,3 +261,4 @@
 #X connect 61 0 59 0;
 #X connect 63 0 2 0;
 #X connect 65 0 2 0;
+#X connect 66 0 65 0;

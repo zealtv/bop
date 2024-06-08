@@ -1,11 +1,11 @@
-#N canvas 0 37 735 891 12;
+#N canvas 0 37 1470 891 12;
 #X declare -path ./bop.p;
 #X obj 1016 167 bop.p.param \$0 fm;
-#X obj 82 113 inlet~, f 34;
-#X obj 316 360 outlet;
+#X obj 82 113 inlet~, f 20;
+#X obj 1289 333 outlet;
 #X obj 82 1362 outlet~;
-#X text 95 140 signal2 is FM;
-#X text 66 81 midi and messages in;
+#X text 461 65 signal2 is FM;
+#X text 1263 41 midi and messages in;
 #X obj 82 1330 +~;
 #X obj 1016 327 bop.p.param \$0 lfo-speed 0.25;
 #X obj 1016 347 bop.p.param \$0 lfo-depth 0;
@@ -68,9 +68,9 @@
 #X obj 1013 510 bop.p.param \$0 sustain 0.7;
 #X obj 1022 552 bop.p.param \$0 release 0.2;
 #X obj 175 41 declare -path ./bop.p;
-#X obj 317 152 bop.p.inout \$0 bop.fm~;
+#X obj 1290 125 bop.p.inout \$0 bop.fm~;
+#X obj 1357 63 inlet;
 #X connect 1 0 6 0;
-#X connect 1 1 68 0;
 #X connect 6 0 3 0;
 #X connect 10 0 24 0;
 #X connect 11 0 34 0;
@@ -122,4 +122,5 @@
 #X connect 61 0 62 2;
 #X connect 62 0 53 1;
 #X connect 68 0 2 0;
+#X connect 69 0 68 0;
 #X coords 0 891 1 890 166 340 0;

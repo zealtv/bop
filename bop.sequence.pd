@@ -1,6 +1,6 @@
 #N canvas 289 37 993 891 12;
 #X declare -path ./bop.p;
-#X obj 46 132 inlet~, f 25;
+#X obj 46 132 inlet~, f 9;
 #X obj 218 242 outlet;
 #X text 218 269 MIDI and messages dump out of right, f 13;
 #X obj 46 192 outlet~;
@@ -147,8 +147,8 @@
 #X obj 585 50 bop.p.param.msg \$0 go;
 #X obj 43 57 declare -path ./bop.p;
 #X obj 218 176 bop.p.inout \$0 bop.sequence;
+#X obj 218 146 inlet;
 #X connect 0 0 3 0;
-#X connect 0 1 53 0;
 #X connect 12 0 1 0;
 #X connect 13 0 14 0;
 #X connect 14 0 36 0;
@@ -176,4 +176,5 @@
 #X connect 41 0 42 0;
 #X connect 41 0 40 0;
 #X connect 53 0 1 0;
+#X connect 54 0 53 0;
 #X coords 0 891 1 890 166 100 0;
