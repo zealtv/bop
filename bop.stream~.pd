@@ -100,7 +100,7 @@
 #X obj 582 176 inlet;
 #X text 627 176 custom path;
 #X obj 582 214 symbol;
-#X obj 273 464 makefilename %s/samples/*/;
+#X obj 275 467 makefilename %s/samples/*/;
 #X msg 582 409 set %s/\$1/*/;
 #X connect 0 0 10 0;
 #X connect 1 0 5 0;
@@ -181,9 +181,6 @@
 #X obj 559 771 r \$0-num-folders;
 #X obj 743 440 r \$0-get-path;
 #X obj 743 468 t b a;
-#X obj 908 260 s \$0-get-path;
-#X obj 908 208 r \$0-params;
-#X obj 908 232 route path;
 #X obj 591 873 s \$0-active-path;
 #N canvas 1008 337 450 300 additional-output 0;
 #X obj 131 224 outlet;
@@ -203,13 +200,14 @@
 #X obj 60 39 declare -path ./bop.p;
 #X obj 549 138 bop.p.inout \$0 bop.stream~;
 #X obj 549 104 inlet;
+#X obj 906 181 bop.p.param.attr \$0 path samples;
 #X connect 1 0 0 0;
 #X connect 3 0 14 0;
 #X connect 5 0 11 0;
 #X connect 6 0 18 0;
 #X connect 7 0 27 0;
 #X connect 7 1 8 0;
-#X connect 7 2 62 0;
+#X connect 7 2 59 0;
 #X connect 9 0 11 0;
 #X connect 9 1 10 0;
 #X connect 9 2 3 0;
@@ -257,8 +255,6 @@
 #X connect 57 0 58 0;
 #X connect 58 0 17 0;
 #X connect 58 1 14 1;
-#X connect 60 0 61 0;
-#X connect 61 0 59 0;
-#X connect 63 0 2 0;
-#X connect 65 0 2 0;
-#X connect 66 0 65 0;
+#X connect 60 0 2 0;
+#X connect 62 0 2 0;
+#X connect 63 0 62 0;
