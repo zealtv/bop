@@ -36,8 +36,8 @@
 #X obj 474 119 r~ \$1-get-osc2-tune;
 #X obj 98 100 r~ \$1-get-osc1-tune;
 #X obj 70 22 declare -path ../../bop.p;
-#X obj 434 346 synth~.multiosc \$1 osc2;
-#X obj 59 311 synth~.multiosc \$1 osc1;
+#X obj 59 311 multiosc \$1 osc1;
+#X obj 434 346 multiosc \$1 osc2;
 #X connect 1 0 2 0;
 #X connect 2 0 20 0;
 #X connect 2 0 25 0;
@@ -60,13 +60,13 @@
 #X connect 18 0 0 0;
 #X connect 19 0 21 0;
 #X connect 20 0 22 0;
-#X connect 21 0 37 0;
+#X connect 21 0 36 0;
 #X connect 22 0 19 0;
 #X connect 23 0 19 1;
 #X connect 23 0 19 2;
 #X connect 24 0 26 0;
 #X connect 25 0 27 0;
-#X connect 26 0 36 0;
+#X connect 26 0 37 0;
 #X connect 27 0 24 0;
 #X connect 28 0 24 1;
 #X connect 28 0 24 2;
@@ -76,5 +76,5 @@
 #X connect 32 0 3 4;
 #X connect 33 0 27 1;
 #X connect 34 0 22 1;
-#X connect 36 0 7 1;
-#X connect 37 0 7 0;
+#X connect 36 0 7 0;
+#X connect 37 0 7 1;
