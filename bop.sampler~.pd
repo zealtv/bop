@@ -212,6 +212,8 @@
 #X obj 124 265 clone sub/sampler~/voice 4 \$0, f 33;
 #X obj 1155 621 clone sub/sampler~/loader 16 \$0;
 #X obj 549 85 inlet;
+#X obj 164 427 r \$0-get-stop;
+#X msg 164 451 flush;
 #X connect 1 0 0 0;
 #X connect 3 0 29 0;
 #X connect 5 0 24 0;
@@ -286,3 +288,5 @@
 #X connect 99 0 2 0;
 #X connect 101 0 31 0;
 #X connect 103 0 99 0;
+#X connect 104 0 105 0;
+#X connect 105 0 55 0;

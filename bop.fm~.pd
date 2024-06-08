@@ -70,6 +70,8 @@
 #X obj 175 41 declare -path ./bop.p;
 #X obj 1290 125 bop.p.inout \$0 bop.fm~;
 #X obj 1357 63 inlet;
+#X obj 248 253 r \$0-get-stop;
+#X msg 248 277 0;
 #X connect 1 0 6 0;
 #X connect 6 0 3 0;
 #X connect 10 0 24 0;
@@ -123,4 +125,6 @@
 #X connect 62 0 53 1;
 #X connect 68 0 2 0;
 #X connect 69 0 68 0;
+#X connect 70 0 71 0;
+#X connect 71 0 35 0;
 #X coords 0 891 1 890 166 340 0;
