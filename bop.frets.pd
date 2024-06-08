@@ -67,7 +67,10 @@
 #X obj 315 275 inlet;
 #X obj 556 1238 r \$0-get-stop;
 #X obj 814 1244 r \$0-get-stop;
+#X obj 123 274 s \$0-in;
+#X obj 291 251 r \$0-in;
 #X connect 0 0 2 0;
+#X connect 0 1 67 0;
 #X connect 9 0 10 0;
 #X connect 10 0 13 0;
 #X connect 10 1 58 0;
@@ -131,4 +134,5 @@
 #X connect 64 0 63 0;
 #X connect 65 0 56 0;
 #X connect 66 0 43 0;
+#X connect 68 0 63 0;
 #X coords 0 891 1 890 166 180 0;

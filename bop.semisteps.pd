@@ -46,7 +46,10 @@
 #X obj 278 199 bop.p.inout \$0 bop.semisteps;
 #X obj 282 140 inlet;
 #X obj 618 609 r \$0-get-stop;
+#X obj 123 154 s \$0-in;
+#X obj 206 157 r \$0-in;
 #X connect 0 0 3 0;
+#X connect 0 1 46 0;
 #X connect 7 0 14 0;
 #X connect 8 0 13 0;
 #X connect 8 1 13 1;
@@ -83,4 +86,5 @@
 #X connect 43 0 1 0;
 #X connect 44 0 43 0;
 #X connect 45 0 17 0;
+#X connect 47 0 43 0;
 #X coords 0 891 1 890 166 150 0;

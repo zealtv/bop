@@ -182,7 +182,10 @@
 #X obj 1009 75 bop.p.param \$0 strum;
 #X obj 140 96 inlet;
 #X obj 261 904 r \$0-get-stop;
+#X obj 71 145 s \$0-in;
+#X obj 191 98 r \$0-in;
 #X connect 0 0 2 0;
+#X connect 0 1 93 0;
 #X connect 9 0 26 0;
 #X connect 10 0 15 0;
 #X connect 11 0 10 0;
@@ -260,4 +263,5 @@
 #X connect 89 0 48 0;
 #X connect 91 0 88 0;
 #X connect 92 0 63 0;
+#X connect 94 0 88 0;
 #X coords 0 712 1 711 166 240 0;

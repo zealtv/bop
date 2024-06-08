@@ -30,7 +30,10 @@
 #X obj 620 -65 bop.p.inout \$0 bop.casio~;
 #X obj 619 -100 inlet;
 #X obj 66 -33 r \$0-get-stop;
+#X obj 123 -76 s \$0-in;
+#X obj 671 -99 r \$0-in;
 #X connect 0 0 11 0;
+#X connect 0 1 30 0;
 #X connect 4 0 5 0;
 #X connect 5 0 23 0;
 #X connect 5 1 24 0;
@@ -57,4 +60,5 @@
 #X connect 27 0 1 0;
 #X connect 28 0 27 0;
 #X connect 29 0 9 0;
+#X connect 31 0 27 0;
 #X coords 0 650 1 649 166 280 0;

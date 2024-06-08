@@ -31,7 +31,10 @@
 #X obj 284 691 sub/reverb~/reverb~ \$0;
 #X obj 299 186 bop.p.inout \$0 bop.reverb~;
 #X obj 370 118 inlet;
+#X obj 160 181 s \$0-in;
+#X obj 299 118 r \$0-in;
 #X connect 0 0 6 0;
+#X connect 0 1 31 0;
 #X connect 5 0 3 0;
 #X connect 7 0 8 0;
 #X connect 8 0 5 0;
@@ -53,4 +56,5 @@
 #X connect 28 3 5 1;
 #X connect 29 0 1 0;
 #X connect 30 0 29 0;
+#X connect 32 0 29 0;
 #X coords 0 891 1 890 166 230 0;

@@ -41,7 +41,10 @@
 #X obj 599 192 bop.p.inout \$0 bop.delay~;
 #X obj 600 155 inlet;
 #X obj 96 850 r \$0-get-stop;
+#X obj 173 194 s \$0-in;
+#X obj 654 157 r \$0-in;
 #X connect 0 0 16 0;
+#X connect 0 1 41 0;
 #X connect 7 0 26 0;
 #X connect 8 0 24 0;
 #X connect 9 0 20 0;
@@ -71,4 +74,5 @@
 #X connect 38 0 1 0;
 #X connect 39 0 38 0;
 #X connect 40 0 35 0;
+#X connect 42 0 38 0;
 #X coords 0 707 1 706 166 230 0;

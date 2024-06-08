@@ -73,7 +73,10 @@
 #X obj 248 253 r \$0-get-stop;
 #X msg 248 277 0;
 #X obj 504 1194 pow~ 4;
+#X obj 203 154 s \$0-in;
+#X obj 1286 65 r \$0-in;
 #X connect 1 0 6 0;
+#X connect 1 1 73 0;
 #X connect 6 0 3 0;
 #X connect 10 0 24 0;
 #X connect 11 0 34 0;
@@ -129,4 +132,5 @@
 #X connect 70 0 71 0;
 #X connect 71 0 35 0;
 #X connect 72 0 30 1;
+#X connect 74 0 68 0;
 #X coords 0 891 1 890 166 340 0;
