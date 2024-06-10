@@ -9,9 +9,9 @@
 #X obj 118 462 outlet~;
 #X obj 71 200 route release float attack decay sustain;
 #X obj 118 412 pow~ 4;
-#X obj 137 68 bop.p.scale 0 1 1 1000;
-#X obj 287 63 bop.p.scale 0 1 1 3000;
-#X obj 547 60 bop.p.scale 0 1 1 3000;
+#X obj 137 68 babs.scale 0 1 1 1000;
+#X obj 287 63 babs.scale 0 1 1 3000;
+#X obj 547 60 babs.scale 0 1 1 3000;
 #X msg 137 92 attack \$1;
 #X msg 437 62 sustain \$1;
 #X msg 547 84 release \$1;

@@ -1,5 +1,5 @@
 #N canvas 489 189 504 492 12;
-#X declare -path ../../bop.p;
+#X declare -path ../../babs;
 #N canvas 274 258 957 604 voice 0;
 #N canvas 334 322 499 244 saw 0;
 #X obj 12 163 +~;
@@ -961,7 +961,7 @@
 #X obj 22 442 outlet~;
 #X obj 22 32 inlet;
 #X obj 22 60 unpack, f 40;
-#X obj 299 230 bop.p.adsr~ \$1;
+#X obj 299 230 babs.adsr~ \$1;
 #X obj 22 390 *~, f 40;
 #X obj 22 414 *~ 0.25;
 #X obj 322 123 r \$1-get-attack;
@@ -975,7 +975,7 @@
 #X obj 327 273 snapshot~;
 #X floatatom 327 297 5 0 0 0 - - - 0;
 #X obj 431 253 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
-#X obj 104 29 declare -path ../../bop.p;
+#X obj 104 29 declare -path ../../babs;
 #X connect 0 0 6 0;
 #X connect 0 0 16 0;
 #X connect 1 0 0 0;

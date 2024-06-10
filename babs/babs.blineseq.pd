@@ -74,7 +74,7 @@
 #X obj 79 1667 text sequence \$0-blineseq -w wait;
 #N canvas 476 231 686 604 parse-for-text 0;
 #X obj 218 2 inlet;
-#N canvas 1020 457 450 300 bop.p.iter 0;
+#N canvas 1020 457 450 300 babs.iter 0;
 #X obj 110 109 until;
 #X obj 123 192 list store;
 #X obj 144 76 t b b l;
@@ -96,9 +96,9 @@
 #X connect 5 0 3 1;
 #X connect 6 0 1 0;
 #X connect 7 0 2 0;
-#X restore 218 117 pd bop.p.iter;
+#X restore 218 117 pd babs.iter;
 #X obj 218 70 t l b, f 16;
-#N canvas 1020 486 450 300 bop.p.counter 0;
+#N canvas 1020 486 450 300 babs.counter 0;
 #X obj 101 53 inlet;
 #X obj 101 91 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
 #X obj 174 54 inlet;
@@ -112,7 +112,7 @@
 #X connect 3 0 4 0;
 #X connect 3 0 6 0;
 #X connect 4 0 3 1;
-#X restore 218 212 pd bop.p.counter;
+#X restore 218 212 pd babs.counter;
 #X msg 327 185 0;
 #X obj 218 250 % 2;
 #X obj 218 283 pack, f 24;

@@ -1,5 +1,5 @@
 #N canvas 419 37 876 891 12;
-#X declare -path ./bop.p;
+#X declare -path ./babs;
 #X obj 46 132 inlet~, f 9;
 #X obj 218 242 outlet;
 #X text 218 269 MIDI and messages dump out of right, f 13;
@@ -7,7 +7,7 @@
 #X text 36 220 Signal out of left, f 9;
 #X text 43 100 Signal \, MIDI \, and messages in left, f 36;
 #X text 37 20 ---------- bop module template -------------;
-#X obj 595 100 bop.p.param \$0 loop;
+#X obj 595 100 babs.param \$0 loop;
 #X obj 244 209 r \$0-out;
 #X obj 494 1083 r \$0-get-open;
 #X msg 494 1112 click;
@@ -132,13 +132,13 @@
 #X text 75 795 SAVING WITH PARENT;
 #X text 645 313 === \; // todo: never return above here (brick wall header);
 #X text 560 263 multiple dashes work like comments \; single dashes indicate rest \;;
-#X obj 596 121 bop.p.param.msg \$0 open;
-#X obj 596 143 bop.p.param.msg \$0 go;
-#X obj 43 57 declare -path ./bop.p;
-#X obj 218 176 bop.p.inout \$0 bop.sequence;
+#X obj 596 121 babs.param.msg \$0 open;
+#X obj 596 143 babs.param.msg \$0 go;
+#X obj 43 57 declare -path ./babs;
+#X obj 218 176 babs.inout \$0 bop.sequence;
 #X obj 218 146 inlet;
 #X obj 482 858 r \$0-get-read;
-#X obj 596 165 bop.p.param.attr \$0 read;
+#X obj 596 165 babs.param.attr \$0 read;
 #X obj 480 905 list prepend read;
 #X msg 516 978 read sequences/seq-help1.bopseq;
 #X text 606 997 read file into text relative to ./ (ie bop/);

@@ -1,5 +1,5 @@
 #N canvas 0 37 806 891 12;
-#X declare -path ../../bop.p;
+#X declare -path ../../babs;
 #X obj 104 172 inlet;
 #X msg 136 337 read -resize \$1 \$2-sample-array-\$3;
 #X obj 104 253 pack s \$2 \$1;
@@ -24,7 +24,7 @@
 #X obj 104 774 list prepend \$2-sample-array-\$1, f 19;
 #X text 929 926 comment;
 #X text 272 818 array name \, size (samples) \, sample rate \, duration (seconds);
-#X obj 465 30 declare -path ../../bop.p;
+#X obj 465 30 declare -path ../../babs;
 #X connect 0 0 5 0;
 #X connect 1 0 3 0;
 #X connect 2 0 7 0;

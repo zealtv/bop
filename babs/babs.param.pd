@@ -7,11 +7,11 @@
 #X obj 47 153 loadbang;
 #X obj 48 343 f \$3;
 #X text 391 126 \$3: default;
-#X obj 24 624 bop.p.bline~, f 20;
+#X obj 24 624 babs.bline~, f 20;
 #X obj 24 84 r \$1-params;
 #X obj 24 118 route \$2;
 #X text 83 929 a signal receive can be used for smoother control;
-#X obj 24 569 bop.p.blineseq;
+#X obj 24 569 babs.blineseq;
 #X text 131 575 handles looping;
 #X text 178 616 adds ease-in-out (see help), f 20;
 #X obj 22 931 outlet~;

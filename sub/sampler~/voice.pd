@@ -1,5 +1,5 @@
 #N canvas 1 37 1470 891 12;
-#X declare -path ../../bop.p;
+#X declare -path ../../babs;
 #X obj 60 36 inlet;
 #X text 196 24 args \; \$1 voice number \; \$2 parent \$0 \;;
 #X obj 839 1360 tabread4~ \$2-sample-array-\$1;
@@ -94,7 +94,7 @@
 #X obj 535 1897 r \$0-note-on;
 #X msg 535 1921 stop;
 #X text 145 1375 stop sample when not looping, f 14;
-#X obj 351 37 declare -path ../../bop.p;
+#X obj 351 37 declare -path ../../babs;
 #X connect 0 0 3 0;
 #X connect 2 0 40 1;
 #X connect 4 0 5 0;

@@ -15,7 +15,7 @@
 #X msg 201 775 line 0 \, auto;
 #X obj 40 635 text size \$0-note-ons;
 #X obj 40 670 > 0;
-#X obj 84 871 bop.p.accum, f 34;
+#X obj 84 871 babs.accum, f 34;
 #X obj 84 732 t b b b, f 34;
 #X obj 40 697 sel 0 1, f 13;
 #X msg 40 895 -1;
