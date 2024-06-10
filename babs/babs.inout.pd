@@ -16,12 +16,13 @@
 #X obj 588 335 list prepend \$2;
 #X obj 589 397 s \$0-out;
 #X obj 535 47 babs.param.msg \$1 dump;
-#X obj 535 69 babs.param.msg \$1 stop;
+#X obj 535 76 babs.param.msg \$1 stop;
 #X obj 223 219 route dump;
 #X obj 521 209 r \$1-get-dump;
 #X text 220 188 capture dump messages;
 #X text 196 280 Forward all incoming params, f 10;
 #X text 18 197 passthrough midi, f 12;
+#X obj 535 105 babs.param.msg \$1 reset;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
 #X connect 1 0 8 0;

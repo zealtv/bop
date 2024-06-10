@@ -193,6 +193,9 @@
 #X msg 295 1078 osc2-wave 3 \, osc1-wave 3 \, osc2-puslewidth loop 0.1 1234 0.9 1234 \, osc2-gain 1 \, osc2-tune 0 \, osc1-puslewidth loop 0.1 1000 0.9 1000 \, osc1-gain 1 \, osc1-tune -12.03 \, release 0 \, sustain 0 \, decay 1.1 \, attack 0.01 \, mono 0 \, noise 0.7 \, gain 1 \, q 0.5 \, slide 0.4 \, cutoff loop 1000 3000 10000 5000, f 30;
 #X obj 322 4420 babs/babs.onlist;
 #X obj 306 4994 babs/babs.onlist;
+#X msg 221 306 reset;
+#X msg 90 486 reset;
+#X msg 266 665 reset;
 #X connect 1 0 114 1;
 #X connect 3 0 117 1;
 #X connect 4 0 117 1;
@@ -357,3 +360,6 @@
 #X connect 188 0 111 1;
 #X connect 189 0 162 0;
 #X connect 190 0 166 0;
+#X connect 191 0 106 1;
+#X connect 192 0 107 0;
+#X connect 193 0 107 1;

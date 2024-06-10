@@ -41,6 +41,7 @@
 #X obj 211 513 r \$1-get-stop;
 #X obj 66 720 r \$1-get-dump;
 #X obj 66 865 s \$1-get-dump;
+#X obj 133 155 r \$1-get-reset;
 #X connect 5 0 29 0;
 #X connect 6 0 36 0;
 #X connect 8 0 15 0;
@@ -71,4 +72,5 @@
 #X connect 38 0 19 0;
 #X connect 39 0 27 0;
 #X connect 40 0 17 0;
+#X connect 42 0 29 0;
 #X coords 0 787 1 786 146 20 0;

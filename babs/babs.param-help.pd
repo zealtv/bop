@@ -1,4 +1,4 @@
-#N canvas 87 37 1406 891 12;
+#N canvas 64 37 1406 891 12;
 #X declare -path ./babs;
 #X text 269 61 \$1: parent \$0;
 #X text 268 80 \$2: label;
@@ -91,6 +91,8 @@
 #X text 449 122 Signal \, MIDI \, and messages in left inlet;
 #X text 443 366 Signal out of left outlet, f 11;
 #X text 688 355 MIDI and messages out of right outlet, f 12;
+#X text 976 576 reset param and attr to default values;
+#X msg 894 574 reset;
 #X connect 3 0 28 0;
 #X connect 4 0 67 0;
 #X connect 5 0 3 0;

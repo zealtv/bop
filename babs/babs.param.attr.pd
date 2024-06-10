@@ -44,6 +44,7 @@
 #X obj 23 122 list;
 #X obj 202 152 r \$1-get-dump;
 #X obj 202 367 s \$1-get-dump;
+#X obj 492 233 r \$1-get-reset;
 #X connect 5 0 13 0;
 #X connect 6 0 7 0;
 #X connect 7 0 42 0;
@@ -77,4 +78,5 @@
 #X connect 38 0 39 0;
 #X connect 42 0 20 0;
 #X connect 43 0 9 0;
+#X connect 45 0 13 0;
 #X coords 0 891 1 890 146 20 0;
