@@ -18,7 +18,7 @@
 #X obj 610 512 r \$0-get-root;
 #X obj 495 288 t f b, f 25;
 #X msg 618 633 stop;
-#X obj 496 229 r \$0-get-semisteps;
+#X obj 497 122 r \$0-get-semisteps;
 #X obj 576 361 r \$0-get-hold;
 #X obj 495 394 list prepend;
 #X obj 495 428 route 1 0, f 28;
@@ -48,8 +48,14 @@
 #X obj 618 609 r \$0-get-stop;
 #X obj 123 154 s \$0-in;
 #X obj 206 157 r \$0-in;
-#X obj 582 151 savestate;
-#X obj 582 124 babs.savestate \$0;
+#X obj 241 64 savestate;
+#X obj 241 37 babs.savestate \$0;
+#X obj 577 146 loadbang;
+#X obj 577 170 delay 10;
+#X msg 577 194 1;
+#X msg 610 197 0;
+#X text 647 176 prevent output on load;
+#X obj 495 226 babs.gate 0;
 #X connect 0 0 3 0;
 #X connect 0 1 46 0;
 #X connect 7 0 14 0;
@@ -65,7 +71,7 @@
 #X connect 16 0 37 0;
 #X connect 16 1 38 0;
 #X connect 17 0 8 0;
-#X connect 18 0 16 0;
+#X connect 18 0 55 0;
 #X connect 19 0 20 1;
 #X connect 20 0 21 0;
 #X connect 21 0 22 0;
@@ -92,4 +98,9 @@
 #X connect 48 0 49 1;
 #X connect 48 1 49 0;
 #X connect 49 0 48 0;
+#X connect 50 0 51 0;
+#X connect 51 0 52 0;
+#X connect 52 0 55 1;
+#X connect 53 0 55 1;
+#X connect 55 0 16 0;
 #X coords 0 891 1 890 166 150 0;

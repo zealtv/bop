@@ -78,11 +78,11 @@
 #X obj 775 58 delay 10;
 #X msg 775 82 1;
 #X msg 808 85 0;
-#X obj 693 114 babs.switch4 0;
 #X text 845 64 prevent output on load;
+#X obj 693 114 babs.gate 0;
 #X connect 0 0 2 0;
 #X connect 0 1 67 0;
-#X connect 9 0 78 0;
+#X connect 9 0 79 0;
 #X connect 10 0 13 0;
 #X connect 10 1 58 0;
 #X connect 11 0 12 0;
@@ -152,7 +152,7 @@
 #X connect 73 0 1 0;
 #X connect 74 0 75 0;
 #X connect 75 0 76 0;
-#X connect 76 0 78 1;
-#X connect 77 0 78 1;
-#X connect 78 0 10 0;
+#X connect 76 0 79 1;
+#X connect 77 0 79 1;
+#X connect 79 0 10 0;
 #X coords 0 891 1 890 166 180 0;

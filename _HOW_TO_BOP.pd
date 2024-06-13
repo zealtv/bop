@@ -1,4 +1,4 @@
-#N canvas 594 37 848 891 12;
+#N canvas 180 99 1214 761 12;
 #X text 875 5139 hi there! you are great! :);
 #X msg 986 165 dump;
 #X obj 999 245 print;
@@ -241,7 +241,7 @@
 #X msg 426 4148 velocity 0.5;
 #X listbox 306 5018 20 0 0 0 - - - 0;
 #X obj 117 4372 bop.frets;
-#A saved frets -12.224;
+#A saved frets 0.221;
 #A saved hold 0;
 #A saved root 42;
 #A saved tuning 0.55545;
@@ -250,7 +250,7 @@
 #X obj 124 4460 bop.instrument~;
 #A saved instrument 3;
 #X obj 110 4913 bop.semisteps;
-#A saved semisteps 0.779;
+#A saved semisteps 7.43;
 #A saved hold 0;
 #A saved root 50;
 #A saved duration 1;
@@ -279,6 +279,20 @@
 #X msg 266 665 reset;
 #X msg 177 161 gain 0.9 \, release 0.1 \, sustain 0.507143 \, decay 0.535714 \, attack 0.3 \, wave-2 1 \, wave-1 5, f 36;
 #X text 336 2909 < reference file;
+#X obj 1002 428 bop.gui;
+#X obj 868 639 dac~;
+#X msg 905 504 64 127;
+#X obj 868 550 bop.casio~, f 13;
+#A saved wave-2 0;
+#A saved wave-1 0;
+#A saved gain 1;
+#A saved release 0.2;
+#A saved sustain 0.7;
+#A saved decay 0.3;
+#A saved attack 0.1;
+#A saved filter 0.66;
+#X text 897 154 SAMPLER~;
+#X text 931 435 GUI;
 #X connect 1 0 108 1;
 #X connect 3 0 111 1;
 #X connect 4 0 111 1;
@@ -434,3 +448,8 @@
 #X connect 179 0 101 0;
 #X connect 180 0 101 1;
 #X connect 181 0 100 1;
+#X connect 183 0 186 1;
+#X connect 185 0 186 1;
+#X connect 186 0 184 0;
+#X connect 186 0 184 1;
+#X connect 186 1 183 0;
