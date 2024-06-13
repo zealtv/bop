@@ -10,7 +10,7 @@ bop is a suite of music-making abstractions for the media programming environmen
 It is currently in pre-release and has the following features:
 
 🐦 vanilla compatibility  
-🐦 global parameter messaging with built-in automation
+🐦 global parameter messaging with built-in automation  
 🐦 parameter state saved with parent patch
 🐦 [esoteric musical notation](https://zeal.co/notebook/intermals/)  
 🐦 scripting and sequencing
