@@ -145,6 +145,8 @@
 #X obj 72 403 r \$0-get-stop;
 #X obj 108 157 s \$0-in;
 #X obj 263 144 r \$0-in;
+#X obj 365 110 savestate;
+#X obj 365 83 babs.savestate \$0;
 #X connect 0 0 3 0;
 #X connect 0 1 50 0;
 #X connect 8 0 1 0;
@@ -175,4 +177,7 @@
 #X connect 49 0 12 0;
 #X connect 49 0 30 0;
 #X connect 51 0 42 0;
+#X connect 52 0 53 1;
+#X connect 52 1 53 0;
+#X connect 53 0 52 0;
 #X coords 0 891 1 890 166 100 0;

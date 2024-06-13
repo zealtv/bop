@@ -39,6 +39,8 @@
 #X obj 370 185 r \$0-in;
 #X obj 515 36 babs.param.enum \$0 osc1-wave sine triangle saw pulse;
 #X obj 904 37 babs.param.enum \$0 osc2-wave sine triangle saw pulse;
+#X obj 250 93 savestate;
+#X obj 250 66 babs.savestate \$0;
 #X connect 0 0 13 0;
 #X connect 0 1 35 0;
 #X connect 9 0 29 0;
@@ -58,4 +60,7 @@
 #X connect 33 0 1 0;
 #X connect 34 0 33 0;
 #X connect 36 0 33 0;
+#X connect 39 0 40 1;
+#X connect 39 1 40 0;
+#X connect 40 0 39 0;
 #X coords 0 891 1 890 322 280 0;

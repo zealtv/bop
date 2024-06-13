@@ -33,6 +33,9 @@
 #X obj 137 145 s \$0-in;
 #X obj 183 196 r \$0-in;
 #X obj 885 127 babs.param.enum \$0 instrument harp glok marimba rhodes;
+#X obj 540 109 savestate;
+#X obj 540 82 babs.savestate \$0;
+#X text 433 135 force to 2 element list?;
 #X connect 0 0 3 0;
 #X connect 0 1 30 0;
 #X connect 4 0 8 0;
@@ -65,4 +68,7 @@
 #X connect 28 0 27 0;
 #X connect 29 0 13 0;
 #X connect 31 0 27 0;
+#X connect 33 0 34 1;
+#X connect 33 1 34 0;
+#X connect 34 0 33 0;
 #X coords 0 891 1 890 166 80 0;

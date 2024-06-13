@@ -179,6 +179,8 @@
 #X obj 1157 200 babs.param.enum \$0 chord;
 #X obj 949 976 s \$0-chordlist;
 #X obj 1155 168 r \$0-chordlist;
+#X obj 582 151 savestate;
+#X obj 582 124 babs.savestate \$0;
 #X connect 0 0 2 0;
 #X connect 0 1 85 0;
 #X connect 9 0 26 0;
@@ -252,4 +254,7 @@
 #X connect 84 0 63 0;
 #X connect 86 0 80 0;
 #X connect 89 0 87 0;
+#X connect 90 0 91 1;
+#X connect 90 1 91 0;
+#X connect 91 0 90 0;
 #X coords 0 891 1 890 166 240 0;

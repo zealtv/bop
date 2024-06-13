@@ -200,6 +200,8 @@
 #X obj 1113 297 r \$0-get-stop;
 #X obj 135 153 s \$0-in;
 #X obj 602 104 r \$0-in;
+#X obj 750 84 savestate;
+#X obj 750 57 babs.savestate \$0;
 #X connect 1 0 0 0;
 #X connect 1 1 62 0;
 #X connect 3 0 14 0;
@@ -259,3 +261,6 @@
 #X connect 60 0 34 0;
 #X connect 61 0 27 0;
 #X connect 63 0 56 0;
+#X connect 64 0 65 1;
+#X connect 64 1 65 0;
+#X connect 65 0 64 0;
