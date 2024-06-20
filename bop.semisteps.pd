@@ -51,10 +51,12 @@
 #X msg 610 197 0;
 #X text 647 176 prevent output on load;
 #X obj 495 226 babs.gate 0;
-#X obj 816 205 babs.param \$0 velocity 0.75;
-#X obj 820 154 babs.param \$0 hold 0 0 1;
-#X obj 820 128 babs.param \$0 duration 0.25;
-#X obj 820 60 babs.param \$0 root 42 -64 64;
+#X obj 824 223 babs.param \$0 velocity 0.75;
+#X obj 826 199 babs.param \$0 duration 0.25;
+#X obj 828 172 babs.param \$0 hold 0 0 1;
+#X obj 846 127 babs.param.spacer \$0;
+#X obj 828 78 babs.param \$0 root 42 -64 64;
+#X obj 815 54 babs.param.spacer \$0;
 #X obj 820 30 babs.param \$0 semisteps 0.43 -1e+37 1e+37;
 #X connect 0 0 3 0;
 #X connect 0 1 41 0;

@@ -19,7 +19,7 @@
 #X obj 413 620 r \$0-get-damp;
 #X obj 413 644 * 100;
 #X obj 380 578 r \$0-get-cutoff;
-#X text 783 208 hz;
+#X text 790 294 hz;
 #X obj 130 644 r~ \$0-get-dry;
 #X text 448 693 modified from rev3~ to include a stop receiver;
 #X obj 88 44 declare -path ./babs;
@@ -30,9 +30,11 @@
 #X obj 299 118 r \$0-in;
 #X obj 449 98 savestate;
 #X obj 449 71 babs.savestate \$0;
-#X obj 530 291 babs.param \$0 dry 1;
-#X obj 534 244 babs.param \$0 wet 0.7;
-#X obj 532 211 babs.param \$0 cutoff 3000 0 20000;
+#X obj 574 446 babs.param \$0 dry 1;
+#X obj 578 399 babs.param \$0 wet 0.7;
+#X obj 582 348 babs.param.spacer \$0;
+#X obj 539 297 babs.param \$0 cutoff 3000 0 20000;
+#X obj 559 228 babs.param.spacer \$0;
 #X obj 535 180 babs.param \$0 damp 0.5;
 #X obj 533 145 babs.param \$0 size 0.5;
 #X connect 0 0 6 0;

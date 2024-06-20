@@ -199,9 +199,10 @@
 #X obj 750 84 savestate;
 #X obj 750 57 babs.savestate \$0;
 #X obj 549 138 babs.inout \$0 bop.stream~;
-#X obj 908 144 babs.param \$0 gain 1;
-#X obj 911 64 babs.param.attr \$0 path samples;
+#X obj 908 178 babs.param \$0 gain 1;
+#X obj 908 137 babs.param.spacer \$0;
 #X obj 908 101 babs.param \$0 folder 0 0 1e+37;
+#X obj 911 64 babs.param.attr \$0 path samples;
 #X connect 1 0 0 0;
 #X connect 1 1 58 0;
 #X connect 3 0 14 0;
