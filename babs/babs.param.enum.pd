@@ -43,7 +43,6 @@
 #X obj 87 548 babs.gate, f 15;
 #X obj 538 592 s \$0-enumlist;
 #X obj 88 339 t b b, f 32;
-#X obj 509 694 print;
 #X obj 248 181 value \$1-get-\$2;
 #X obj 259 129 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
 #X floatatom 248 205 5 0 0 0 - - - 0;
@@ -57,7 +56,6 @@
 #X connect 10 0 15 0;
 #X connect 11 0 30 0;
 #X connect 12 1 24 0;
-#X connect 12 1 44 0;
 #X connect 13 0 9 0;
 #X connect 13 1 14 1;
 #X connect 14 0 12 0;
@@ -86,6 +84,6 @@
 #X connect 41 0 23 0;
 #X connect 43 0 41 0;
 #X connect 43 1 11 0;
-#X connect 45 0 47 0;
-#X connect 46 0 45 0;
+#X connect 44 0 46 0;
+#X connect 45 0 44 0;
 #X coords 0 891 1 890 146 20 0;
