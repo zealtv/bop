@@ -1,4 +1,4 @@
-#N canvas 436 145 579 622 12;
+#N canvas 436 145 704 740 12;
 #X obj 173 507 bop.gui;
 #X text 137 63 ---=== SEQUENCING / NOTATION ===---;
 #X obj 76 108 bop.sequence;
@@ -90,3 +90,4 @@
 #A saved cutoff 3000;
 #A saved wet 0.7;
 #A saved dry 1;
+#X obj 358 507 bop.scope~;
