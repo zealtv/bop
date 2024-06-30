@@ -1,5 +1,6 @@
 #N canvas 253 117 842 724 12;
 #X declare -path ./babs;
+#X declare -path ./help;
 #X obj 218 105 metro 100;
 #X obj 222 569 tabwrite~ \$0-view;
 #X obj 550 223 outlet;
@@ -40,6 +41,7 @@
 #X obj 574 305 s \$0-params;
 #X obj 530 341 s \$0-midi;
 #X obj 30 525 r \$0-midi;
+#X obj 416 63 declare -path ./help;
 #X connect 0 0 21 0;
 #X connect 3 0 4 0;
 #X connect 3 0 18 0;
