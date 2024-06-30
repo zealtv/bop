@@ -1,4 +1,4 @@
-#N canvas 626 37 735 891 12;
+#N canvas 472 38 735 891 12;
 #X text 1405 7059 hi there! you are great! :);
 #X obj 1055 493 print;
 #X msg 109 4726 read sequences/seq-help1.bopseq;
