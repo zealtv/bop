@@ -14,9 +14,9 @@
 #X obj 201 308 symbol \$2, f 14;
 #X obj 22 285 t b b, f 8;
 #X text 17 118 sends bang to named receive when msg matches param label;
-#X obj 201 250 r \$1-get-dump;
+#X obj 201 240 r \$1-get-dump;
 #X obj 201 395 s \$1-get-dump;
-#X text 306 247 receive dump from parent;
+#X text 306 237 receive dump from parent;
 #X obj 201 334 list prepend spacer;
 #X obj 22 249 bang;
 #X connect 7 0 19 0;

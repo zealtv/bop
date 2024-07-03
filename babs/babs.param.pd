@@ -1,4 +1,4 @@
-#N canvas 5 42 936 836 12;
+#N canvas 327 90 936 836 12;
 #X text 393 78 \$1: parent \$0;
 #X text 392 97 \$2: label;
 #X text 392 58 arguments:;
@@ -104,11 +104,12 @@
 #X floatatom 786 415 5 0 0 0 - - - 0;
 #X obj 746 370 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
 #X obj 774 198 loadbang;
-#X obj 270 779 list \$4 \$5;
 #X obj 66 829 list append, f 26;
 #X obj 66 603 t b b;
 #X obj 247 692 value \$0-has-bounds;
 #X obj 247 729 sel 0 1;
+#X obj 272 765 list \$4 \$5;
+#X msg 271 796 list \$1 \$2;
 #X connect 6 0 13 0;
 #X connect 6 0 25 0;
 #X connect 6 1 16 1;
@@ -116,7 +117,7 @@
 #X connect 7 0 8 0;
 #X connect 8 0 26 0;
 #X connect 10 0 6 0;
-#X connect 15 0 57 0;
+#X connect 15 0 56 0;
 #X connect 16 0 27 0;
 #X connect 17 0 30 0;
 #X connect 20 0 21 0;
@@ -126,7 +127,7 @@
 #X connect 26 1 10 0;
 #X connect 26 2 20 0;
 #X connect 26 3 32 0;
-#X connect 27 0 56 0;
+#X connect 27 0 55 0;
 #X connect 28 0 24 0;
 #X connect 29 0 15 0;
 #X connect 31 0 35 0;
@@ -144,11 +145,12 @@
 #X connect 51 0 52 0;
 #X connect 53 0 51 0;
 #X connect 54 0 47 0;
-#X connect 55 0 56 1;
-#X connect 56 0 17 0;
-#X connect 57 0 16 0;
-#X connect 57 1 58 0;
-#X connect 58 0 59 0;
-#X connect 59 0 56 1;
-#X connect 59 1 55 0;
+#X connect 55 0 17 0;
+#X connect 56 0 16 0;
+#X connect 56 1 57 0;
+#X connect 57 0 58 0;
+#X connect 58 0 55 1;
+#X connect 58 1 59 0;
+#X connect 59 0 60 0;
+#X connect 60 0 55 1;
 #X coords 0 836 1 835 146 20 0;
