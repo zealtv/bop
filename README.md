@@ -15,5 +15,10 @@ It is currently in pre-release and has the following features:
 🐦 [esoteric musical notation](https://zeal.co/notebook/intermals/)  
 🐦 scripting and sequencing
 
+# Requires
+Pd version 0.54.1 or greater
+
 ## Credits
-bop makes use of some of [these](https://github.com/MikeMorenoDSP/pd-mkmr) superb abstractions by [Mike Moreno](https://mikemorenodsp.github.io/).
+bop makes use of some of [these](https://github.com/MikeMorenoDSP/pd-mkmr) abstractions by [Mike Moreno](https://mikemorenodsp.github.io/).
+
+Other borrowed code credited in the patch.

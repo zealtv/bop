@@ -9,7 +9,7 @@
 #A saved osc2-pulsewidth 0.5;
 #A saved osc2-gain 1;
 #A saved noise 0;
-#A saved cutoff 8551.46;
+#A saved cutoff 6654.98;
 #A saved q 0.5;
 #A saved mono 0;
 #A saved slide 0;
@@ -58,7 +58,7 @@
 #X restore 106 69 pd generate;
 #X obj 106 36 tgl 19 1 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 1 1;
 #X obj 108 739 print;
-#X obj 121 115 bop.gui;
+#X obj 121 100 bop.ui;
 #X connect 0 0 1 0;
 #X connect 0 0 1 1;
 #X connect 0 1 4 0;
