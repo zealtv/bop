@@ -1,4 +1,4 @@
-#N canvas 42 69 841 802 12;
+#N canvas 76 104 841 802 12;
 #X text 469 357 ---=== SEQUENCING / NOTATION ===---;
 #X obj 388 412 bop.sequence;
 #A saved loop 0;
@@ -96,7 +96,7 @@
 #X obj 54 685 bng 19 250 50 0 empty empty list\ bop\ modules 25 10 0 12 #fcfcfc #000000 #000000;
 #X obj 67 708 bng 19 250 50 0 empty empty list\ babs\ abstractions 25 10 0 12 #fcfcfc #000000 #000000;
 #X text 61 116 --- todo... \; --- global state-saving [x] \; --- addressable parameters [x] \; --- built-in automation[x] \; --- esoteric chord notation [x] \; --- flexible text sequencing[x] \; --- X-platorm [x] \; --- highly networkable [x] \; --- very embedable [x] \; --- \; === --- begin loop [ ] \; - 1b --- one bar rest [ ] \; - b2 --- 1/2 bar rest [ ] \; - b4 --- 1/4 bar rest [ ] \; - 1000 --- 1000ms rest [x] \; --- \; instrument 3 \; gain 0 1 3000 \; root 43 \; velocity 0.6 \; intermal 0.75 \; - 1000 \; velocity 1.1 \; intermal 0.43 \; - 3000 \; === --- end loop [ ] \; osc 255.255.255 /ping 1 \; osc 127.0.0.1 /flame-thrower 1 \; volume 1.5 \; fan 0 \; midi 25 127 \; midi 32 127 \; midi 555 127 \; run explode-drives.sh [ ] \;;
-#N canvas 78 118 826 634 >+(:b 0;
+#N canvas 168 171 826 634 >+(:b 0;
 #X obj 531 114 pdcontrol;
 #X msg 531 86 dir;
 #X obj 43 124 pdcontrol;
@@ -132,6 +132,8 @@
 #X obj 255 160 makefilename %s/babs/*.pd;
 #X obj 298 569 print babs abstraction;
 #X msg 531 144 \; pd open ./babs/babs.param-help.pd \$1;
+#X msg 684 87 \; pd dsp 1;
+#X obj 686 56 loadbang;
 #X connect 0 0 34 0;
 #X connect 1 0 0 0;
 #X connect 2 0 7 0;
@@ -166,6 +168,7 @@
 #X connect 29 0 33 0;
 #X connect 30 0 18 0;
 #X connect 32 0 19 0;
+#X connect 36 0 35 0;
 #X restore 54 735 pd >+(:b;
 #X obj 397 532 bop.ui;
 #X text 712 89 needs help;

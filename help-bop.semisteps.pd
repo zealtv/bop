@@ -1,5 +1,5 @@
 #N canvas 598 194 711 526 12;
-#X obj 171 388 print;
+#X obj 153 390 print;
 #X text 281 45 Intermals are a fast and easy chord notation based on floating point numbers.;
 #X text 47 479 See more here: https://zeal.co/notebook/intermals/;
 #X text 201 40 I maj7;
@@ -10,8 +10,8 @@
 #X obj 50 361 bop.instrument~;
 #A saved instrument 3;
 #X obj 48 280 bop.semisteps;
-#A saved semisteps 5.434;
-#A saved root 55;
+#A saved semisteps -12.5075;
+#A saved root 61;
 #A saved hold 0;
 #A saved duration 0.25;
 #A saved velocity 0.75;
@@ -21,10 +21,10 @@
 #X msg 84 115 semisteps 5.434;
 #X msg 98 180 semisteps 12.5555;
 #X msg 111 206 semisteps -12.5075;
-#X obj 54 389 output~;
 #X obj 398 202 bop.ui;
-#X connect 8 0 16 0;
-#X connect 8 0 16 1;
+#X obj 50 394 dac~;
+#X connect 8 0 17 0;
+#X connect 8 0 17 1;
 #X connect 8 1 0 0;
 #X connect 9 1 8 0;
 #X connect 10 0 9 0;
@@ -33,4 +33,4 @@
 #X connect 13 0 9 0;
 #X connect 14 0 9 0;
 #X connect 15 0 9 0;
-#X connect 17 0 9 1;
+#X connect 16 0 9 1;

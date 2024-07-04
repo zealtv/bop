@@ -1,4 +1,4 @@
-#N canvas 462 150 507 576 12;
+#N canvas 462 150 439 411 12;
 #X obj 216 60 tgl 19 0 empty empty start 23 10 0 12 #fcfcfc #000000 #000000 0 1;
 #N canvas 725 325 357 279 generate 0;
 #X obj 31 17 inlet;
@@ -19,15 +19,15 @@
 #X connect 6 0 5 1;
 #X restore 216 91 pd generate;
 #X f 12;
-#X obj 218 405 print;
+#X obj 218 355 print;
 #X obj 116 317 bop.instrument~;
-#A saved instrument 2;
-#X text 38 195 bop.instrument~ provides synthesized mallets \, keys \, and plucked strings, f 22;
-#X obj 116 449 output~;
+#A saved instrument 1;
+#X text 20 154 bop.instrument~ provides synthesized mallets \, keys \, and plucked strings, f 22;
 #X obj 235 128 bop.ui;
+#X obj 116 359 dac~;
 #X connect 0 0 1 0;
 #X connect 1 0 3 1;
-#X connect 3 0 5 0;
-#X connect 3 0 5 1;
+#X connect 3 0 6 0;
+#X connect 3 0 6 1;
 #X connect 3 1 2 0;
-#X connect 6 0 3 1;
+#X connect 5 0 3 1;

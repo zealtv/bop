@@ -4,11 +4,13 @@
 #X obj 44 194 pack;
 #X text 53 45 bop.sampler~ is inspired by the mighty casio sk-1 \; It provides midi-to-pitch and drum-rack style sample playback., f 65;
 #X obj 231 168 bop.ui;
-#X obj 45 401 output~;
 #X text 52 84 [mode 0]: MIDI notes change pitch of chosen sample. \; [mode 1]: MIDI notes select sample from chosen folder.;
 #X text 400 273 Loads a folders of wav files from the bop/samples directory. Changing folders loads samples into RAM and may cause pauses. Be careful when automating this parameter., f 39;
-#X connect 0 0 5 0;
-#X connect 0 0 5 1;
+#X obj 45 401 dac~;
+#X obj 121 402 print;
+#X connect 0 0 7 0;
+#X connect 0 0 7 1;
+#X connect 0 1 8 0;
 #X connect 1 0 2 0;
 #X connect 1 1 2 1;
 #X connect 2 0 0 0;

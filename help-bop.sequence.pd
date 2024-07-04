@@ -39,9 +39,9 @@
 #A saved q 0.3;
 #A saved wet 0.75;
 #A saved dry 1;
-#X obj 69 729 output~;
 #X obj 215 291 bop.ui;
 #X text 456 527 < load from a file \; (great for live coding);
+#X obj 69 729 dac~, f 18;
 #X connect 0 0 15 1;
 #X connect 1 0 15 1;
 #X connect 4 0 15 1;
@@ -53,7 +53,7 @@
 #X connect 13 0 15 1;
 #X connect 14 0 15 1;
 #X connect 15 1 8 1;
-#X connect 16 0 18 0;
-#X connect 17 0 18 1;
+#X connect 16 0 20 0;
+#X connect 17 0 20 1;
 #X connect 17 1 2 0;
-#X connect 19 0 15 1;
+#X connect 18 0 15 1;
