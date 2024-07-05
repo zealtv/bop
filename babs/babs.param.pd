@@ -1,4 +1,4 @@
-#N canvas 327 90 936 836 12;
+#N canvas 193 59 936 836 12;
 #X text 393 78 \$1: parent \$0;
 #X text 392 97 \$2: label;
 #X text 392 58 arguments:;

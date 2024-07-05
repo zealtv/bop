@@ -1,4 +1,4 @@
-#N canvas 124 328 862 564 12;
+#N canvas 504 252 867 612 12;
 #X obj 54 117 inlet;
 #X obj 226 202 route list, f 15;
 #X obj 226 518 s \$1-midi;
@@ -12,7 +12,7 @@
 #X obj 327 517 s \$1-params;
 #X text 360 88 args \; \$1 parent \$0 \; \$2 modulename;
 #X obj 594 335 list prepend \$2;
-#X obj 594 427 s \$0-out;
+#X obj 578 577 s \$0-out;
 #X obj 362 259 route dump;
 #X obj 527 209 r \$1-get-dump;
 #X text 365 220 capture dump messages, f 14;
@@ -42,13 +42,17 @@
 #X text 53 9 recieves messages from parent patcher \, filters out midi messages \, coordinates dumping of parameters \, provides forwarding to [r \$0-get-paramname] \, communicates with bop.gui;
 #X obj 348 447 r \$0-to-module;
 #X text 342 480 inject messages from gui, f 17;
-#X text 667 426 dump out;
+#X text 651 576 dump out;
 #X text 695 392 dump to create gui;
 #X obj 342 326 s \$0-to-gui;
-#X obj 507 121 babs.param.msg \$1 dump;
-#X obj 507 91 babs.param.msg \$1 reset;
-#X obj 505 63 babs.param.msg \$1 stop;
-#X obj 505 41 babs.param.spacer \$1;
+#X obj 532 113 babs.param.msg \$1 dump;
+#X obj 532 83 babs.param.msg \$1 reset;
+#X obj 530 55 babs.param.msg \$1 stop;
+#X obj 530 33 babs.param.spacer \$1;
+#X obj 591 439 route \$2;
+#X obj 591 463 route spacer;
+#X obj 595 502 list prepend \$2;
+#X obj 595 526 list trim;
 #X connect 0 0 19 0;
 #X connect 1 0 2 0;
 #X connect 1 0 7 0;
@@ -56,8 +60,8 @@
 #X connect 1 1 14 0;
 #X connect 1 1 29 0;
 #X connect 3 1 12 0;
-#X connect 5 0 13 0;
 #X connect 5 0 20 0;
+#X connect 5 0 34 0;
 #X connect 9 0 6 0;
 #X connect 12 0 5 0;
 #X connect 14 1 8 0;
@@ -66,3 +70,7 @@
 #X connect 19 1 1 0;
 #X connect 22 0 21 1;
 #X connect 25 0 10 0;
+#X connect 34 0 35 0;
+#X connect 35 1 36 0;
+#X connect 36 0 37 0;
+#X connect 37 0 13 0;

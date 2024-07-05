@@ -1,5 +1,4 @@
 #N canvas 609 147 632 530 12;
-#X declare -path ../;
 #X obj 210 147 bop.scope~;
 #X obj 214 26 tgl 19 0 empty empty enable 23 10 0 12 #fcfcfc #000000 #000000 0 1;
 #X text 378 358 < midi and messages out/though;
@@ -26,18 +25,16 @@
 #X connect 8 0 3 0;
 #X restore 213 55 pd generate;
 #X text 66 358 signal out/through >;
-#X obj 27 445 declare -path ../;
 #X obj 212 401 dac~;
-#X msg 34 472 \; pd dsp on;
 #X text 401 68 < midi notes;
 #X text 431 99 < messages;
 #X obj 369 398 list;
 #X listbox 369 422 20 0 0 0 - - - 0;
-#X connect 0 0 9 0;
-#X connect 0 0 9 1;
-#X connect 0 1 13 0;
+#X connect 0 0 8 0;
+#X connect 0 0 8 1;
+#X connect 0 1 11 0;
 #X connect 1 0 6 0;
 #X connect 4 0 0 0;
 #X connect 5 0 0 0;
 #X connect 6 0 0 0;
-#X connect 13 0 14 0;
+#X connect 11 0 12 0;

@@ -1,4 +1,4 @@
-#N canvas 198 148 726 593 12;
+#N canvas 717 91 726 593 12;
 #X obj 291 139 inlet;
 #X obj 203 139 inlet;
 #X obj 203 330 line~;
@@ -34,7 +34,7 @@
 #X text 227 77 3: crossover frequency in Hz. (3000 default);
 #X text 227 60 2: liveness \, 0-100 \, usually between 85 and 100;
 #X obj 387 327 s \$0-lop;
-#N canvas 374 37 1096 891 doit 1;
+#N canvas -101 52 1174 891 doit 0;
 #X obj 372 419 *~;
 #X obj 498 429 *~;
 #X obj 426 422 *~;
@@ -416,7 +416,7 @@
 #X obj 477 365 s \$0-damp;
 #X text 75 498 rev3 - 16-delay reverberator. Like rev2~ but presumably higher-quality and takes two audio inputs.;
 #X obj 291 262 / 400;
-#N canvas 810 240 351 493 early 0;
+#N canvas 285 259 351 493 early 0;
 #X obj 82 10 inlet~;
 #X obj 191 10 inlet~;
 #N canvas 345 331 468 181 write1 0;
