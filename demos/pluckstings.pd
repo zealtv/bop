@@ -1,8 +1,8 @@
-#N canvas 557 143 783 669 12;
+#N canvas 444 140 783 669 12;
 #X declare -path ../;
 #X obj 56 44 declare -path ../;
 #X obj 264 439 bop.instrument~;
-#A saved instrument 0;
+#A saved instrument 2;
 #X obj 217 230 bop.strum, f 26;
 #A saved strum 0.3;
 #A saved chord 6;
@@ -11,7 +11,7 @@
 #A saved octaves 3;
 #A saved velocity 0.371429;
 #A saved duration 0.444;
-#X obj 272 598 dac~;
+#X obj 274 641 dac~;
 #X obj 351 166 bop.sequence;
 #A saved loop 1;
 #A saved internal-sequence stop \; strum 0.5 1000 \; - 3000 \; stop \; strum 1 0.3 1600 \; - 10000 \;;
@@ -64,7 +64,7 @@
 #A saved q 0.678571;
 #A saved wet 1;
 #A saved dry 0;
-#X obj 412 580 expr~ tanh(2*$v1) * 0.5;
+#X obj 412 573 expr~ tanh(2*$v1) * 0.5;
 #X connect 1 0 3 0;
 #X connect 1 0 13 0;
 #X connect 1 1 19 1;

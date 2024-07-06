@@ -15,7 +15,7 @@
 #X obj 29 357 s \$0-set-signal;
 #X listbox 20 176 20 0 0 1 msg \$0-display-params \$0-null 10;
 #X obj 30 441 list;
-#X listbox 20 191 19 0 0 1 midi \$0-display-midi \$0-null 10;
+#X listbox 20 191 20 0 0 1 midi \$0-display-midi \$0-nowhere 10;
 #X obj 30 407 r \$0-params;
 #X obj 30 613 s \$0-display-midi;
 #X obj 30 475 s \$0-display-params;
@@ -42,6 +42,7 @@
 #X obj 530 341 s \$0-midi;
 #X obj 30 525 r \$0-midi;
 #X obj 416 63 declare -path ./help;
+#X obj 122 191 bng 15 250 200 0 \$0-nowhere \$0-display-midi empty 0 -10 0 12 #c6feff #e3c6ff #000000;
 #X connect 0 0 21 0;
 #X connect 3 0 4 0;
 #X connect 3 0 18 0;

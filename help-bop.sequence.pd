@@ -8,12 +8,12 @@
 #X obj 147 472 bop.instrument~;
 #A saved instrument 3;
 #X obj 147 445 bop.strum;
-#A saved strum 0.300246;
+#A saved strum 0.16194;
 #A saved chord 7;
 #A saved shuffle 1;
 #A saved root 46;
-#A saved octaves 4.3765;
-#A saved velocity 0.353635;
+#A saved octaves 5.64518;
+#A saved velocity 0.426046;
 #A saved duration 0.444;
 #X msg 270 335 read;
 #X text 313 335 open file dialog;
@@ -41,7 +41,7 @@
 #X text 317 147 < loop sequence;
 #X obj 64 96 bop.ui;
 #X text 509 282 WRITING SCRIPTS;
-#X obj 292 537 print bop.sequence;
+#X obj 253 422 print bop.sequence;
 #X obj 43 324 cnv 19 200 80 empty empty empty 20 12 0 12 #c6feff #404040 0;
 #X obj 64 355 bop.sequence, f 21;
 #A saved loop 1;
@@ -61,9 +61,9 @@
 #X connect 11 0 24 1;
 #X connect 12 0 14 0;
 #X connect 13 0 14 1;
-#X connect 13 1 22 0;
 #X connect 15 0 24 1;
 #X connect 16 0 24 1;
 #X connect 18 0 24 1;
 #X connect 20 0 24 0;
 #X connect 24 1 7 1;
+#X connect 24 1 22 0;

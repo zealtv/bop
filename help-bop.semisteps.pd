@@ -1,5 +1,5 @@
-#N canvas 103 114 836 794 12;
-#X text 290 56 See more here: https://zeal.co/notebook/intermals/;
+#N canvas 487 42 836 794 12;
+#X text 253 56 See more here: https://zeal.co/notebook/intermals/;
 #X text 686 256 I maj7;
 #X text 612 366 III min7;
 #X text 608 339 II min7;
@@ -11,8 +11,8 @@
 #X obj 69 497 dac~;
 #X obj 62 363 cnv 19 200 80 empty empty empty 20 12 0 12 #c6feff #404040 0;
 #X obj 68 394 bop.semisteps, f 26;
-#A saved semisteps 0.3434;
-#A saved root 64;
+#A saved semisteps 0.43434;
+#A saved root 52;
 #A saved hold 0;
 #A saved duration 0.25;
 #A saved velocity 0.75;
@@ -40,7 +40,7 @@
 #X obj 323 347 r semisteps;
 #X msg 324 466 semisteps \$1;
 #X obj 552 464 s semisteps;
-#X text 214 24 semisteps are a simple chord notation based on floating point numbers., f 82;
+#X text 177 24 semisteps are a simple chord notation based on floating point numbers., f 82;
 #X text 362 224 0 . 4 3 4;
 #X obj 76 703 s semisteps;
 #X obj 251 700 s semisteps;
@@ -53,7 +53,7 @@
 #X text 369 253 voices 0 \, 4 \, 7 \, and 11 semitones above root;
 #X obj 323 412 +;
 #X floatatom 341 379 5 0 0 1 pitch\ offset - - 0;
-#X floatatom 323 439 5 0 0 0 - - - 0;
+#X floatatom 323 439 14 0 0 0 - - - 0;
 #X connect 5 0 8 0;
 #X connect 5 0 8 1;
 #X connect 6 0 10 1;
