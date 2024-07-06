@@ -170,7 +170,7 @@
 #X obj 207 1378 bng 19 250 50 0 empty empty list\ babs\ abstractions 25 10 0 12 #fcfcfc #000000 #000000;
 #X obj 235 1406 bng 19 250 50 0 empty empty about\ babs.param 25 10 0 12 #fcfcfc #000000 #000000;
 #X text 499 1576 comment;
-#X obj 58 105 cnv 19 140 76 empty empty empty 20 12 0 12 #e3c6ff #404040 0;
+#X obj 58 105 cnv 19 140 76 empty empty empty 20 12 0 12 #feffc6 #404040 0;
 #X text 68 121 SEE HELP PATCHES;
 #X text 61 141 (right-click \, help) ---------->;
 #X text 373 386 < needs help;
