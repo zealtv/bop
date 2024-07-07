@@ -183,7 +183,7 @@
 #X obj 130 808 bop.ui;
 #X text -1 691 _________________________________________________________ ui;
 #X obj 449 1331 dac~;
-#X obj 173 1363 dac~;
+#X obj 77 1314 dac~;
 #X obj 363 196 cnv 19 30 180 empty empty empty 20 12 0 12 #e3c6ff #404040 0;
 #X text 96 561 <------------- (right-click \, help);
 #X obj 397 87 cnv 19 140 76 empty empty empty 20 12 0 12 #feffc6 #404040 0;
@@ -192,10 +192,10 @@
 #X text 372 200 _how_to_bop_, f 1;
 #X obj 404 198 doc/ins-and-outs;
 #X obj 406 356 doc/sequencing;
-#X text 243 1103 use [bop.scope~] to inspect signal \, midi and messages >, f 29;
+#X text 52 1099 use [bop.scope~] to inspect signal \, midi and messages >, f 62;
 #X text 176 955 patch outlet of [bop.ui] to any inlet on any bop.module and click (connect) >, f 39;
 #X obj 403 236 doc/ui-and-sate-saving;
-#X obj 169 1290 bop.strum, f 15;
+#X obj 73 1241 bop.strum, f 15;
 #A saved strum 0;
 #A saved chord 1;
 #A saved shuffle 1;
@@ -203,15 +203,15 @@
 #A saved octaves 3;
 #A saved velocity 0.888;
 #A saved duration 0.971429;
-#X obj 170 1320 bop.instrument~;
+#X obj 74 1271 bop.instrument~;
 #A saved instrument 1;
-#X msg 169 1259 strum 1 0 5000;
 #X text 210 535 see help patches;
 #X text 34 745 [bop.ui] provides a widget panel for any bop.module, f 57;
-#X text 168 1206 delete [bop.ui] and [bop.scope~] for fast \, minimal code, f 21;
+#X text 200 1232 delete [bop.ui] and [bop.scope~] for fast \, minimal code, f 21;
 #X text 440 23 built with Pd vanilla 0.55.0;
 #X obj 405 276 doc/messages-and-automation;
 #X obj 406 318 doc/frets-and-semisteps;
+#X msg 73 1210 strum 1 0 5000;
 #X connect 15 0 14 0;
 #X connect 16 0 14 1;
 #X connect 17 0 14 2;
@@ -227,4 +227,4 @@
 #X connect 44 1 45 1;
 #X connect 45 0 32 0;
 #X connect 45 0 32 1;
-#X connect 46 0 44 0;
+#X connect 52 0 44 0;

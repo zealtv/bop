@@ -8,7 +8,7 @@
 #X obj 64 77 bop.ui;
 #X obj 51 349 cnv 19 200 80 empty empty empty 20 12 0 12 #ffe3c6 #404040 0;
 #X obj 66 378 bop.frets, f 23;
-#A saved frets 3.32402;
+#A saved frets 3.20202;
 #A saved tuning 0.55545;
 #A saved root 52;
 #A saved hold 0;
@@ -18,11 +18,12 @@
 #X text 288 332 bop.frets provides fret notation as floating point numbers. The number to the left of the decimal point is the fret of the first (lowest) string. Digits to the right of the decimal point are frets of subsequent strings. The strings can be tuned with the tuning parameter. This is set in semisteps. The default tuning is 0.55545. Assuming a root of E \, this is E A D G B E., f 61;
 #X text 309 493 for more about semisteps see:;
 #X obj 526 492 help-bop.semisteps;
-#X msg 256 183 frets 3.32402;
 #X msg 240 113 frets 0.024;
 #X text 340 83 e b e g#;
 #X text 354 116 e a e b;
 #X text 358 146 g b d a b f#;
+#X text 367 183 g c e b b f#;
+#X msg 256 183 frets 3.32402;
 #X connect 0 0 4 0;
 #X connect 0 0 4 1;
 #X connect 0 1 8 0;
@@ -33,4 +34,4 @@
 #X connect 7 0 0 0;
 #X connect 7 1 0 1;
 #X connect 12 0 7 1;
-#X connect 13 0 7 1;
+#X connect 17 0 7 1;
