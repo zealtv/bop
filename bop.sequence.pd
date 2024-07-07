@@ -1,4 +1,4 @@
-#N canvas 411 37 735 891 12;
+#N canvas 843 215 735 891 12;
 #X declare -path ./babs;
 #X obj 46 132 inlet~, f 9;
 #X obj 218 242 outlet;
@@ -120,7 +120,7 @@
 #X text 553 944 open file dialog;
 #X text 479 836 READING AND EDITING;
 #X obj 479 1145 text define -k \$0-seq;
-#A set instrument 3 \; chord 7 \; volume 1 50 \; delay-time loop 0.8 300 0.81 10000 \; === \; --- swell up \; delay-level 0.1 0.01 0.1 2000 0.5 3000 \; noteslider 0 \; noteslider 0.2 3000 0.8 9000 \; root 46 \; octaves 8 \; octaves 4 5000 \; shuffle 1 \; velocity 0.05 \; velocity 0.5 2800 0.1 5000 \; - 9500 \; --- fall \; noteslider 0.75 \; noteslider 0.1 4000 \; root 53 \; octaves 3 \; shuffle 0 \; velocity 0.9 0.2 4000 \; feedback 0.2 400 \; delay-level 0.8 200 0.5 6000 0 6000 \; - 6000 \;;
+#A set ### initiate \; instrument 3 \; chord 7 \; volume 1 50 \; delay-time loop 0.8 300 0.84 10000 \; === \; ### swell up \; delay-level 0.1 0.01 0.1 2000 0.5 3000 \; strum 0 \; strum 0.2 3000 0.8 9000 \; root 46 \; octaves 8 \; octaves 4 5000 \; shuffle 1 \; velocity 0.05 \; velocity 0.5 2800 0.1 5000 \; - 9500 \; ### fall \; strum 0.75 \; strum 0.1 4000 \; root 53 \; octaves 3 \; shuffle 0 \; velocity 0.9 0.2 4000 \; feedback 0.2 400 \; delay-level 0.8 200 0.5 6000 0 6000 \; - 6000 \;;
 #X text 643 1146 -k store content with patcher;
 #X obj 41 432 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
 #X text 75 370 RUNNING;
@@ -148,11 +148,12 @@
 #X obj 525 183 list trim;
 #X obj 525 230 list;
 #X obj 525 158 r \$0-loadstate;
-#X obj 797 176 babs.param.attr \$0 read;
-#X obj 797 155 babs.param.msg \$0 open;
-#X obj 794 98 babs.param.spacer \$0;
-#X obj 791 65 babs.param \$0 loop 0 0 1;
-#X obj 792 36 babs.param.msg \$0 go;
+#X obj 779 222 babs.param.msg \$0 go;
+#X obj 779 186 babs.param \$0 loop 0 0 1;
+#X obj 779 127 babs.param.spacer \$0;
+#X obj 778 75 babs.param.attr \$0 read;
+#X obj 774 51 babs.param.spacer \$0;
+#X obj 776 29 babs.param.msg \$0 open;
 #X connect 0 0 3 0;
 #X connect 0 1 41 0;
 #X connect 7 0 1 0;

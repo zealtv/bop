@@ -1,5 +1,5 @@
-#N canvas 487 42 836 794 12;
-#X text 253 56 See more here: https://zeal.co/notebook/intermals/;
+#N canvas 134 74 836 794 12;
+#X text 251 62 See more here: https://zeal.co/notebook/intermals/;
 #X text 686 256 I maj7;
 #X text 612 366 III min7;
 #X text 608 339 II min7;
@@ -9,9 +9,9 @@
 #X msg 252 124 semisteps 0.434, f 30;
 #X obj 64 117 bop.ui;
 #X obj 69 497 dac~;
-#X obj 62 363 cnv 19 200 80 empty empty empty 20 12 0 12 #c6feff #404040 0;
+#X obj 62 363 cnv 19 200 80 empty empty empty 20 12 0 12 #ffe3c6 #404040 0;
 #X obj 68 394 bop.semisteps, f 26;
-#A saved semisteps 0.43434;
+#A saved semisteps 0.43;
 #A saved root 52;
 #A saved hold 0;
 #A saved duration 0.25;
