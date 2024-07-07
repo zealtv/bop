@@ -1,5 +1,5 @@
 #N canvas 509 156 726 637 12;
-#X obj 338 109 bop.ui;
+#X obj 334 185 bop.ui;
 #X obj 146 451 dac~;
 #X text 47 134 bop.delay~ is an upto 2.5 second delay line with feedback and a lopass filter, f 38;
 #X obj 144 306 bop.instrument~, f 19;
@@ -39,8 +39,8 @@
 #A saved wet 0.892857;
 #A saved dry 1;
 #X obj 284 451 print bop.delay~;
-#X msg 510 288 stop;
-#X msg 503 142 time loop 0.5 3000 1 0;
+#X msg 498 369 stop;
+#X msg 499 218 time loop 0.5 3000 1 0;
 #X connect 0 0 7 1;
 #X connect 3 0 7 0;
 #X connect 3 1 7 0;
