@@ -1,10 +1,10 @@
 #N canvas 736 279 329 403 12;
 #X declare -path ../;
 #X obj 20 36 declare -path ../;
-#X floatatom 64 115 5 0 0 0 - - - 0;
-#X msg 64 85 80;
-#X msg 103 83 60;
-#X msg 144 85 40;
+#X floatatom 23 116 5 0 0 0 - - - 0;
+#X msg 23 86 80;
+#X msg 62 84 60;
+#X msg 103 86 40;
 #N canvas 700 270 402 353 perfect-triad 0;
 #X obj 27 16 inlet;
 #X obj 297 271 outlet;
@@ -44,12 +44,12 @@
 #X connect 16 0 15 0;
 #X connect 16 1 1 0;
 #X restore 22 176 pd perfect-triad;
-#X msg 63 142 perfect-triad \$1;
+#X msg 22 143 perfect-triad \$1;
 #X text 139 177 < microtonal tuning;
 #X obj 22 259 expr~ tanh($v1) * 0.5;
 #X obj 23 356 dac~;
-#X msg 22 85 stop;
-#X obj 22 210 bop.synth~;
+#X msg 284 89 stop;
+#X obj 22 210 bop.synth~, f 38;
 #A saved osc1-tune 0;
 #A saved osc1-wave 1;
 #A saved osc1-pulsewidth 0.5;
@@ -83,6 +83,6 @@
 #X connect 6 0 5 0;
 #X connect 8 0 9 0;
 #X connect 8 0 12 0;
-#X connect 10 0 5 0;
+#X connect 10 0 11 1;
 #X connect 11 0 8 0;
 #X connect 12 0 9 1;

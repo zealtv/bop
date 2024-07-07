@@ -8,7 +8,7 @@
 #A saved semisteps 0.4343;
 #A saved root 72;
 #A saved hold 0;
-#A saved duration 0.396018;
+#A saved duration 0.152851;
 #A saved velocity 0.75;
 #X msg 77 368 semisteps \$1;
 #X obj 78 85 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
@@ -21,7 +21,7 @@
 #X obj 288 418 bop.casio~, f 23;
 #A saved wave-1 1;
 #A saved wave-2 0;
-#A saved filter 0.442772;
+#A saved filter 0.301015;
 #A saved attack 0.0214286;
 #A saved decay 0.178571;
 #A saved sustain 0.628571;
