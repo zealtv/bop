@@ -1,0 +1,8 @@
+#N canvas 287 222 461 472 12;
+#X obj 101 101 cnv 15 144 18 empty \$1-set-\$2-enum waiting... 3 8 0 10 #e3c6ff #000000 0;
+#X text 94 218 \$1: parent \$0;
+#X text 94 274 binds to a ui element in parent patch with sends and receives as so:, f 20;
+#X text 93 198 arguments:;
+#X text 93 237 \$2: label of paramname;
+#X text 93 367 recv: \$0-to-[paramname]-enum;
+#X coords 0 -1 1 1 146 20 2 100 100;
