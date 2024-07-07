@@ -1,8 +1,8 @@
-#N canvas 234 151 431 458 12;
+#N canvas 234 151 464 470 12;
 #X declare -path ./;
-#X obj 52 383 declare -path ./;
-#X obj 243 93 bop.ui;
-#X obj 82 141 bop.synth~;
+#X obj 52 393 declare -path ./;
+#X obj 253 93 bop.ui;
+#X obj 78 141 bop.synth~;
 #A saved osc1-tune 0;
 #A saved osc1-wave 1;
 #A saved osc1-pulsewidth 0.5;
@@ -22,7 +22,7 @@
 #A saved release 0;
 #A saved gain 1;
 #X obj 63 271 dac~;
-#X msg 84 111 40 127;
+#X msg 78 101 40 127;
 #X text 149 27 an ok sounding reverb;
 #X obj 31 169 cnv 19 200 80 empty empty empty 20 12 0 12 #ffe3c6 #404040 0;
 #X obj 78 203 bop.reverb~;
