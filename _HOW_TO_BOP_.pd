@@ -1,4 +1,4 @@
-#N canvas 366 61 683 689 12;
+#N canvas 581 117 683 689 12;
 #X obj 1 82 cnv 19 260 530 empty empty bop 60 -20 0 64 #c6feff #c7c6ff 0;
 #X obj 28 479 bop.sequence;
 #A saved loop 0;
@@ -185,8 +185,6 @@
 #X obj 449 1331 dac~;
 #X obj 173 1363 dac~;
 #X obj 363 196 cnv 19 30 180 empty empty empty 20 12 0 12 #e3c6ff #404040 0;
-#N canvas 237 274 450 300 messages 0;
-#X restore 405 276 pd messages and automation;
 #X text 96 561 <------------- (right-click \, help);
 #X obj 397 87 cnv 19 140 76 empty empty empty 20 12 0 12 #feffc6 #404040 0;
 #X text 464 139 |||V, f 1;
@@ -197,8 +195,6 @@
 #X text 243 1103 use [bop.scope~] to inspect signal \, midi and messages >, f 29;
 #X text 176 955 patch outlet of [bop.ui] to any inlet on any bop.module and click (connect) >, f 39;
 #X obj 403 236 doc/ui-and-sate-saving;
-#N canvas 208 245 450 300 frets 0;
-#X restore 406 318 pd frets and semisteps;
 #X obj 169 1290 bop.strum, f 15;
 #A saved strum 0;
 #A saved chord 1;
@@ -214,6 +210,8 @@
 #X text 34 745 [bop.ui] provides a widget panel for any bop.module, f 57;
 #X text 168 1206 delete [bop.ui] and [bop.scope~] for fast \, minimal code, f 21;
 #X text 440 23 built with Pd vanilla 0.55.0;
+#X obj 405 276 doc/messages-and-automation;
+#X obj 406 318 doc/frets-and-semisteps;
 #X connect 15 0 14 0;
 #X connect 16 0 14 1;
 #X connect 17 0 14 2;
@@ -225,8 +223,8 @@
 #X connect 27 0 26 0;
 #X connect 27 1 26 1;
 #X connect 28 0 27 0;
-#X connect 46 0 47 0;
-#X connect 46 1 47 1;
-#X connect 47 0 32 0;
-#X connect 47 0 32 1;
-#X connect 48 0 46 0;
+#X connect 44 0 45 0;
+#X connect 44 1 45 1;
+#X connect 45 0 32 0;
+#X connect 45 0 32 1;
+#X connect 46 0 44 0;
