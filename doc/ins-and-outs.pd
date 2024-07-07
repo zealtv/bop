@@ -1,4 +1,4 @@
-#N canvas 476 105 841 728 12;
+#N canvas 448 95 841 728 12;
 #X declare -path ../;
 #X obj 184 210 cnv 19 150 50 empty empty empty 20 12 0 12 #ffe3c6 #404040 0;
 #X obj 195 225 bop.strum, f 18;
@@ -30,7 +30,7 @@
 #A saved dry 0;
 #X obj 17 210 cnv 19 150 50 empty empty empty 20 12 0 12 #feffc6 #404040 0;
 #X text 23 226 this is a bop module -->;
-#X obj 26 695 declare -path ../;
+#X obj 677 663 declare -path ../;
 #X msg 393 223 dump;
 #X text 200 398 signal passes through left inlets and outlets, f 15;
 #X text 256 55 midi notes can be sent to any inlet;

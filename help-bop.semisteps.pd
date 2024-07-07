@@ -1,4 +1,4 @@
-#N canvas 134 74 854 835 12;
+#N canvas 187 69 854 835 12;
 #X text 662 260 I maj7;
 #X text 679 346 III min7;
 #X text 675 319 II min7;
@@ -31,8 +31,8 @@
 #X msg 632 374 5.434;
 #X floatatom 609 411 18 0 0 0 - - - 0;
 #X text 97 561 Common chord types:;
-#X obj 374 360 r semisteps;
-#X msg 375 479 semisteps \$1;
+#X obj 353 341 r semisteps;
+#X msg 354 460 semisteps \$1;
 #X obj 609 445 s semisteps;
 #X text 177 39 semisteps are a simple chord notation based on floating point numbers., f 82;
 #X text 393 186 0 . 4 3 4;
@@ -42,12 +42,12 @@
 #X obj 635 798 s semisteps;
 #X msg 652 632 0.34343;
 #X text 346 261 voices 0 \, 4 \, 7 \, and 11 semitones above root;
-#X obj 374 425 +;
-#X floatatom 392 392 5 0 0 1 pitch\ offset - - 0;
-#X floatatom 374 452 14 0 0 0 - - - 0;
+#X obj 353 406 +;
+#X floatatom 371 373 5 0 0 1 pitch\ offset - - 0;
+#X floatatom 353 433 14 0 0 0 - - - 0;
 #X text 262 120 the number to the left of the decimal defines the pitch of the lowest voice, f 19;
 #X text 425 122 digits following the decimal point reperesent additional voices up n-semitones from the previous voice, f 37;
-#X text 356 60 more here: https://zeal.co/notebook/intermals/;
+#X text 434 519 more here: https://zeal.co/notebook/intermals/;
 #X msg 281 658 0.433;
 #X msg 463 663 0.4334;
 #X msg 661 661 0.43343;
