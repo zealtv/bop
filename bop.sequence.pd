@@ -1,4 +1,4 @@
-#N canvas 843 215 735 891 12;
+#N canvas 735 37 735 891 12;
 #X declare -path ./babs;
 #X obj 46 132 inlet~, f 9;
 #X obj 218 242 outlet;
@@ -152,7 +152,6 @@
 #X obj 779 186 babs.param \$0 loop 0 0 1;
 #X obj 779 127 babs.param.spacer \$0;
 #X obj 778 75 babs.param.attr \$0 read;
-#X obj 774 51 babs.param.spacer \$0;
 #X obj 776 29 babs.param.msg \$0 open;
 #X connect 0 0 3 0;
 #X connect 0 1 41 0;

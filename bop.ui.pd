@@ -1,4 +1,4 @@
-#N canvas 415 37 1055 891 12;
+#N canvas 126 37 1329 891 12;
 #X declare -path ./babs;
 #X obj 292 140 outlet;
 #X obj 109 31 declare -path ./babs;
@@ -98,7 +98,7 @@
 #X connect 47 0 28 0;
 #X connect 48 0 25 1;
 #X restore 454 798 pd make-param;
-#N canvas 0 37 1470 891 resize 0;
+#N canvas 30 208 840 605 resize 0;
 #X obj 151 73 inlet;
 #X text 539 361 [donecanvasdialog <x-units> <y-units> <gop> <x-from> <y-from> <x-to> <y-to> <x-size> <y-size> <x-margin> <y-margin>(;
 #X text 525 427 [donecanvasdialog <args> \, dirty 0( [namecanvas \$0-myabs] | [send \$0-myabs];
@@ -112,6 +112,9 @@
 #X msg 84 179 0;
 #X obj 133 425 expr ($f1 + 1) * 20 + 2 + 2;
 #X obj 420 258 expr ($f1 + 1) * 20 + 2 + 2 + 37;
+#X msg 302 352 vis_size 158 \$1;
+#X obj 302 376 s \$0-label;
+#X obj 370 323 - 3;
 #X connect 0 0 5 0;
 #X connect 5 0 11 0;
 #X connect 5 1 12 0;
@@ -120,6 +123,9 @@
 #X connect 10 0 5 0;
 #X connect 11 0 9 0;
 #X connect 12 0 6 0;
+#X connect 12 0 15 0;
+#X connect 13 0 14 0;
+#X connect 15 0 13 0;
 #X restore 443 970 pd resize;
 #N canvas 830 355 574 573 make-enum 0;
 #X obj 67 27 inlet;
@@ -264,7 +270,7 @@
 #X obj 840 952 route enum;
 #X msg 914 1073 symbol \$1-set-\$2-enum;
 #X msg 840 1078 label \$2;
-#N canvas 56 108 672 746 receive-dump 0;
+#N canvas 141 148 672 746 receive-dump 0;
 #X obj 57 22 inlet;
 #X obj 187 604 outlet;
 #X msg 336 148 dump;
@@ -351,7 +357,7 @@
 #X connect 3 0 1 0;
 #X connect 4 0 2 0;
 #X restore 630 677 pd make-spacer;
-#X obj 101 101 cnv 19 158 59 empty \$0-label bop.ui\ \ [connect]-> 5 12 0 12 #ffffff #404040 0;
+#X obj 101 101 cnv 19 158 78 empty \$0-label bop.ui\ \ (connect)-> 5 12 0 12 #c7c6ff #404040 0;
 #X obj 245 100 bng 15 250 50 0 \$0-connect empty empty -36 8 0 8 #e3c6ff #c6feff #606060;
 #N canvas 184 374 701 445 \$0-controls 0;
 #X coords 0 -1 1 1 150 44 1 10 10;

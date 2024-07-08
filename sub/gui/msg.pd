@@ -18,8 +18,8 @@
 #X obj 23 365 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
 #X text 188 26 buttons have no savestate \, default value \, or easing;
 #X obj 98 137 delay 1;
-#X obj 11 11 cnv 15 144 18 empty empty empty 3 10 0 12 #ffffff #ffffff 0;
-#X obj 10 10 bng 20 250 50 0 \$1-get-\$2 \$1-set-\$2 :\ 0 22 10 0 10 #c6feff #e3c6ff #000000;
+#X obj 11 11 cnv 15 144 18 empty empty empty 3 10 0 12 #e3c6ff #ffffff 0;
+#X obj 10 10 bng 20 250 50 0 \$1-get-\$2 \$1-set-\$2 :\ 0 22 10 0 10 #e3c6ff #c6feff #000000;
 #X obj 427 203 r \$1-get-\$2;
 #X obj 427 227 list prepend \$2;
 #X obj 427 262 s \$1-params;

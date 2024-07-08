@@ -50,8 +50,8 @@
 #X msg 284 89 stop;
 #X obj 22 210 bop.synth~, f 38;
 #A saved osc1-tune 0;
-#A saved osc1-wave 1;
-#A saved osc1-pulsewidth 0.5;
+#A saved osc1-wave 2;
+#A saved osc1-pulsewidth 0.350367;
 #A saved osc1-gain 1;
 #A saved osc2-tune 0;
 #A saved osc2-wave 3;

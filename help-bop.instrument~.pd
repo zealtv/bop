@@ -6,12 +6,12 @@
 #A saved loop 1;
 #A saved internal-sequence 57 127 \; bump \; - 390 \;;
 #X msg 78 334 instrument \$1;
-#X obj 266 216 bop.ui;
+#X obj 270 340 bop.ui;
 #X msg 118 133 go;
 #X obj 77 259 babs/babs.counter;
 #X obj 48 368 cnv 19 200 80 empty empty empty 20 12 0 12 #ffe3c6 #404040 0;
 #X obj 77 402 bop.instrument~, f 20;
-#A saved instrument 3;
+#A saved instrument 1;
 #X floatatom 78 311 5 0 0 0 - - - 0;
 #X obj 78 287 % 4;
 #X msg 175 193 open;
