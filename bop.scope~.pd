@@ -38,12 +38,15 @@
 #X array \$0-view 100 float 2;
 #X coords 0 1 100 -1 146 100 1 0 0;
 #X restore 20 49 graph;
-#X listbox 20 176 20 0 0 1 msg \$0-display-params \$0-null 10;
-#X listbox 20 191 20 0 0 1 midi \$0-display-midi \$0-nowhere 10;
 #X obj 20 149 nbx 9 17 -1e+37 1e+37 0 0 empty \$0-set-signal signal 90 9 0 10 #c6feff #000000 #000000 0 256;
 #X obj 20 28 cnv 19 146 20 empty empty empty 20 12 0 12 #c7c6ff #404040 0;
 #X obj 147 20 tgl 19 0 \$0-get-print empty print -35 8 0 10 #e3c6ff #c6feff #000000 0 1;
-#X obj 122 191 bng 15 250 200 0 \$0-nowhere \$0-display-midi empty 0 -10 0 12 #c6feff #e3c6ff #000000;
+#X obj 72 441 s \$0-display-msg;
+#X obj 20 176 cnv 19 120 30 empty empty empty 20 12 0 12 #c6feff #404040 0;
+#X listbox 20 176 20 0 0 1 msg \$0-display-params \$0-null 10;
+#X listbox 20 191 20 0 0 1 midi \$0-display-midi \$0-nowhere 10;
+#X obj 127 191 bng 15 250 200 0 \$0-nowhere \$0-display-midi empty 0 -10 0 12 #e3c6ff #c6feff #000000;
+#X obj 127 176 bng 15 250 200 0 \$0-nowhere \$0-display-msg empty 0 -10 0 12 #e3c6ff #c6feff #000000;
 #X connect 0 0 17 0;
 #X connect 3 0 4 0;
 #X connect 3 0 14 0;
@@ -52,6 +55,7 @@
 #X connect 3 1 26 0;
 #X connect 5 0 6 0;
 #X connect 7 0 10 0;
+#X connect 7 0 37 0;
 #X connect 8 0 7 0;
 #X connect 11 0 12 1;
 #X connect 12 0 13 0;

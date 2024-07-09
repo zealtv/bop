@@ -357,8 +357,8 @@
 #X connect 3 0 1 0;
 #X connect 4 0 2 0;
 #X restore 630 677 pd make-spacer;
-#X obj 101 101 cnv 19 158 78 empty \$0-label bop.ui\ \ (connect)-> 5 12 0 12 #c7c6ff #404040 0;
-#X obj 245 100 bng 15 250 50 0 \$0-connect empty empty -36 8 0 8 #e3c6ff #c6feff #606060;
+#X obj 101 101 cnv 19 158 78 empty \$0-label bop.ui 5 12 0 12 #c7c6ff #404040 0;
+#X obj 245 100 bng 15 250 50 0 \$0-connect empty ! -10 9 0 14 #feffc6 #c6feff #faff00;
 #N canvas 184 374 701 445 \$0-controls 0;
 #X coords 0 -1 1 1 150 44 1 10 10;
 #X restore 105 130 pd \$0-controls;
@@ -374,7 +374,7 @@
 #X obj 56 84 t b b b, f 29;
 #X obj 156 214 s \$0-set-size;
 #X msg 156 188 1;
-#X msg 56 264 label bop.ui\ \ (connect)->;
+#X msg 56 264 label bop.ui;
 #X connect 0 0 4 0;
 #X connect 1 0 2 0;
 #X connect 4 0 7 0;

@@ -1,6 +1,6 @@
 #N canvas 301 155 422 398 12;
 #X declare -path ../;
-#X obj 149 112 help-bop.semisteps;
-#X obj 151 162 help-bop.frets;
-#X obj 268 330 declare -path ../;
-#X text 83 137 see:;
+#X obj 140 144 help-bop.semisteps;
+#X obj 142 184 help-bop.frets;
+#X obj 259 343 declare -path ../;
+#X text 102 165 see:;
