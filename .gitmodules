@@ -1,0 +1,3 @@
+[submodule "samplepacks/_bop_samplepack"]
+	path = samplepacks/_bop_samplepack
+	url = https://github.com/zealtv/_bop_samplepack
