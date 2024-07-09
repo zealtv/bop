@@ -1,5 +1,7 @@
 # samples/
 - Add samples conforming to this file structure:
+
+```
 bop/
 	samplepacks/
 		\[samplepack001]/
@@ -20,6 +22,6 @@ bop/
 				wave001.wav
 				wave002.wav
 				...			
-
+```
 
 - make sure .gitignore and README.md are preserved
