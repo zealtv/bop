@@ -225,8 +225,8 @@
 #A saved dry 1;
 #X msg 168 1102 filter 0.2;
 #X msg 182 1130 filter 0.9 1000;
-#X text 123 1515 [bop.scope~] inspects signal/midi/msg;
-#X text 266 1053 all parameters are saved with the parent patch;
+#X text 194 1528 [bop.scope~] inspects signal/midi/msg;
+#X text 218 1049 all parameters are saved with the parent patch;
 #X msg 268 1633 strum 1 0.23 1000;
 #X text 150 524 <--------- (right-click \, help);
 #X obj 273 764 bop.ui;

@@ -1,13 +1,13 @@
-#N canvas 91 118 931 791 12;
+#N canvas 137 54 931 791 12;
 #X obj 220 328 bop.sampler~;
 #X obj 221 158 notein;
 #X obj 220 214 pack;
-#X obj 371 324 bop.ui;
+#X obj 384 334 bop.ui;
 #X obj 221 451 dac~;
 #X obj 259 390 print;
 #X text 419 118 it provides midi-to-pitch and drum-rack style sample playback, f 63;
-#X floatatom 154 157 5 0 0 0 - - - 0;
-#X msg 153 183 \$1 100;
+#X floatatom 655 418 5 0 0 0 - - - 0;
+#X msg 654 444 \$1 100;
 #X msg 372 281 pack bop_samplepack;
 #X text 443 213 Loads a folders of wav files from the samplepack directory. Changing folders loads samples into RAM and may cause pauses. Be careful automating this parameter., f 58;
 #X text 166 46 [bop.sampler~] is a simple sampler and spiritual successor to the super sweet casio sk-1, f 90;
@@ -20,10 +20,10 @@
 #X msg 237 264 stop;
 #X obj 93 123 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X msg 91 159 41 \$1;
-#X obj 78 411 babs/babs.monopoly;
-#X obj 158 525 loadbang;
-#X msg 158 549 1;
-#X obj 78 440 route 1;
+#X obj 655 481 babs/babs.monopoly;
+#X obj 744 417 loadbang;
+#X msg 744 441 1;
+#X obj 655 510 route 1;
 #X connect 0 0 4 0;
 #X connect 0 0 4 1;
 #X connect 0 1 5 0;
@@ -44,4 +44,4 @@
 #X connect 21 0 24 0;
 #X connect 22 0 23 0;
 #X connect 23 0 21 1;
-#X connect 24 0 0 0;
+#X connect 24 0 0 1;
