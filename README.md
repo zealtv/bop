@@ -3,7 +3,7 @@
 # ✨🦚 friendly modules for pure data vanilla 🦚✨
 
 ## getting started
-- download this repository
+- download and unzip this repository
 	- or clone to include the default samplepack
 	```
 	git clone https://github.com/zealtv/bop --recurse-submodules
