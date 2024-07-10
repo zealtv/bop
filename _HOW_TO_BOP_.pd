@@ -228,8 +228,8 @@
 #X text 123 1515 [bop.scope~] inspects signal/midi/msg;
 #X text 266 1053 all parameters are saved with the parent patch;
 #X msg 268 1633 strum 1 0.23 1000;
-#X obj 272 755 bop.ui;
 #X text 150 524 <--------- (right-click \, help);
+#X obj 273 764 bop.ui;
 #X connect 15 0 14 0;
 #X connect 16 0 14 1;
 #X connect 17 0 14 2;
