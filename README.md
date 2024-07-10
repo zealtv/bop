@@ -7,11 +7,11 @@ bop is a suite of music-making abstractions for the media programming environmen
 
 it is currently in pre-release and has the following features:
 
-🐦 vanilla compatibility
+🐦 vanilla compatibility  
 🐦 global parameter messaging with built-in automation  
 🐦 parameter values saved with patch  
 🐦 [esoteric musical notation](https://zeal.co/notebook/intermals/)  
-🐦 text-based sequencing
+🐦 text-based sequencing  
 
 # requires
 pd version 0.54.1+
