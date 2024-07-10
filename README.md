@@ -1,24 +1,22 @@
 # bop 🐤
 
-# ✨🦚 Friendly modules for Pure Data Vanilla 🦚✨
+# ✨🦚 friendly modules for Pure Data Vanilla 🦚✨
 
 ## what the bop? 🦜 
-bop is a suite of music-making abstractions for the media programming environment [Pure Data](puredata.info/).  It is designed to be flexible, user-friendly, and fun.  It can be run on old hardware, embedded into Raspberry Pi projects, or be deployed at massive scale in distributed, immersive installations.
+bop is a suite of music-making abstractions for the media programming environment [pure data](puredata.info/).  it is designed to be flexible, user-friendly, and fun.  it could be run on old hardware, embedded into gadgets, or be deployed at massive scale in distributed, immersive installations.
 
-<!-- ![bop screenshot](screenshot.bop.png) -->
+it is currently in pre-release and has the following features:
 
-It is currently in pre-release and has the following features:
-
-🐦 vanilla compatibility  
+🐦 vanilla compatibility
 🐦 global parameter messaging with built-in automation  
-🐦 parameter state saved with parent patch  
+🐦 parameter values saved with patch  
 🐦 [esoteric musical notation](https://zeal.co/notebook/intermals/)  
-🐦 scripting and sequencing
+🐦 text-based sequencing
 
-# Requires
-Pd version 0.54.1 or greater
+# requires
+pd version 0.54.1+
 
-## Credits
-bop makes use of some of [these](https://github.com/MikeMorenoDSP/pd-mkmr) abstractions by [Mike Moreno](https://mikemorenodsp.github.io/).
+## credits
+bop makes use of some of [these](https://github.com/MikeMorenoDSP/pd-mkmr) abstractions by [mike moreno](https://mikemorenodsp.github.io/).
 
-Other borrowed code credited in the patch.
+other borrowed code credited in the patch.

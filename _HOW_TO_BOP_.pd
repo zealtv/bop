@@ -172,7 +172,7 @@
 #X text -1 431 ________________ sequencing;
 #X text -1 311 ________________ effects;
 #X text 639 2336 fin;
-#X obj 12 596 cnv 19 650 1300 empty empty empty 20 12 0 12 #feffc6 #404040 0;
+#X obj 1 596 cnv 19 650 1300 empty empty empty 20 12 0 12 #feffc6 #404040 0;
 #X obj 267 1742 dac~;
 #X obj 363 196 cnv 19 30 180 empty empty empty 20 12 0 12 #e3c6ff #404040 0;
 #X obj 397 87 cnv 19 140 76 empty empty empty 20 12 0 12 #feffc6 #404040 0;
