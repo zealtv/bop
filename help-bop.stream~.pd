@@ -1,4 +1,4 @@
-#N canvas 770 257 545 452 12;
+#N canvas 646 198 545 452 12;
 #X obj 62 49 notein;
 #X obj 61 105 pack;
 #X obj 264 171 bop.ui;
@@ -6,12 +6,14 @@
 #X obj 138 313 print;
 #X obj 61 189 bop.stream~;
 #A saved pack bop_samplepack;
-#A saved folder 1;
+#A saved folder 0;
 #A saved gain 1;
-#X floatatom 133 41 5 0 0 0 - - - 0;
-#X msg 132 71 \$1 100;
-#X msg 166 140 stop;
-#X msg 140 108 pack bop_samplepack;
+#X floatatom 132 39 5 0 0 0 - - - 0;
+#X msg 132 67 \$1 100;
+#X msg 212 144 stop;
+#X msg 186 112 pack bop_samplepack;
+#X floatatom 196 40 5 0 0 0 - - - 0;
+#X msg 195 70 folder \$1;
 #X connect 0 0 1 0;
 #X connect 0 1 1 1;
 #X connect 1 0 5 0;
@@ -23,3 +25,5 @@
 #X connect 7 0 5 0;
 #X connect 8 0 5 1;
 #X connect 9 0 5 1;
+#X connect 10 0 11 0;
+#X connect 11 0 5 0;

@@ -1,4 +1,4 @@
-#N canvas 1 37 1470 891 12;
+#N canvas 0 65 722 864 12;
 #X declare -path ../../babs;
 #X obj 60 36 inlet;
 #X text 196 24 args \; \$1 voice number \; \$2 parent \$0 \;;
@@ -95,6 +95,8 @@
 #X msg 535 1921 stop;
 #X text 145 1375 stop sample when not looping, f 14;
 #X obj 351 37 declare -path ../../babs;
+#X obj 779 619 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
+#X obj 720 572 r \$2-get-stop;
 #X connect 0 0 3 0;
 #X connect 2 0 40 1;
 #X connect 4 0 5 0;
@@ -184,3 +186,5 @@
 #X connect 90 0 86 0;
 #X connect 91 0 92 0;
 #X connect 92 0 78 0;
+#X connect 96 0 7 0;
+#X connect 96 0 95 0;

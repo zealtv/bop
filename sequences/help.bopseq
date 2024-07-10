@@ -1,0 +1,13 @@
+--- strum from 0 to 1 in 1000ms;
+strum 0 1 1000;
+--- wait 1000ms;
+- 1000;
+--- play two midi notes;
+40 100;
+47 100;
+--- wait 2000ms;
+- 2000;
+--- stop everything;
+stop;
+--- wait 1 second;
+- 1000;
