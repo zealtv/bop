@@ -1,4 +1,4 @@
-#N canvas 731 142 695 685 12;
+#N canvas 575 94 695 685 12;
 #X obj 1 82 cnv 19 260 530 empty empty bop 60 -20 0 64 #c6feff #c7c6ff 0;
 #X obj 46 473 bop.sequence;
 #A saved loop 0;
@@ -24,7 +24,7 @@
 #A saved hold 0;
 #A saved velocity 0.7;
 #A saved duration 0.3;
-#X obj 58 185 bop.synth~;
+#X obj 53 184 bop.synth~;
 #A saved osc1-wave 1;
 #A saved osc1-tune 0;
 #A saved osc1-pulsewidth 0.5;
@@ -43,9 +43,9 @@
 #A saved sustain 0.7;
 #A saved release 0.2;
 #A saved gain 1;
-#X obj 24 161 bop.instrument~;
+#X obj 19 160 bop.instrument~;
 #A saved instrument 3;
-#X obj 57 138 bop.casio~;
+#X obj 52 137 bop.casio~;
 #A saved wave-1 0;
 #A saved wave-2 0;
 #A saved filter 0.66;
@@ -54,7 +54,7 @@
 #A saved sustain 0.7;
 #A saved release 0.2;
 #A saved gain 1;
-#X obj 80 209 bop.fm~;
+#X obj 75 208 bop.fm~;
 #A saved frequency 333;
 #A saved dividend 1;
 #A saved divisor 1;
@@ -68,11 +68,11 @@
 #A saved lfo-speed 0.25;
 #A saved lfo-depth 0;
 #A saved gain 0.75;
-#X obj 53 275 bop.stream~;
+#X obj 48 274 bop.stream~;
 #A saved pack bop_samplepack;
 #A saved folder 0;
 #A saved gain 1;
-#X obj 45 251 bop.sampler~;
+#X obj 40 250 bop.sampler~;
 #A saved pack bop_samplepack;
 #A saved folder 0;
 #A saved sample 0;
