@@ -32,10 +32,10 @@
 #A saved tune 0;
 #A saved root 40;
 #A saved loop 1;
-#A saved loop-start 0.15;
-#A saved loop-length 0.321429;
+#A saved loop-start 0.157143;
+#A saved loop-length 0.257143;
 #A saved attack 0;
-#A saved release 0;
+#A saved release 0.571429;
 #A saved gain 1;
 #X connect 0 0 1 0;
 #X connect 0 1 1 1;
