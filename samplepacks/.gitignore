@@ -3,4 +3,4 @@
 # Except these files
 !.gitignore
 !README.md
-!samplepack_template
+!template_samplepack/*

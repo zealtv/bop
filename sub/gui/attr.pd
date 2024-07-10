@@ -4,8 +4,8 @@
 #X text 94 274 binds to a ui element in parent patch with sends and receives as so:, f 20;
 #X text 93 198 arguments:;
 #X text 93 237 \$2: label of paramname;
-#X obj 188 101 cnv 15 57 18 empty empty empty 3 10 0 12 #ffffff #ffffff 0;
-#X listbox 102 102 14 0 0 1 \$2 \$1-set-\$2 \$1-get-\$2 10;
+#X obj 207 101 cnv 13 40 18 empty empty empty 3 10 0 12 #ffffff #ffffff 0;
+#X listbox 102 102 17 0 0 1 \$2 \$1-set-\$2 \$1-get-\$2 10;
 #X text 93 367 recv: \$0-to-[paramname];
 #X obj 330 198 r \$1-get-\$2;
 #X obj 330 222 list prepend \$2;

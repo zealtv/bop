@@ -1,10 +1,9 @@
 # samplepacks/
 
+a samplepack is a folder that contains folders of wav files - it might contain all the audio to be used together on a project.  
 
-a samplepack contains all the audio to be used together on a project.  
-a samplepack is simply a folder that contains subfolders of wav files.
+! don't delete .gitignore or README.md
 
-ensure .gitignore and README.md files are preserved
 
 ```
 bop/

@@ -62,7 +62,7 @@
 #X obj 540 738 f;
 #X obj 607 676 int;
 #X text 511 403 ---------- SAMPLE LOADING ------------;
-#N canvas 263 69 919 823 load-folders 0;
+#N canvas 75 72 919 823 load-folders 0;
 #X obj 52 78 inlet;
 #X obj 272 507 file glob;
 #X obj 274 420 pdcontrol;
@@ -100,11 +100,11 @@
 #X obj 582 176 inlet;
 #X text 627 176 custom path;
 #X obj 582 214 symbol;
-#X obj 275 467 makefilename %s/samples/*/;
-#X msg 582 409 set %s/\$1/*/;
+#X msg 582 409 set %s/samplepacks/\$1/*/;
+#X obj 275 467 makefilename %s/samplepacks/bop_samplepack/*/;
 #X connect 0 0 10 0;
 #X connect 1 0 5 0;
-#X connect 2 0 37 0;
+#X connect 2 0 38 0;
 #X connect 3 0 2 0;
 #X connect 4 0 25 0;
 #X connect 5 0 26 0;
@@ -132,9 +132,9 @@
 #X connect 27 0 13 0;
 #X connect 28 0 29 0;
 #X connect 34 0 36 0;
-#X connect 36 0 38 0;
-#X connect 37 0 1 0;
-#X connect 38 0 37 0;
+#X connect 36 0 37 0;
+#X connect 37 0 38 0;
+#X connect 38 0 1 0;
 #X restore 659 589 pd load-folders;
 #X f 17;
 #X obj 156 1116 r~ \$0-get-gain;
@@ -202,7 +202,7 @@
 #X obj 908 178 babs.param \$0 gain 1;
 #X obj 908 137 babs.param.spacer \$0;
 #X obj 908 101 babs.param \$0 folder 0 0 1e+37;
-#X obj 911 64 babs.param.attr \$0 path samples;
+#X obj 911 64 babs.param.attr \$0 pack bop_samplepack;
 #X connect 1 0 0 0;
 #X connect 1 1 58 0;
 #X connect 3 0 14 0;
