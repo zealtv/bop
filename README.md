@@ -4,10 +4,10 @@
 
 ## getting started
 - download this repository
-- - or clone to include the default samplepack
-```
-git clone https://github.com/zealtv/bop --recurse-submodules
-```
+	- or clone to include the default samplepack
+	```
+	git clone https://github.com/zealtv/bop --recurse-submodules
+	```
 - open \_HOW_TO_BOP_.pd in [pure data](puredata.info/)
 
 ## what the bop? 🦜 
