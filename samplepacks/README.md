@@ -1,8 +1,8 @@
 # samplepacks/
 
 
-a samplepack contains all the audio to be used together on a project.
-a samplepack is simply a folder containing folders of wav files.
+a samplepack contains all the audio to be used together on a project.  
+a samplepack is simply a folder that contains subfolders of wav files.
 
 ```
 bop/
