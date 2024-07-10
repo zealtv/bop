@@ -1,5 +1,8 @@
-# samples/
-- Add samples conforming to this file structure:
+# samplepacks/
+
+
+a samplepack contains all the audio to be used together on a project.
+a samplepack is simply a folder containing folders of wav files.
 
 ```
 bop/

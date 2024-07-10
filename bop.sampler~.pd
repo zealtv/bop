@@ -220,6 +220,7 @@
 #X obj 798 55 babs.param.spacer \$0;
 #X obj 796 20 babs.param.enum \$0 mode repitch keymap;
 #X obj 788 -7 babs.param \$0 mode 0 0 1;
+#X obj 539 49 babs.param.attr \$0 path samples;
 #X connect 1 0 0 0;
 #X connect 3 0 29 0;
 #X connect 5 0 24 0;
