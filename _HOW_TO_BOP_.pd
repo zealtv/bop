@@ -73,6 +73,18 @@
 #A saved folder 0;
 #A saved gain 1;
 #X obj 45 251 bop.sampler~;
+#A saved pack bop_samplepack;
+#A saved folder 0;
+#A saved sample 0;
+#A saved mode 0;
+#A saved tune 0;
+#A saved root 40;
+#A saved loop 1;
+#A saved loop-start 0;
+#A saved loop-length 1;
+#A saved attack 0.1;
+#A saved release 0.3;
+#A saved gain 1;
 #X obj 56 388 bop.delay~;
 #A saved time 0.333;
 #A saved feedback 0.5;
