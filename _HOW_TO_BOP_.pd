@@ -185,7 +185,7 @@
 #X text -1 311 ________________ effects;
 #X text 639 2336 fin;
 #X obj 1 596 cnv 19 650 1300 empty empty empty 20 12 0 12 #feffc6 #404040 0;
-#X obj 267 1742 dac~;
+#X obj 273 1798 dac~;
 #X obj 363 196 cnv 19 30 180 empty empty empty 20 12 0 12 #e3c6ff #404040 0;
 #X obj 397 87 cnv 19 140 76 empty empty empty 20 12 0 12 #feffc6 #404040 0;
 #X text 464 139 |||V, f 1;
@@ -193,7 +193,7 @@
 #X obj 404 198 doc/ins-and-outs;
 #X obj 406 356 doc/sequencing;
 #X obj 403 236 doc/ui-and-sate-saving;
-#X obj 267 1665 bop.strum, f 15;
+#X obj 273 1721 bop.strum, f 15;
 #A saved strum 0.23;
 #A saved chord 7;
 #A saved shuffle 0;
@@ -201,7 +201,7 @@
 #A saved octaves 3;
 #A saved velocity 0.8;
 #A saved duration 0.971429;
-#X obj 267 1697 bop.instrument~;
+#X obj 273 1753 bop.instrument~;
 #A saved instrument 3;
 #X text 239 507 see help patches;
 #X obj 405 276 doc/messages-and-automation;
@@ -227,7 +227,7 @@
 #X msg 206 1166 stop;
 #X obj 143 1245 dac~;
 #X text 112 706 connect [bop.ui] to any bop module and click the ! button;
-#X text 131 1781 omit [bop.ui] and [bop.scope~] for fast \, minimal code, f 55;
+#X text 144 1642 omit [bop.ui] and [bop.scope~] for fast \, minimal code, f 55;
 #X obj 187 894 bop.delay~;
 #A saved time 0.333;
 #A saved feedback 0.5;
@@ -237,9 +237,9 @@
 #A saved dry 1;
 #X msg 168 1072 filter 0.2;
 #X msg 182 1100 filter 0.9 1000;
-#X text 194 1528 [bop.scope~] inspects signal/midi/msg;
-#X text 204 1023 all parameters are saved with the parent patch;
-#X msg 268 1633 strum 1 0.23 1000;
+#X text 200 1510 [bop.scope~] inspects signal/midi/msg;
+#X text 204 1039 all parameters are saved with the parent patch;
+#X msg 274 1689 strum 1 0.23 1000;
 #X text 150 524 <--------- (right-click \, help);
 #X obj 273 764 bop.ui;
 #X text 263 1068 or control them with messages;
