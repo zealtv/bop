@@ -35,7 +35,6 @@
 #A saved sustain 0;
 #A saved release 0;
 #A saved gain 1;
-#X text 46 228 connect to any bop module inlet and click (connect)->, f 55;
 #X text 59 550 all parameter values are saved with the patch;
 #X text 250 950 use [bop.scope~] to inspect signal \, midi and messages, f 60;
 #X msg 83 682 stop;
@@ -46,6 +45,7 @@
 #X msg 493 1148 strum 0.9 0.55 1200;
 #X msg 141 721 open;
 #X obj 456 117 bop.ui;
+#X text 129 197 connect to any bop module inlet and click ! ->, f 55;
 #X connect 1 0 4 0;
 #X connect 1 0 4 1;
 #X connect 2 0 10 0;
@@ -58,6 +58,6 @@
 #X connect 9 0 10 1;
 #X connect 10 0 1 0;
 #X connect 10 1 1 0;
-#X connect 14 0 2 0;
-#X connect 19 0 6 0;
-#X connect 20 0 2 1;
+#X connect 13 0 2 0;
+#X connect 18 0 6 0;
+#X connect 19 0 2 1;

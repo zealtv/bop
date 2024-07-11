@@ -2,8 +2,8 @@
 #X obj 363 267 bop.ui;
 #X obj 166 433 dac~;
 #X obj 242 434 print;
-#X floatatom 171 116 5 0 0 0 - - - 0;
-#X msg 171 144 \$1 100;
+#X floatatom 171 146 5 0 0 0 - - - 0;
+#X msg 171 174 \$1 100;
 #X msg 279 264 stop;
 #X msg 260 228 pack bop_samplepack;
 #X floatatom 236 165 5 0 0 0 - - - 0;
@@ -12,8 +12,9 @@
 #X obj 114 306 cnv 19 200 80 empty empty empty 20 12 0 12 #ffe3c6 #404040 0;
 #X obj 170 337 bop.stream~;
 #A saved pack bop_samplepack;
-#A saved folder 1;
+#A saved folder 0;
 #A saved gain 1;
+#X obj 171 116 hradio 19 1 0 8 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0;
 #X connect 0 0 11 1;
 #X connect 3 0 4 0;
 #X connect 4 0 11 0;
@@ -24,3 +25,4 @@
 #X connect 11 0 1 0;
 #X connect 11 0 1 1;
 #X connect 11 1 2 0;
+#X connect 12 0 3 0;

@@ -25,7 +25,6 @@
 #X msg 463 547 dump;
 #X text 341 84 midi notes can be sent to any inlet;
 #X text 452 145 ... as can messages;
-#X text 409 370 <------ all midi/msgs are forwarded to the right outlet, f 58;
 #X msg 516 454 instrument 2;
 #X msg 516 335 instrument 1;
 #X text 510 540 the dump message dumps all parameter names and values out the right outlet, f 40;
@@ -37,7 +36,8 @@
 #X text 148 507 signal passes through the left, f 17;
 #X msg 298 115 64 100;
 #X text 448 182 all parameters in bop can be automated with messages;
-#X text 464 401 chain modules together and messages are passed down the chain, f 50;
+#X text 464 389 chain modules together and messages are passed down the chain, f 34;
+#X text 409 370 <------ all midi/msgs are forwarded out the right outlet, f 58;
 #X connect 1 0 9 0;
 #X connect 1 1 9 1;
 #X connect 3 0 1 1;
@@ -45,10 +45,10 @@
 #X connect 9 0 2 0;
 #X connect 9 1 5 0;
 #X connect 14 0 9 1;
-#X connect 18 0 9 1;
-#X connect 19 0 1 1;
+#X connect 17 0 9 1;
+#X connect 18 0 1 1;
+#X connect 20 0 9 1;
 #X connect 21 0 9 1;
-#X connect 22 0 9 1;
+#X connect 22 0 1 1;
 #X connect 23 0 1 1;
-#X connect 24 0 1 1;
-#X connect 27 0 1 1;
+#X connect 26 0 1 1;
