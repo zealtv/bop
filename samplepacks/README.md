@@ -1,8 +1,10 @@
 # samplepacks/
 
-a samplepack is a folder that contains folders of wav files - it might contain all the audio to be used together on a project.  
+_do not delete .gitignore or README.md_
 
-! don't delete .gitignore or README.md
+
+A samplepack is a folder that contains folders of wav files - it might contain all the audio to be used together on a project or a piece. 
+
 
 
 ```
@@ -11,22 +13,22 @@ bop/
 		.gitignore
 		README.md
 
-		samplepack001/
-			folder001/
+		example_samplepack/
+			folder1/
 				wave001.wav
 				wave002.wav
 				wave003.wav
-			folder002/
+			folder2/
 				wave001.wav
 				wave002.wav
 				...
 
 		my_cool_samplepack/
-			drumkit/
+			000drumkit/
 				001.wav
 				002.wav
 				003.wav
-			pno_multisample/
+			001pno_multisample/
 				001c3.wav
 				002c4.wav
 				...			
