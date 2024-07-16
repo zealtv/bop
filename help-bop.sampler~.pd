@@ -25,11 +25,11 @@
 #A saved folder 0;
 #A saved sample 8;
 #A saved mode 0;
-#A saved tune -24;
-#A saved root 71.5;
+#A saved tune 0;
+#A saved root 79;
 #A saved loop 1;
 #A saved loop-start 0;
-#A saved loop-length 0.464286;
+#A saved loop-length 0.357143;
 #A saved attack 0;
 #A saved release 0;
 #A saved gain 1;
@@ -37,11 +37,10 @@
 #X msg 120 165 53 \$1;
 #X msg 165 165 52 \$1;
 #X msg 30 75 48 100 \, 50 100 \, 57 100;
-#X msg 494 488 tune -24 1000 -12 500 -12 500 -24 500;
-#X msg 492 569 tune 0 4000;
-#X msg 492 543 tune -12 4000;
+#X msg 486 507 tune 0 4000;
+#X msg 485 528 tune -12 4000;
 #X text 466 288 set the samplepack folder by name relative to bop/samplepacks/, f 63;
-#X msg 491 516 tune loop -24 1000 -24 3000 -15 1000;
+#X msg 485 486 tune 12 4000;
 #X connect 0 0 1 0;
 #X connect 0 1 1 1;
 #X connect 1 0 21 1;
@@ -64,5 +63,4 @@
 #X connect 25 0 21 0;
 #X connect 26 0 21 1;
 #X connect 27 0 21 1;
-#X connect 28 0 21 1;
-#X connect 30 0 21 1;
+#X connect 29 0 21 1;

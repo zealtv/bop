@@ -1,10 +1,14 @@
+--- set instrument;
+instrument 0;
 --- strum from 0 to 1 in 1000ms;
 strum 0 1 1000;
 --- wait 1000ms;
-- 1000;
+- 2000;
+--- change instrument;
+instrument 1;
 --- play two midi notes;
-40 100;
-47 100;
+44 127;
+51 127;
 --- wait 2000ms;
 - 2000;
 --- stop everything;
