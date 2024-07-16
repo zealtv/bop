@@ -1,4 +1,4 @@
-#N canvas 238 76 446 669 12;
+#N canvas 238 76 547 673 12;
 #X declare -path ../;
 #X obj 244 593 declare -path ../;
 #X obj 108 287 bop.instrument~;
@@ -11,7 +11,7 @@
 #A saved octaves 3;
 #A saved velocity 0.371429;
 #A saved duration 0.444;
-#X obj 80 532 dac~, f 12;
+#X obj 153 532 dac~, f 12;
 #X obj 108 148 bop.sequence;
 #A saved loop 1;
 #A saved internal-sequence stop \; strum 1 0.3 1600 \; - 18000 \;;
@@ -32,7 +32,7 @@
 #X obj 237 287 bop.casio~, f 12;
 #A saved wave-1 1;
 #A saved wave-2 1;
-#A saved filter 0.417488;
+#A saved filter 0.661536;
 #A saved attack 0.1;
 #A saved decay 0.3;
 #A saved sustain 1;

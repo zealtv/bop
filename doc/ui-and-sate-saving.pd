@@ -19,7 +19,7 @@
 #X obj 493 1214 bop.instrument~;
 #A saved instrument 1;
 #X obj 357 269 bop.delay~;
-#A saved time 0.666;
+#A saved time 2.5;
 #A saved feedback 0.5;
 #A saved cutoff 1000;
 #A saved q 0.3;
@@ -46,6 +46,7 @@
 #X msg 141 721 open;
 #X obj 456 117 bop.ui;
 #X text 129 197 connect to any bop module inlet and click ! ->, f 55;
+#X msg 449 239 feedback 0.5;
 #X connect 1 0 4 0;
 #X connect 1 0 4 1;
 #X connect 2 0 10 0;
@@ -61,3 +62,4 @@
 #X connect 13 0 2 0;
 #X connect 18 0 6 0;
 #X connect 19 0 2 1;
+#X connect 22 0 8 1;

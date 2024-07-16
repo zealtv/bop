@@ -1,4 +1,4 @@
-#N canvas 187 69 854 835 12;
+#N canvas 49 46 854 835 12;
 #X text 662 260 I maj7;
 #X text 679 346 III min7;
 #X text 675 319 II min7;
@@ -10,9 +10,9 @@
 #X obj 69 465 dac~;
 #X obj 62 331 cnv 19 200 80 empty empty empty 20 12 0 12 #ffe3c6 #404040 0;
 #X obj 68 362 bop.semisteps, f 22;
-#A saved semisteps 0.22;
+#A saved semisteps 0.434;
 #A saved root 52;
-#A saved hold 0;
+#A saved hold 1;
 #A saved duration 0.25;
 #A saved velocity 0.75;
 #X text 134 597 major triad;
@@ -76,8 +76,11 @@
 #X text 165 746 1 2 5;
 #X text 343 719 cluster 2 3;
 #X msg 308 720 0.22;
+#X obj 136 482 babs/babs.onlist;
+#X listbox 136 506 20 0 0 0 - - - 0;
 #X connect 4 0 7 0;
 #X connect 4 0 7 1;
+#X connect 4 1 71 0;
 #X connect 5 0 9 1;
 #X connect 6 0 9 0;
 #X connect 9 0 4 0;
@@ -111,3 +114,4 @@
 #X connect 65 0 32 0;
 #X connect 67 0 31 0;
 #X connect 70 0 32 0;
+#X connect 71 0 72 0;
