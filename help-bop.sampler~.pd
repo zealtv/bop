@@ -1,13 +1,13 @@
-#N canvas 384 52 940 851 12;
+#N canvas 918 56 940 851 12;
 #X obj 164 441 notein;
 #X obj 163 487 pack;
 #X obj 321 332 bop.ui;
-#X obj 104 640 dac~;
+#X obj 102 779 dac~;
 #X obj 153 636 print;
 #X msg 319 290 pack bop_samplepack;
 #X text 302 28 [bop.sampler~] is a simple sampler and spiritual successor to the super sweet casio sk-1, f 90;
 #X msg 244 160 mode \$1;
-#X obj 244 124 tgl 19 1 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 1 1;
+#X obj 244 124 tgl 19 1 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X msg 320 209 folder \$1;
 #X floatatom 322 186 5 0 0 0 - - - 0;
 #X msg 71 132 stop;
@@ -28,8 +28,8 @@
 #A saved tune -48;
 #A saved root 40;
 #A saved loop 1;
-#A saved loop-start 0;
-#A saved loop-length 0.257143;
+#A saved loop-start 0.0428571;
+#A saved loop-length 0.0785714;
 #A saved attack 0.1;
 #A saved release 0.3;
 #A saved gain 1;
@@ -42,7 +42,7 @@
 #X floatatom 31 24 5 0 0 0 - - - 0;
 #X obj 108 12 loadbang;
 #X msg 108 36 1;
-#X msg 30 64 stop \, sample 0 \, sample \$1 \, 50 100 \, 54 100;
+#X msg 30 64 stop \, sample 0 \, sample \$1 \, 50 20 \, 54 100;
 #X connect 0 0 1 0;
 #X connect 0 1 1 1;
 #X connect 1 0 21 1;

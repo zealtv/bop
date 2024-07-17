@@ -3,11 +3,11 @@
 # ✨🦚 friendly modules for pure data vanilla 🦚✨
 
 ## getting started
-- download and unzip this repository
-	- or clone to include the default samplepack
-	```
-	git clone https://github.com/zealtv/bop --recurse-submodules
-	```
+- download the [latest release](https://github.com/zealtv/bop/releases) and unzip
+- or clone from github __with recursion__
+```
+git clone https://github.com/zealtv/bop --recurse-submodules
+```
 - open \_HOW_TO_BOP_.pd in [pure data](puredata.info/)
 
 ## what the bop? 🦜 
