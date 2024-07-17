@@ -4,7 +4,7 @@
 
 ## getting started
 - download the [latest release](https://github.com/zealtv/bop/releases) and unzip
-- or clone from github with bop_samplepack submodule
+- or clone from github with [bop_samplepack](https://github.com/zealtv/bop_samplepack) submodule
 ```
 git clone https://github.com/zealtv/bop --recurse-submodules
 ```
