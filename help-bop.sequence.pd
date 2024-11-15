@@ -4,7 +4,7 @@
 #X text 305 217 < go!;
 #X msg 253 188 open, f 6;
 #X obj 276 494 bop.instrument~;
-#A saved instrument 1;
+#A saved instrument 0;
 #X obj 276 447 bop.strum, f 15;
 #A saved strum 1;
 #A saved chord 7;
@@ -17,8 +17,8 @@
 #X obj 427 514 print bop.sequence;
 #X obj 252 292 cnv 19 200 80 empty empty empty 20 12 0 12 #ffe3c6 #404040 0;
 #X obj 278 319 bop.sequence, f 21;
-#A saved read help.bopseq;
 #A saved loop 0;
+#A saved scrub 0;
 #A saved internal-sequence --- set instrument \; instrument 0 \; --- strum from 0 to 1 in 1000ms \; strum 0 1 1000 \; --- wait 1000ms \; - 2000 \; --- change instrument \; instrument 1 \; --- play two midi notes \; 44 127 \; 51 127 \; --- wait 2000ms \; - 2000 \; --- stop everything \; stop \; --- wait 1 second \; - 1000 \;;
 #N canvas 330 184 616 329 todo 0;
 #X text 104 28 === --- never return before here [ ] \; - 1b --- one bar rest [ ] \; - b4 --- 1/4 bar rest [ ] \; . c#3 127 --- human readable midi [ ] \; . c3 g3 127 --- multiple midi notes share velocity [ ] \;;
