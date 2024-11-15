@@ -1,4 +1,4 @@
-#N canvas 159 144 487 571 12;
+#N canvas 899 209 487 571 12;
 #X text 121 34 bop.instrument~ provides synthesized mallets \, keys \, and plucked strings, f 39;
 #X obj 86 467 dac~;
 #X msg 153 168 stop;
