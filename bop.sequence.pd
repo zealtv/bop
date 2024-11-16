@@ -168,6 +168,8 @@
 #X obj 779 127 babs.param.spacer \$0;
 #X obj 778 75 babs.param.attr \$0 read;
 #X obj 776 29 babs.param.msg \$0 open;
+#X obj 799 1048 loadbang;
+#X obj 799 1072 delay 10;
 #X connect 0 0 3 0;
 #X connect 0 1 39 0;
 #X connect 7 0 1 0;
@@ -215,4 +217,6 @@
 #X connect 62 0 61 0;
 #X connect 64 0 60 1;
 #X connect 67 0 62 0;
+#X connect 75 0 76 0;
+#X connect 76 0 56 0;
 #X coords 0 891 1 890 166 100 0;
