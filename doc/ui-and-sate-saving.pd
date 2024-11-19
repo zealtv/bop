@@ -4,6 +4,7 @@
 #X obj 50 852 bop.scope~;
 #X obj 48 722 bop.sequence;
 #A saved loop 1;
+#A saved scrub 0;
 #A saved internal-sequence 28 100 \; - 500 \; 44 90 \; - 1500 \; 28 0 \; 30 127 \; 44 0 \; - 750 \; 42 100 \; - 1250 \; stop \;;
 #X msg 47 656 go;
 #X obj 49 1095 dac~;
@@ -20,9 +21,9 @@
 #A saved instrument 1;
 #X obj 357 269 bop.delay~;
 #A saved time 2.5;
-#A saved feedback 0.45;
+#A saved feedback 0.571429;
 #A saved cutoff 1000;
-#A saved q 0.357143;
+#A saved q 0.707143;
 #A saved wet 0.75;
 #A saved dry 1;
 #X obj 455 472 bop.ui;
@@ -44,8 +45,7 @@
 #X obj 555 1477 declare -path ../;
 #X msg 493 1148 strum 0.9 0.55 1200;
 #X msg 141 721 open;
-#X text 129 197 connect to any bop module inlet and click ! ->, f 55;
-#X msg 452 245 feedback 0.5;
+#X text 144 172 connect to any bop module inlet and click ! ->, f 55;
 #X obj 475 100 bop.ui;
 #X connect 1 0 4 0;
 #X connect 1 0 4 1;
@@ -62,4 +62,3 @@
 #X connect 13 0 2 0;
 #X connect 18 0 6 0;
 #X connect 19 0 2 1;
-#X connect 21 0 8 1;
