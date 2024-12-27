@@ -15,12 +15,11 @@ it is currently in pre-release and has the following features:
 🐦 [esoteric musical notation](https://zeal.co/notebook/intermals/)
 
 ## getting started
-- download the [latest release](https://github.com/zealtv/bop/releases) and unzip
-- or clone from github with [bop_samplepack](https://github.com/zealtv/bop_samplepack) submodule
+- download the [latest release](https://github.com/zealtv/bop/releases) and unzip, or clone from github and include submodules:
 ```
 git clone https://github.com/zealtv/bop --recursive
 ```
-- open \_HOW_TO_BOP_.pd in [pure data](puredata.info/)
+- open \_HOW_TO_BOP_.pd in [pure data vanilla](puredata.info/)
 
 
 # requires
