@@ -25,10 +25,12 @@
 #X text 929 926 comment;
 #X text 272 818 array name \, size (samples) \, sample rate \, duration (seconds);
 #X obj 465 30 declare -path ../../babs;
+#X listbox 349 434 20 0 0 0 - - - 0;
 #X connect 0 0 5 0;
 #X connect 1 0 3 0;
 #X connect 2 0 7 0;
 #X connect 3 1 9 0;
+#X connect 3 1 25 0;
 #X connect 5 0 2 0;
 #X connect 6 0 15 0;
 #X connect 7 0 6 0;
