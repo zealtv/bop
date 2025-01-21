@@ -2,6 +2,8 @@
 
 # ✨🦚 friendly modules for pure data vanilla 🦚✨
 
+[![video introduction to bop](http://img.youtube.com/vi/5Vw00N4vCYw/0.jpg)](http://www.youtube.com/watch?v=5Vw00N4vCYw)
+
 ## what the bop? 🦜 
 bop is a suite of music-making abstractions for the media programming environment [pure data](puredata.info/).  it is designed to be flexible, user-friendly, and fun.  it could be run on old hardware, embedded into gadgets, or be deployed at massive scale in distributed, immersive installations.
 
