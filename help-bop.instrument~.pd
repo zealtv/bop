@@ -4,13 +4,14 @@
 #X msg 153 168 stop;
 #X obj 87 204 bop.sequence;
 #A saved loop 1;
-#A saved internal-sequence 57 127 \; - 400 \;;
+#A saved scrub 0;
+#A saved internal-sequence 57 127 \; - 400 \; 52 127 \; - 400 \; 65 127 \; - 400 \;;
 #X msg 118 331 instrument \$1;
 #X obj 270 340 bop.ui;
 #X msg 124 145 go;
 #X obj 48 368 cnv 19 200 80 empty empty empty 20 12 0 12 #ffe3c6 #404040 0;
 #X obj 87 399 bop.instrument~, f 17;
-#A saved instrument 3;
+#A saved instrument 1;
 #X msg 181 205 open;
 #X msg 91 116 64 127;
 #X floatatom 118 305 5 0 0 0 - - - 0;
