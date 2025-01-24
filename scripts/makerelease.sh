@@ -4,4 +4,4 @@
 
 
 cd ../
-zip -r bop-release.zip * -x ".*" -x "*/.*"
+zip -r bop-release`date "+%Y%m%d"`.zip * -x ".*" -x "*/.*"
