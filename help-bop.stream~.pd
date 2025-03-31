@@ -1,4 +1,4 @@
-#N canvas 646 198 634 545 12;
+#N canvas 425 429 842 613 12;
 #X obj 363 267 bop.ui;
 #X obj 166 433 dac~;
 #X obj 242 434 print;
@@ -13,6 +13,7 @@
 #X obj 170 337 bop.stream~;
 #A saved pack bop_samplepack;
 #A saved folder 0;
+#A saved loop 0;
 #A saved gain 1;
 #X obj 171 116 hradio 19 1 0 8 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0;
 #X connect 0 0 11 1;
