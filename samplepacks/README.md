@@ -1,10 +1,6 @@
 # samplepacks/
 
-_do not delete .gitignore or README.md_
-
-
 A samplepack is a folder that contains folders of wav files - it might contain all the audio to be used together on a project or a piece. 
-
 
 
 ```
@@ -34,3 +30,4 @@ bop/
 				...			
 ```
 
+``` !!! if using git submodules then do not delete README.md or .gitignore```
