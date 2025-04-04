@@ -16,10 +16,15 @@ bop is a suite of music-making abstractions for the media programming environmen
 🐦 [esoteric musical notation](https://zeal.co/notebook/intermals/)
 
 ## getting started
-- download the [latest release](https://github.com/zealtv/bop/releases) and unzip, or clone from github and include submodules:
+
+### step 1.)
+- download the [latest release](https://github.com/zealtv/bop/releases) and unzip
+- **or**, if you prefer, clone from github and include submodules:
 ```
 git clone https://github.com/zealtv/bop --recursive
 ```
+
+### step 2.
 - open \_HOW_TO_BOP_.pd in [pure data vanilla](puredata.info/)
 
 
