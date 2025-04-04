@@ -19,7 +19,7 @@ bop is a suite of music-making abstractions for the media programming environmen
 
 ### step 1.)
 - download the [latest release](https://github.com/zealtv/bop/releases), unzip and rename folder to 'bop'
-- **or**, if you prefer, clone from github and include submodules:
+- **or** clone from github and include submodules:
 ```
 git clone https://github.com/zealtv/bop --recursive
 ```
