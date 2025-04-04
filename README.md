@@ -25,7 +25,7 @@ git clone https://github.com/zealtv/bop --recursive
 ```
 
 ### step 2.
-- open \_HOW_TO_BOP_.pd in [pure data vanilla](puredata.info/)
+- open \_HOW_TO_BOP_.pd in [pure data vanilla](puredata.info/) or your PD variant of choice.
 
 
 # requires
