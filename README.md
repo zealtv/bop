@@ -13,6 +13,7 @@ bop is a suite of music-making abstractions for the media programming environmen
 🐦 global bop parameter messaging with built-in automation  
 🐦 module parameter state saves with patch
 🐦 flexible, text-based sequencing  
+🐦 midi module flush command to reset modulation without stopping notes
 🐦 [esoteric musical notation](https://zeal.co/notebook/intermals/)
 
 ## getting started
